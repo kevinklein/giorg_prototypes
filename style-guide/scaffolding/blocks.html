@@ -1,0 +1,69 @@
+<p>Blocks at their core essence are swaths of color (when used with <b><a href="#sg-colors">background colors</a></b>) used to encapsulate or demarcate a section of the page, with a bit of padding. It is reserved (generally) for sections that span the full width of the browser viewport. They used are outside of any <code>.container</code>, and rather the optional <code>.container</code> is generally nested inside. The markup is simple:</p>
+<div class="card card-highlight card-block"><pre><code>&lt;div class=&quot;p-a bg-primary&quot;&gt; <span class="text-muted text-sm">//.use additional class of 'text-inverse' to ensure type is white on inverse backgrounds</span>
+    &lt;div class=&quot;container&quot;&gt;Contents&lt;/div&gt; <span class="text-muted text-sm">//use with ".container" enforce container max/min width for responsiveness</span>
+&lt;/div&gt;</code></pre></div>
+
+<div class="card card-sm item-flex p-a-0 m-b-md" role="alert">
+    <div class="item-flex-addon item-flex-addon-stretch flex-center bg-info text-inverse text-center text-xl">
+        <svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg>
+    </div>
+    <div class="card-block item-flex-main text-center text-sm">
+        <p>Use with <a href="#sg-spacing" class="text-underline">padding and margin utility spacing classes</a> to implement various padding and margin requirements.</p>
+    </div>
+</div>
+
+<div class="p-a bg-primary text-inverse m-b">
+    Primary
+</div>
+
+<div class="p-a bg-secondary text-inverse m-b">
+    Secondary
+</div>
+
+<div class="p-a bg-info text-inverse m-b">
+    Info
+</div>
+
+<div class="p-a bg-success text-inverse m-b">
+    Success
+</div>
+
+<div class="p-a bg-warning text-inverse m-b">
+    Warning
+</div>
+
+<div class="p-a bg-danger text-inverse m-b">
+    Danger
+</div>
+
+<div class="p-a bg-black text-inverse m-b">
+    Black
+</div>
+
+<div class="p-a bg-dark text-inverse m-b">
+    Dark
+</div>
+
+<div class="p-a bg-secondary-dark text-inverse m-b">
+    Secondary Dark
+</div>
+
+<div class="p-a bg-white m-b">
+    White
+</div>
+
+<div class="p-a bg-gray-light text-inverse m-b">
+    Gray Light
+</div>
+
+<div class="p-a bg-gray-lighter m-b">
+    Gray Lighter
+</div>
+
+<div class="p-a-sm bg-secondary text-inverse m-b">
+    Small Padding
+</div>
+
+<div class="bg-primary p-a-lg text-inverse m-b">
+    Large Padding
+</div>

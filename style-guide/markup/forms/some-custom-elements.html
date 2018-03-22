@@ -1,0 +1,59 @@
+<h3 class="sg-h3">Form Select and Faux Select with Children (In This Case Checkboxes)</h3>
+<div class="row m-b-lg">
+    <div class="col-md-3">
+        <div class="form-select">
+            <select>
+                <option>Sort By</option>
+                <option>Name</option>
+                <option selected="">Date Published</option>
+                <option>Low to High</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-6"></div>
+    <div class="col-md-3">
+        <div class="position-relative">
+            <div class="form-select form-select-absolute" style="right:0">
+                <button class="btn-text btn-block toggle-is-toggled collapsed" data-toggle="collapse" aria-expanded="false" aria-controls="products-list" data-target="#products-list">
+                Filter by Physician Type
+                </button>
+                <div class="form-select-options collapse m-t-0 p-t-0" id="products-list" aria-expanded="false" style="height: 0px;">
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                    <div class="checkbox"><label><input type="checkbox" value=""> Option</label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h6 class="text-uc">Form Select sizes</h6>
+
+<div class="form-select form-select-lg">
+    <select>
+        <option selected="selected">Form Select Lg</option>
+        <option>Name</option>
+        <option selected="">Date Published</option>
+        <option>Low to High</option>
+    </select>
+</div>
+
+<div class="form-select form-select-sm">
+    <select>
+        <option selected="selected">Form Select Sm</option>
+        <option>Name</option>
+        <option selected="">Date Published</option>
+        <option>Low to High</option>
+    </select>
+</div>
+
+<h3 class="m-t-lg">Simple File Browser</h3>
+<label class="file">
+  <input type="file" id="file">
+  <span class="file-custom"></span>
+</label>

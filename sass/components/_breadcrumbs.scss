@@ -1,0 +1,38 @@
+.breadcrumb {
+    background-color: #fff;
+    padding: .3rem 0;
+    max-width: 100%;
+    ol {
+        background-color: transparent;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+    }
+    ol > li {
+        display: inline-block;
+        font-size: $font-size-xs;
+        list-style: none;
+        margin: 0;
+        padding: 0 .4rem 0 0;
+        font-size: .9rem;
+        line-height: 1.2;
+    }
+    ol > li > a,
+    ol > li > b {
+        color: #666;
+    }
+    ol > li.current > a,
+    ol > li.current > b {
+        color: #000;
+        font-weight: 600;
+    }
+    ol > li + li:before {  
+        content: "/";
+        color: #bbb;
+        display: inline-block;
+        font-weight: 100;
+        margin-right: .6rem;
+    }
+}

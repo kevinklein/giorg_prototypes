@@ -1,0 +1,608 @@
+/* -------------------------------------------------------------------------
+
+ Style Guide Boilerplate Bootstrap Edition v2.0.1
+ Repo: https://github.com/kemie/Style-Guide-Boilerplate-Bootstrap-Edition
+ Author: Brett Jankord (modified by Kemie Guaida)
+ License: MIT
+
+---------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------
+ Layout
+---------------------------------------------------------------------------- */
+
+body {
+    padding-top: 110px;
+}
+
+.sg-header {
+    height: 90px;
+    padding: .5rem 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.sg-body {
+    padding: 0 20px;
+}
+
+.table,
+.card,
+.sg-section > p,
+.sg-usage {
+    max-width: 100% !important;
+}
+
+pre {
+    font-size: .8rem !important;
+}
+
+/* -------------------------------------------------------------------------
+ Sticky Menu and component nav
+---------------------------------------------------------------------------- */
+
+.component-nav {
+    height: 400px;
+    overflow: auto;
+    width: 370px;
+}
+
+@media screen and (min-width: 899px) {
+    .component-nav {
+        height: auto;
+        width: 900px;
+    }
+}
+
+.sg-menu {
+    display: none;
+}
+
+.sg-menu .dropdown-item {
+    white-space: normal;
+}
+
+@media screen and (min-width: 900px) {
+    .sg-body {
+        padding: 0 90px 0 270px;
+    }
+    .sg-menu {
+      background: #fff;
+      border-right: 1px solid rgba(0,0,0,.15);
+      box-sizing: border-box;
+      display: block;
+      top: 0;
+      bottom:0;
+      position:fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin-top: 90px;
+      padding-bottom: 2rem;
+      top: 0;
+      left: 0;
+      width: 225px;
+      z-index: 129;
+    }
+    .sg-menu .dropdown-header {
+      margin-top: 1rem;
+    }
+/*
+    .sg-menu::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+    .sg-menu::-webkit-scrollbar:vertical {
+      width: 11px;
+    }
+    .sg-menu::-webkit-scrollbar:horizontal {
+      height: 11px;
+    }
+    .sg-menu::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid #aaa; 
+      background-color: #aaa;
+    }
+    .sg-menu::-webkit-scrollbar-track { 
+      background-color: #ddd; 
+      border-radius: 8px; 
+    }
+*/
+}
+
+/* -------------------------------------------------------------------------
+ Misc Overrides to make sure Mentor stuff looks right
+---------------------------------------------------------------------------- */
+.site-footer {
+    background: #3d434b;
+}
+
+.section-footer .stripe .container {
+    padding-left: 0;
+    margin-left: -0.9375rem;
+}
+
+.header-section .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* -------------------------------------------------------------------------
+ Utility Classes
+---------------------------------------------------------------------------- */
+.sg-container {
+    width:100%;
+    height:100%;
+}
+
+.sg-animated {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+/* -------------------------------------------------------------------------
+ Modules
+---------------------------------------------------------------------------- */
+/* Headings
+---------------------------------------------------------------------------- */
+.sg-h1 {
+    color: #222;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.sg-h1:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 3px;
+    background: #4b8edb;
+    position: absolute;
+    left: -15px;
+    top: 0;
+}
+
+.sg-h2:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #ddd;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+
+.sg-h2 {
+    margin-bottom: 2rem;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.sg-h3 {
+    padding-bottom: .25em;
+    border-color: #eee;
+}
+
+.sg-h4 {
+    
+}
+
+.sg-about {
+    margin-top: 2em;
+}
+
+.row > .page-header {
+    padding-top: 2em;
+}
+
+/* Buttons
+---------------------------------------------------------------------------- */
+.sg-btn {
+    float: left;
+    text-shadow: none!important;
+}
+
+.sg-btn--top {
+    float: right;
+}
+
+.scroll-menu {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    width: 100%;
+    max-height: 500px;
+}
+
+.dropdown-header {
+    text-transform: uppercase;
+}
+
+.sg-btn--select {
+    border-radius: 0 0.3em;
+    position: absolute;
+    right: 5px;
+    top: 14px;
+}
+
+.sg-btn--select.is-active:hover:after {
+    background: #111;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    top: 45px;
+    color: #fff;
+    content: "Selected code ready to be copied";
+    font-size: .8em;
+    display: block;
+    right: 5px;
+    padding: 5px 15px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.sg-btn--select.is-active:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    border-width: 0 6px 6px 6px;
+    top: 40px;
+    content: "";
+    display: block;
+    left: 75%;
+    position: absolute;
+    z-index: 99;
+}
+
+/* Hide specific buttons for use with JS */
+.sg-btn--source {
+    clear: both;
+}
+
+.sg-btn--source,
+.sg-btn--select {
+    display: none;
+}
+
+/* Show specific buttons if JS enabled */
+.js .sg-btn--source,
+.js .sg-btn--select {
+    display: block;
+}
+
+/* Hide specific buttons conditionally */
+.operamini .sg-btn--source,
+.legacy .sg-btn--source {
+    display: none;
+}
+
+/* Sections
+---------------------------------------------------------------------------- */
+.sg-section {
+    padding-bottom: 50px;
+    margin-bottom: 1rem;
+    /* overflow: hidden; */
+}
+
+.sg-anchor {
+    display: block;
+    padding-top: 1em;
+}
+
+/* Colors
+---------------------------------------------------------------------------- */
+.sg-color {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 15px;
+    position: relative;
+    width: 140px;
+}
+
+.sg-color-swatch {
+    box-shadow: 0 0 0 1px #b3b3b3;
+    border: 5px solid #fff;
+    padding: 5px;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+}
+
+.sg-color-swatch span {
+    background: #000;
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    color: #fff;
+    font-size: .8em;
+    margin: 0;
+    opacity: .3;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    display: none;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+}
+
+.sg-lg .sg-color-swatch span {
+    width: 128px;
+}
+
+.sg-color-swatch:hover span {
+    opacity: 1;
+}
+
+/* Fonts
+---------------------------------------------------------------------------- */
+.sg-font {
+    font-size: 1.8em;
+    padding: 0 0 .2em 0;
+}
+
+.sg-font-primary {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sg-font-secondary {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* Grid
+---------------------------------------------------------------------------- */
+.show-grid {
+    padding: .5em 0;
+}
+
+.show-grid div div {
+    background-color: #dddddd;
+    box-shadow: inset 0 0 0 1px #ccc;
+    font-size: .8rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+/* Markup
+---------------------------------------------------------------------------- */
+.sg-markup-controls {
+    overflow: hidden;
+    padding-top: 1.5em;
+    clear: both;
+}
+
+.sg-source {
+    position: relative;
+}
+
+.sg-source pre {
+    background: #333;
+    border-radius: .5em;
+    border: 1px solid #ddd;
+    color: #fff;
+    overflow-x: scroll;
+    padding: .5em .3em;
+}
+
+.sg-source pre code {
+    background: transparent;
+}
+
+.js .sg-source {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.js .sg-source.is-active,
+.operamini .sg-source,
+.legacy .sg-source {
+    max-height: 2400px;
+}
+
+/* Icon Stuff
+---------------------------------------------------------------------------- */
+
+.glyph {
+    font-size: 16px;
+    width: 23%;
+    margin-right: 1%;
+    float: left;
+    overflow: hidden;
+}
+.liga {
+    width: 80%;
+    width: calc(100% - 2.5em);
+}
+.talign-right {
+    text-align: right;
+}
+.talign-center {
+    text-align: center;
+}
+.bgc1 {
+    background: #f1f1f1;
+}
+.fgc0 {
+    color: #000;
+}
+.fgc1 {
+    color: #999;
+}
+.mvm {
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+.mtn {
+    margin-top: 0;
+}
+.mtl, .mal {
+    margin-top: 1.5em;
+}
+.mbl, .mal {
+    margin-bottom: 1.5em;
+}
+.mal, .mhl {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.mhmm {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.mls {
+    margin-left: .25em;
+}
+.ptl {
+    padding-top: 1.5em;
+}
+.pbs, .pvs {
+    padding-bottom: .25em;
+}
+.pvs, .pts {
+    padding-top: .25em;
+}
+.unit {
+    float: left;
+}
+.unitRight {
+    float: right;
+}
+.size1of2 {
+    width: 50%;
+}
+.size1of1 {
+    width: 100%;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.hidden-true {
+    display: none;
+}
+.textbox0 {
+    width: 3em;
+    background: #f1f1f1;
+    padding: .25em .5em;
+    line-height: 1.5;
+    height: 1.5em;
+}
+.fs0 {
+    font-size: 16px;
+}
+.fs1 {
+    font-size: 16px;
+}
+
+/* -------------------------------------------------------------------------
+ Prettyprint
+---------------------------------------------------------------------------- */
+.pln {
+    color: #ffffff;
+}
+
+/* plain text */
+@media screen {
+    .str,
+  .string {
+    color: #E6DB74;
+    }
+  /* string content */
+  .kwd,
+  .keyword {
+    color: #66D9EF;
+    }
+  /* a keyword */
+  .com,
+  .comment {
+    color: #75715E;
+    }
+  /* a comment */
+  .typ {
+    color: #A6E22E;
+    }
+  /* a type name */
+  .lit,
+  .number {
+    color: #AE81FF;
+    }
+  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  /* .pun, .opn, .clo { color: #660 } */
+  .tag {
+    color: #F92672;
+    }
+  /* a markup tag name */
+  .atn {
+    color: #A6E22E;
+    }
+  /* a markup attribute name */
+  .atv {
+    color: #E6DB74;
+    }
+  /* a markup attribute value */
+  /*.dec, .var { color: #606 }*/
+  /* a declaration; a variable name */
+  .fun {
+    color: #FF0000;
+    }
+  /* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+    .str {
+    color: #006600;
+    }
+  .kwd {
+    color: #006;
+    font-weight: bold;
+    }
+  .com {
+    color: #600;
+    font-style: italic;
+    }
+  .typ {
+    color: #404;
+    font-weight: bold;
+    }
+  .lit {
+    color: #004444;
+    }
+  .pun,
+  .opn,
+  .clo {
+    color: #444400;
+    }
+  .tag {
+    color: #006;
+    font-weight: bold;
+    }
+  .atn {
+    color: #440044;
+    }
+  .atv {
+    color: #006600;
+    }
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+    border-left: 1px solid #444;
+    margin: 0 0 0 3.3em;
+    /* IE indents via margin-left */
+    padding: 0;
+}
+
+ol.linenums li {
+    color: #bebec5;
+    line-height: 1.5;
+    padding-left: .8em;
+}

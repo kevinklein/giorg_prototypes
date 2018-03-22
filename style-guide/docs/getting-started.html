@@ -1,0 +1,11 @@
+<p><b>Note:</b> you must have a whitelisted URL for your local or test environments to bypass CORS restrictions. These are *.gi.org or *.acggi.net.</p>
+<p>Call the stylesheet from our Assets server into your document's &lt;head&gt;.</p>
+<div class="card bg-dark text-inverse card-block card-sm"><pre><code>&lt;link rel="stylesheet" href="https://assets.gi.org/css/gi.org/style.css"&gt;</pre></code></div>
+<p>This is the "full meal deal" in that it contains all of our components, utilities, and helpers in a single, compiled (minified) file.</p>
+<h3 class="sg-h3">Optional Components</h3>
+<p>Call Jquery into your document's &lt;foot&gt;. You can call whatever version (at least 1.11) you desire.</p>
+<div class="card bg-dark text-inverse card-block card-sm"><pre><code>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js&gt;&lt;/script&gt;</pre></code></div>
+<p>If you want basic Bootstrap Javascript component functionality (notably Tabs, Popovers, Tooltips, and Alerts) call these files:</p>
+<div class="card bg-dark text-inverse card-block card-sm"><pre><code>&lt;script src="https://assets.gi.org/js/vendor/tether.min.js&gt;&lt;/script&gt;
+&lt;script src="https://assets.gi.org/vendor/js/bootstrap.min.js&gt;&lt;/script&gt;</pre></code></div>
+<p>Depending on what you're building, you may eschew Bootstrap or jQuery altogether as your framework of choice may already have much of this functionality or re-factored component libraries (i.e. React Bootstrap) available to you.</p>
