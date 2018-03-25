@@ -37,6 +37,7 @@
 
 .body-fixed-top #header-main {
     background: #fff;
+    box-shadow: 0 2px 5px rgba(#000,.25);
     left: 0;
     //height: $fixed-top;
     position: fixed;
@@ -54,13 +55,13 @@
     z-index: 3;
     img {
         transition: all .35s;
-        width: 100px;
-        max-height: 100px;
+        width: 75px;
+        max-height: 75px;
     }
 }
 
 .logo-description {
-    opacity: 0;
+    //opacity: 0;
     transition: all 1s;
 }
 

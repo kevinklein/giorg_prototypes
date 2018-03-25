@@ -24,8 +24,8 @@
 
     <div class="bg-primary p-y p-lg-y-xl text-inverse hero" style="background-image:url(/img/bg-trainees.png)">
         <div class="container p-lg-y-lg">
-            <h1 class="m-b-sm display-4 item-reveal-3 text-300">GI Fellows-In-Training</h1>
-            <p class="display-2 text-webfont-three item-reveal-4 text-300">The Future of Clinical GI</p>
+            <h1 class="m-b-sm text-webfont-one display-4 item-reveal-3 text-300">GI Fellows-In-Training</h1>
+            <p class="display-2 text-webfont-one item-reveal-4 text-300">The Future of Clinical GI</p>
         </div>
     </div>
 
@@ -97,13 +97,14 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="col-md-6 col-xs-12 bg-cover position-relative card-hover" style="background-image:url(/img/photos/medical-stock.jpg)">
+                <a href="#" class="col-md-6 col-xs-12 bg-primary bg-cover position-relative card-hover">
                     
-                    <div class="position-absolute position-absolute-bl position-absolute-br bg-opaque-darkest text-inverse p-a">
+                    <div class="position-absolute position-absolute-tl position-absolute-tr text-inverse p-a-lg p-xl-a-xl">
                         <div class="text-uppercase">
-                            <b>Question of the Week</b>
+                            <svg class="icon icon-question_answer"><use xlink:href="#icon-question_answer"></use></svg> <b>Question of the Week</b>
                         </div>
-                        <p class="display-1 text-webfont-three text-300 text-muted m-b-0">A 53 year old man presents with ascites. He has a history of chronic hepatitis B, and a liver biopsy 5 years ago showed bridging fibrosis. He has never been treated for hepatitis B. The physical exam… <span class="text-underline text-white text-500 text-nowrap">Read more</span></p>
+                        <p class="display-2 text-webfont-three text-300 text-muted m-y-md">A 53 year old man presents with ascites. He has a history of chronic hepatitis B, and a liver biopsy 5 years ago showed bridging fibrosis. He has never been treated for hepatitis B. The physical exam… 
+                        <p class="display-1 text-webfont-three text-300 text-muted m-b-0"><span class="text-underline text-white text-500 text-nowrap">Read more</span></p>
                     </div>
                     <div class="card-backface flex-center">
                         <span class="circle circle-xl bg-opaque-info text-inverse animated card-backface-icon"><svg class="icon icon-arrow_forward animated pulse animated-delay-500 infinite"><use xlink:href="#icon-arrow_forward"></use></svg></span>
