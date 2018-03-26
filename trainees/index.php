@@ -353,6 +353,7 @@ gastroenterology training.</p>
     $(document).ready(function() {
         
         $('.nav-primary li:nth-child(5)').addClass('current-menu-ancestor');
+        $('#subnav-trainees').show();
     	
 	});
 }(jQuery));

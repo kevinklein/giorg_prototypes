@@ -28,7 +28,7 @@
                         <ul class="nav-primary">
                             <li><a href="#">Membership</a></li>
                             <li><a href="#">Education</a></li>
-                            <li><a href="#">Clinical Guidelines</a></li>
+                            <li><a href="/guidelines">Clinical Guidelines</a></li>
                             <li><a href="#">Publications</a></li>
                             <li><a href="/trainees">Trainees</a></li>
                             <li><a href="#">Patients & Families</a></li>
@@ -47,14 +47,18 @@
 
         <div class="bg-primary">
             <nav class="container text-right">
-                <ul class="nav-secondary">
+                <ul class="nav-secondary" id="subnav-trainees" style="display:none;">
                     <li><a href="#">Membership</a></li>
                     <li><a href="#">Professional Development Resources</a></li>
                     <li><a href="#">Grants & Publishing</a></li>
                     <li><a href="#">For Program Directors</a></li>
                     <li><a href="#">For Residents</a></li>
                     <li><a href="#">Program Directors</a></li>
-                </nav>
+                </ul>
+                <ul class="nav-secondary" id="subnav-guidelines" style="display:none;">
+                    <li><a href="#">Guideline Development Policies</a></li>
+                    <li><a href="#">ACG Guidelines App</a></li>
+                </ul>
             </div>
         </div>
 
