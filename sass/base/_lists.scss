@@ -139,27 +139,13 @@ li ol {
     padding-top: .6rem;
 }
 
-.list-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.list-striped {
     > li {
-        flex-grow: 1;
-        flex-basis: 50%;
-        margin: 0;
+        border: none;
     }
-}
-
-li.checkbox:first-child {
-    margin-top: 0;
-}
-
-li.checkbox:last-child {
-    margin-bottom: 0;
+    > li:nth-of-type(odd) {
+        background-color: $table-bg-accent;
+    }
 }
 
 .list-icon,
@@ -193,9 +179,14 @@ li.checkbox:last-child {
     }
 }
 
+.list-items-hover > li,
+.list-item-hover {
+    transition: all .25s;
+}
+
 .list-items-hover > li:hover,
 .list-item-hover:hover {
-    background: $table-bg-hover;
+    background: $table-bg-hover !important;
 }
 
 .list-items-hover > li,
@@ -204,26 +195,24 @@ li.checkbox:last-child {
     position: relative;
 }
 
-.list-items-hover > li:hover:after,
-.list-item-hover:hover:after,
-.table-hover tr:hover td:first-child:after  {
-    background: $brand-secondary;
+.list-items-hover > li:after,
+.list-item-hover:after,
+.table-hover tr td:first-child:after  {
+    background: transparent;
     content: '';
     display: block;            
     height: 100%;
     left: 0;
     top: 0;
     position: absolute;
+    transition: all .25s;
     width: 4px;
 }
 
-.list-striped {
-    > li {
-        border: none;
-    }
-    > li:nth-of-type(odd) {
-        background-color: $table-bg-accent;
-    }
+.list-items-hover > li:hover:after,
+.list-item-hover:hover:after,
+.table-hover tr:hover td:first-child:after  {
+    background: $brand-secondary;
 }
 
 ul.check,

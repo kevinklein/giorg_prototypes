@@ -9919,43 +9919,17 @@ li ol {
   padding-top: .6rem;
 }
 
-/* line 142, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-striped > li {
+  border: none;
 }
 
-/* line 150, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-flex > li {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  margin: 0;
+/* line 146, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-striped > li:nth-of-type(odd) {
+  background-color: #f9f9f9;
 }
 
-/* line 157, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-li.checkbox:first-child {
-  margin-top: 0;
-}
-
-/* line 161, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-li.checkbox:last-child {
-  margin-bottom: 0;
-}
-
-/* line 165, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 151, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-icon,
 .has-icon {
   list-style: none;
@@ -9964,77 +9938,83 @@ li.checkbox:last-child {
   padding-left: 1.6rem !important;
 }
 
-/* line 171, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 157, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-icon > .icon,
 .has-icon > .icon {
   position: absolute;
   left: 0;
 }
 
-/* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 163, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-icon > .icon {
   margin-top: .1rem;
 }
 
-/* line 181, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 167, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-items-card .list-icon, .has-list-items-card .list-items .list-icon {
   padding-left: 3rem !important;
 }
 
-/* line 183, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 169, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-items-card .list-icon > .icon, .has-list-items-card .list-items .list-icon > .icon {
   left: 1.25rem;
   margin-top: .2rem;
 }
 
-/* line 189, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .card-sm .list-items-card .list-icon, .card-sm .has-list-items-card .list-items .list-icon, .has-list-items-card .card-sm .list-items .list-icon {
   padding-left: 2.5rem !important;
 }
 
-/* line 191, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .card-sm .list-items-card .list-icon > .icon, .card-sm .has-list-items-card .list-items .list-icon > .icon, .has-list-items-card .card-sm .list-items .list-icon > .icon {
   left: .8rem;
 }
 
-/* line 196, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-items-hover > li:hover,
-.list-item-hover:hover {
-  background: #f3f3f6;
+/* line 182, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-items-hover > li,
+.list-item-hover {
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 
-/* line 201, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 187, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-items-hover > li:hover,
+.list-item-hover:hover {
+  background: #f3f3f6 !important;
+}
+
+/* line 192, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-items-hover > li,
 .list-item-hover,
 .table-hover tr td:first-child {
   position: relative;
 }
 
-/* line 207, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-items-hover > li:hover:after,
-.list-item-hover:hover:after,
-.table-hover tr:hover td:first-child:after {
-  background: #980438;
+/* line 198, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-items-hover > li:after,
+.list-item-hover:after,
+.table-hover tr td:first-child:after {
+  background: transparent;
   content: '';
   display: block;
   height: 100%;
   left: 0;
   top: 0;
   position: absolute;
+  -webkit-transition: all .25s;
+  transition: all .25s;
   width: 4px;
 }
 
-/* line 221, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-striped > li {
-  border: none;
+/* line 212, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+.list-items-hover > li:hover:after,
+.list-item-hover:hover:after,
+.table-hover tr:hover td:first-child:after {
+  background: #980438;
 }
 
-/* line 224, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
-.list-striped > li:nth-of-type(odd) {
-  background-color: #f9f9f9;
-}
-
-/* line 229, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 218, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check,
 .list-check {
   list-style: none;
@@ -10042,26 +10022,26 @@ ul.check,
   padding: 0;
 }
 
-/* line 234, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 223, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check li,
 .list-check li {
   padding-left: 30px;
   position: relative;
 }
 
-/* line 238, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 227, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check li + li,
 .list-check li + li {
   margin-top: 1rem;
 }
 
-/* line 242, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 231, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check.list-items li + li,
 .list-check.list-items li + li {
   margin-top: 0;
 }
 
-/* line 248, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 237, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check > li:after,
 .list-check > li:after {
   position: absolute;
@@ -10069,7 +10049,7 @@ ul.check > li:after,
   top: .1em;
 }
 
-/* line 255, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 244, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check.lead > li:after,
 .list-check.lead > li:after,
 ul.check > li.lead:after,
@@ -10077,13 +10057,13 @@ ul.check > li.lead:after,
   top: .2em;
 }
 
-/* line 262, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 251, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 .list-check.list-items > li:after,
 ul.check.list-items > li:after {
   top: .6em;
 }
 
-/* line 267, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 256, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 ul.check li:after,
 .list-check > li:after,
 td.check:after {
@@ -10099,7 +10079,7 @@ td.check:after {
   width: 20px;
 }
 
-/* line 282, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
+/* line 271, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_lists.scss */
 td.check:after {
   margin: 0 auto;
 }
