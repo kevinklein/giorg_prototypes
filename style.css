@@ -13796,45 +13796,14 @@ button.list-group-item-state.active:hover {
 @media (max-width: 61.9em) {
   /* line 124, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-primary {
-    background: #fff;
-    float: none;
-    left: 0;
-    max-height: calc(100% - 95px);
-    right: 0;
-    top: 92px;
-    position: fixed;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     z-index: 999;
   }
-  /* line 135, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
-  .nav-primary > li {
-    background: #fff;
-    border: 1px solid #ccc;
-    float: none;
-  }
-  /* line 139, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-primary > li > a {
-    font-weight: bold;
-    text-align: left;
     padding-bottom: .8rem;
     padding-top: .8rem;
-  }
-  /* line 149, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
-  .nav-primary > li:hover > a:after, .nav-primary > li.current-menu-item > a:after, .nav-primary > li.current-menu-ancestor > a:after {
-    display: none;
-  }
-  /* line 154, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
-  .nav-primary > li .sub-menu,
-  .nav-primary > li:hover .sub-menu {
-    border: none;
-    display: block;
-    position: static;
-  }
-  /* line 159, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
-  .nav-primary > li .sub-menu li,
-  .nav-primary > li:hover .sub-menu li {
-    border: none;
   }
 }
 
@@ -16978,23 +16947,21 @@ button.list-group-item-state.active:hover {
 /* line 84, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search-form {
   opacity: 0;
-  -webkit-transform: scaleX(0.01);
-          transform: scaleX(0.01);
-  -webkit-transform-origin: right;
-          transform-origin: right;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: .25s all;
+  transition: .25s all;
   max-width: 300px;
 }
 
 /* line 89, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search-form.is-toggled {
   opacity: 1;
-  -webkit-transition: .25s all;
-  transition: .25s all;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
-/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .hero {
   background-position: 50% 0%;
   background-repeat: no-repeat;

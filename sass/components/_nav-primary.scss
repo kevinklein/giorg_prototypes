@@ -122,43 +122,19 @@
 
 @include media-breakpoint-down(md) {
     .nav-primary  {
-        background: #fff;
-        float: none;
-        left: 0;
-        max-height: calc(100% - 95px);
-        right: 0;
-        top: 92px;
-        position: fixed;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         z-index: 999;
         > li {
-            background: #fff;
-            border: 1px solid #ccc;
-            float: none;
+
             > a {
-                font-weight: bold;
-                text-align: left;
                 padding-bottom: .8rem;
                 padding-top: .8rem;
             }
             &:hover,
             &.current-menu-item,
             &.current-menu-ancestor {
-                > a {
-                    &:after {
-                        display: none;
-                    }
-                }
-            }
-            .sub-menu,
-            &:hover .sub-menu {
-                border: none;
-                display: block;
-                position: static;
-                li {
-                    border: none;
-                }
+    
             }
         }
     }

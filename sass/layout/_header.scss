@@ -83,13 +83,12 @@
 
 .header-main-search-form {
     opacity: 0;
-    transform: scaleX(.01);
-    transform-origin: right;
+    transform: translateY(50px);
+    transition: .25s all;
     max-width: 300px;
     &.is-toggled {
         opacity: 1;
-        transition: .25s all;
-        transform: scaleX(1);
+        transform: translateY(0);
     }
 }
 
