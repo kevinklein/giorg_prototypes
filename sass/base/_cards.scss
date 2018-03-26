@@ -449,45 +449,24 @@ a.card-block {
 
 // bordered cards
 
-.card-border-top {
-    border-top-color: $brand-dark;
-    border-top-width: 4px !important;
-    &.card-border-black {
-        border-top-color: $brand-black;
-    }
-    &.card-border-primary {
-        border-top-color: $brand-primary;
-    }
-    &.card-border-secondary {
-        border-top-color: $brand-secondary;
-    }
-    &.card-border-tertiary {
-        border-top-color: $brand-orange;
-    }
-    &.card-border-success {
-        border-top-color: $brand-success;
-    }
-    &.card-border-info {
-        border-top-color: $brand-info;
-    }
-    &.card-border-warning {
-        border-top-color: $brand-warning;
-    }
-    &.card-border-danger {
-        border-top-color: $brand-danger;
-    }
-}
-
-.card-border-left:after {
+.card-border-top:after {
     background: $brand-dark;
     content: '';
     display: block;            
-    height: 100%;
-    left: -1px;
-    top: 0;
+    left: 0;
+    right: 0;
+    top: -5px;
     position: absolute;
+    height: 5px;
+}
+
+.card-border-left:after {           
+    left: -5px;
+    right: auto;
+    bottom: 0;
+    top: 0;
+    height: auto;
     width: 5px;
-    border-radius: $border-radius-sm 0 0 $border-radius-sm;
 }
 
 .card-border-black:after {

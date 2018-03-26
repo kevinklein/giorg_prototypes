@@ -32,64 +32,64 @@
     <div class="p-y p-lg-y-lg">
         <div class="container">
             <div class="row row-flush bg-gray-lightest">
-                <div class="col-md-6 col-xs-12 bg-zag">
+                <div class="col-md-6 col-xs-12">
                     <div class="p-a-md">
-                        <div class="card bg-white m-b-0">
+                        <div class="card card-border-top card-border-primary raised-sm bg-white m-b-0">
                             <div class="card-header">
-                                <h2>Upcoming Trainee Events</h2>
+                                <h2 class="text-webfont-one text-lg text-400">What’s Hot this Month</h2>
                             </div>
                             <ul class="list-items list-items-card list-striped">
                                 <li class="list-item list-item-hover p-y-md">
-                                    <a class="row link-block">
+                                    <a class="row link-block" href="#">
                                         <span class="col-xs-4">
-                                            <span class="p-a display-block bg-white raised-sm text-center text-md text-uppercase">
-                                                <b class="display-block">Mar. 9–10</b>
-                                                <span class="text-muted text-uc display-block">2018</span>
+                                            <span class="display-block bg-primary-dark raised-sm text-center text-md text-uppercase text-inverse ar-box ar-box-4by3">
+                                                <div class="ar-box-inner flex-center p-x">
+                                                    <span class="text-muted text-xxs display-block">Application Deadline</span>
+                                                    <b class="display-block">Mar. 30, 2018</b>
+                                                </div>
                                             </span>
                                         </span>
-                                        <span class="col-xs-8 text-sm">
-                                            <strong class="display-block">2018 ACG/LGS Regional Postgraduate Course</strong> 
-                                            <div class="item-flex align-items-flex-start m-y-sm">
-                                                <svg class="icon icon-location-pin text-lg"><use xlink:href="#icon-location-pin"></use></svg>
-                                                <span class="display-block p-l-sm">Hyatt French Quarter<br><b>New Orleans, Louisiana</b></span>
-                                            </div>
-                                            <button class="btn btn-xs br-a-0 btn-primary-outline btn-sm pull-right"><svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg> Add to Calendar</button>
+                                        <span class="col-xs-8">
+                                            <h3 class="text-normal text-700 text-webfont-one m-b-sm">International GI Training Grants</h3> 
+                                            <p class="m-y-sm text-muted">
+                                                Apply to receive partial financial support for GI training around the world.
+                                            </p>
+                                            <button class="btn btn-sm br-a-0 btn-primary-outline btn-sm">More Info</button>
                                         </span>
                                     </a>
                                 </li>
                                 <li class="list-item list-item-hover p-y-md">
-                                    <a class="row link-block">
+                                    <a class="row link-block" href="#">
                                         <span class="col-xs-4">
-                                            <span class="p-a display-block bg-white raised-sm text-center text-md text-uppercase">
-                                                <b class="display-block">Mar. 16–18</b>
-                                                <span class="text-muted text-uc display-block">2018</span>
+                                            <span class="display-block bg-secondary raised-sm text-center text-md text-uppercase text-inverse ar-box ar-box-4by3 bg-cover bg-50-50" style="background-image:url(http://acgcasereports.gi.org/files/2018/03/Dellon-Feature1.jpg);">
+
                                             </span>
                                         </span>
-                                        <span class="col-xs-8 text-sm">
-                                            <strong class="display-block">2018 ACG/FGS Annual Spring Symposium</strong> 
-                                            <div class="item-flex align-items-flex-start m-y-sm">
-                                                <svg class="icon icon-location-pin text-lg"><use xlink:href="#icon-location-pin"></use></svg>
-                                                <span class="display-block p-l-sm">Hyatt Regency Coconut Point Resort and Spa<br><b>Bonita Springs, Florida</b></span>
-                                            </div>
-                                            <button class="btn btn-xs br-a-0 btn-primary-outline btn-sm pull-right"><svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg> Add to Calendar</button>
+                                        <span class="col-xs-8">
+                                            <h3 class="text-normal text-700 text-webfont-one m-b-sm">ACG Case Reports Journal</h3> 
+                                            <p class="m-y-sm text-muted">
+                                               The January Case of the Month describes a patient with Marfan’s syndrome who…
+                                            </p>
+                                            <button class="btn btn-sm br-a-0 btn-primary-outline btn-sm">More Info</button>
                                         </span>
                                     </a>
                                 </li>
                                 <li class="list-item list-item-hover p-y-md">
-                                    <a class="row link-block">
+                                    <a class="row link-block" href="#">
                                         <span class="col-xs-4">
-                                            <span class="p-a display-block bg-white raised-sm text-center text-md text-uppercase">
-                                                <b class="display-block">Apr. 13–15</b>
-                                                <span class="text-muted text-uc display-block">2018</span>
+                                            <span class="display-block bg-primary-dark raised-sm text-center text-md text-uppercase text-inverse ar-box ar-box-4by3">
+                                                <div class="ar-box-inner flex-center p-x">
+                                                    <span class="text-muted text-xxs display-block">Application Deadline</span>
+                                                    <b class="display-block">Jan. 8, 2018</b>
+                                                </div>
                                             </span>
                                         </span>
-                                        <span class="col-xs-8 text-sm">
-                                            <strong class="display-block">2018 ACG's IBD School and Eastern Regional Postgraduate Course</strong> 
-                                            <div class="item-flex align-items-flex-start m-y-sm">
-                                                <svg class="icon icon-location-pin text-lg"><use xlink:href="#icon-location-pin"></use></svg>
-                                                <span class="display-block p-l-sm">Seaport Hotel<br><b>Boston, Massachusetts</b></span>
-                                            </div>
-                                            <button class="btn btn-xs br-a-0 btn-primary-outline btn-sm pull-right"><svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg> Add to Calendar</button>
+                                        <span class="col-xs-8">
+                                            <h3 class="text-normal text-700 text-webfont-one m-b-sm">North American Conference of GI Fellows</h3> 
+                                            <p class="m-y-sm text-muted">
+                                               Apply to attend this conference where fellows present their research and receive coaching and mentoring advice from a distinguished faculty.
+                                            </p>
+                                            <button class="btn btn-sm br-a-0 btn-primary-outline btn-sm">More Info</button>
                                         </span>
                                     </a>
                                 </li>

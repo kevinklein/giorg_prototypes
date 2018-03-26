@@ -66,6 +66,32 @@ img {
     height: 2.25rem;
 }
 
+.ar-box {
+    height: 0;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.ar-box-4by3 {
+    padding-top: 75%;
+}
+
+.ar-box-2by1 {
+    padding-top: 50%;
+}
+
+.ar-box-3by1 {
+    padding-top: 33.3333%;
+}
+
+.ar-box-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .img-cover-flex {
 	display: block;

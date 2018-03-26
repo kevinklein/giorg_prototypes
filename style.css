@@ -546,7 +546,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #999;
+  color: #666;
   text-align: left;
   caption-side: bottom;
 }
@@ -4229,7 +4229,7 @@ output {
 
 /* line 94, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/_utilities.scss */
 .text-muted {
-  color: #999;
+  color: #666;
 }
 
 /* line 4, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_text-emphasis.scss */
@@ -8003,7 +8003,7 @@ fieldset[disabled] .btn-link:hover {
 
 /* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-link.text-muted {
-  color: #999;
+  color: #666;
 }
 
 /* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
@@ -8578,169 +8578,132 @@ a.card-block {
 }
 
 /* line 452, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top {
-  border-top-color: #444;
-  border-top-width: 4px !important;
-}
-
-/* line 455, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-black {
-  border-top-color: #141414;
-}
-
-/* line 458, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-primary {
-  border-top-color: #002e6d;
-}
-
-/* line 461, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-secondary {
-  border-top-color: #980438;
-}
-
-/* line 464, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-tertiary {
-  border-top-color: #ea7600;
-}
-
-/* line 467, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-success {
-  border-top-color: #58ba47;
-}
-
-/* line 470, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-info {
-  border-top-color: #00a3d8;
-}
-
-/* line 473, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-warning {
-  border-top-color: #ffc72c;
-}
-
-/* line 476, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-top.card-border-danger {
-  border-top-color: #cc0000;
-}
-
-/* line 481, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-.card-border-left:after {
+.card-border-top:after {
   background: #444;
   content: '';
   display: block;
-  height: 100%;
-  left: -1px;
-  top: 0;
+  left: 0;
+  right: 0;
+  top: -5px;
   position: absolute;
-  width: 5px;
-  border-radius: 4px 0 0 4px;
+  height: 5px;
 }
 
-/* line 493, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 463, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+.card-border-left:after {
+  left: -5px;
+  right: auto;
+  bottom: 0;
+  top: 0;
+  height: auto;
+  width: 5px;
+}
+
+/* line 472, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-black:after {
   background: #141414;
 }
 
-/* line 496, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 475, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-primary:after {
   background: #002e6d;
 }
 
-/* line 499, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 478, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-secondary:after {
   background: #980438;
 }
 
-/* line 502, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 481, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-tertiary:after {
   background: #ea7600;
 }
 
-/* line 505, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 484, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-success:after {
   background: #58ba47;
 }
 
-/* line 508, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 487, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-info:after {
   background: #00a3d8;
 }
 
-/* line 511, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 490, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-warning:after {
   background: #ffc72c;
 }
 
-/* line 514, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 493, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-danger:after {
   background: #cc0000;
 }
 
-/* line 518, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 497, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card .text-type-absolute .text-type-icon {
   border-radius: 0 0 0 0;
 }
 
-/* line 522, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 501, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-icon-absolute {
   position: absolute !important;
   left: -6px;
   top: -6px;
 }
 
-/* line 528, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 507, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-primary,
 .card-flag-primary {
   background: #002e6d;
 }
 
-/* line 532, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 511, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-info,
 .card-flag-info {
   background: #00a3d8;
 }
 
-/* line 536, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 515, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-secondary,
 .card-flag-secondary {
   background: #980438;
 }
 
-/* line 540, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 519, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-tertiary,
 .card-flag-tertiary {
   background: #ea7600;
 }
 
-/* line 544, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 523, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-success,
 .card-flag-success {
   background: #58ba47;
 }
 
-/* line 548, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 527, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-warning,
 .card-flag-warning {
   background: #ffc72c;
 }
 
-/* line 552, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 531, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-danger,
 .card-flag-danger {
   background: #cc0000;
 }
 
-/* line 557, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 536, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-block .card-flag {
   margin-left: -1.25rem;
 }
 
-/* line 559, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 538, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-sm .card-block .card-flag {
   margin-left: -0.83375rem;
 }
 
-/* line 564, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 543, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon {
   color: #fff;
   height: 75px;
@@ -8755,7 +8718,7 @@ a.card-block {
   z-index: 1;
 }
 
-/* line 576, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 555, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon span {
   background: #444;
   -webkit-box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.4);
@@ -8774,72 +8737,72 @@ a.card-block {
   width: 100px;
 }
 
-/* line 593, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 572, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-sm span {
   font-size: .625rem;
 }
 
-/* line 597, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 576, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-primary span {
   background: -webkit-gradient(linear, left top, left bottom, from(#003781), to(#002559));
   background: linear-gradient(#003781 0%, #002559 100%);
 }
 
-/* line 599, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 578, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .no-cssgradients .card-ribbon-primary span {
   background: #002e6d;
 }
 
-/* line 603, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 582, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-success span {
   background: -webkit-gradient(linear, left top, left bottom, from(#65c056), to(#50ac41));
   background: linear-gradient(#65c056 0%, #50ac41 100%);
 }
 
-/* line 605, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 584, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .no-cssgradients .card-ribbon-success span {
   background: #58ba47;
 }
 
-/* line 609, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 588, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-info span {
   background: -webkit-gradient(linear, left top, left bottom, from(#00b2ec), to(#0094c4));
   background: linear-gradient(#00b2ec 0%, #0094c4 100%);
 }
 
-/* line 611, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 590, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .no-cssgradients .card-ribbon-info span {
   background: #00a3d8;
 }
 
-/* line 615, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 594, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-warning span {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffcc40), to(#ffc218));
   background: linear-gradient(#ffcc40 0%, #ffc218 100%);
 }
 
-/* line 617, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 596, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .no-cssgradients .card-ribbon-warning span {
   background: #ffc72c;
 }
 
-/* line 621, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 600, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-danger span {
   background: -webkit-gradient(linear, left top, left bottom, from(#e00000), to(#b80000));
   background: linear-gradient(#e00000 0%, #b80000 100%);
 }
 
-/* line 623, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 602, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .no-cssgradients .card-ribbon-danger span {
   background: #cc0000;
 }
 
-/* line 628, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 607, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-left {
   left: 0;
 }
 
-/* line 630, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 609, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-left span {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -8847,7 +8810,7 @@ a.card-block {
   right: auto;
 }
 
-/* line 638, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 617, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover {
   -webkit-transition: -webkit-box-shadow ease-in-out .15s;
   transition: -webkit-box-shadow ease-in-out .15s;
@@ -8855,7 +8818,7 @@ a.card-block {
   transition: box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 }
 
-/* line 642, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 621, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover-raised:hover, r {
   -webkit-box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25), inset 0 0 0 #fff;
           box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25), inset 0 0 0 #fff;
@@ -8863,12 +8826,12 @@ a.card-block {
   z-index: 2;
 }
 
-/* line 646, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 625, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover-raised:hover .text-description, r .text-description {
   color: #222;
 }
 
-/* line 652, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 631, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-backface {
   background: rgba(0, 0, 0, 0.25);
   color: #fff;
@@ -8885,18 +8848,18 @@ a.card-block {
   width: 100%;
 }
 
-/* line 667, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 646, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover:hover .card-backface {
   opacity: 1;
 }
 
-/* line 671, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 650, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover:hover .card-backface-icon {
   -webkit-animation-name: bounceIn;
           animation-name: bounceIn;
 }
 
-/* line 677, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 656, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .item-flex.card .item-flex-addon {
   padding: 1.25rem 1.25rem;
   /*
@@ -8909,7 +8872,7 @@ a.card-block {
 */
 }
 
-/* line 691, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 670, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .item-flex.card-sm .item-flex-addon {
   padding: 0.625rem 0.83375rem;
 }
@@ -9587,14 +9550,46 @@ img {
   height: 2.25rem;
 }
 
-/* line 70, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 69, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+.ar-box {
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+/* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+.ar-box-4by3 {
+  padding-top: 75%;
+}
+
+/* line 80, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+.ar-box-2by1 {
+  padding-top: 50%;
+}
+
+/* line 84, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+.ar-box-3by1 {
+  padding-top: 33.3333%;
+}
+
+/* line 88, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+.ar-box-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex {
   display: block;
   overflow: hidden;
   position: relative;
 }
 
-/* line 74, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 100, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex a {
   cursor: pointer;
   display: block;
@@ -9606,34 +9601,34 @@ img {
   z-index: 2;
 }
 
-/* line 86, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 112, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex:before {
   content: "";
   display: block;
   width: 100%;
 }
 
-/* line 92, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 118, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex-3by1:before {
   padding-bottom: 33.33333%;
 }
 
-/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 122, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex-2by1:before {
   padding-bottom: 50%;
 }
 
-/* line 100, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 126, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex-16by9:before {
   padding-bottom: 56.25%;
 }
 
-/* line 104, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-flex-4by3:before {
   padding-bottom: 75%;
 }
 
-/* line 108, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 134, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -9643,24 +9638,24 @@ img {
   max-width: 960px;
 }
 
-/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-block * {
   background: rgba(0, 0, 0, 0.33);
   padding: 1.25rem;
 }
 
-/* line 122, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 148, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-transtion {
   -webkit-transition: background-image 0.2s ease-in-out;
   transition: background-image 0.2s ease-in-out;
 }
 
-/* line 126, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 152, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-overlay {
   position: relative;
 }
 
-/* line 128, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 154, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-overlay:after {
   background: rgba(0, 0, 0, 0.6);
   content: '';
@@ -9675,7 +9670,7 @@ img {
   z-index: 1;
 }
 
-/* line 140, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 166, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .img-cover-overlay .img-cover-overlay-text {
   color: #fff;
   position: absolute;
@@ -9686,12 +9681,12 @@ img {
   z-index: 2;
 }
 
-/* line 151, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .home-cta-box {
   position: relative;
 }
 
-/* line 153, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 179, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .home-cta-box:after {
   background: rgba(0, 0, 0, 0.6);
   content: '';
@@ -9707,12 +9702,12 @@ img {
   z-index: 1;
 }
 
-/* line 167, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 193, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .home-cta-box:hover:after {
   opacity: 1;
 }
 
-/* line 171, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 197, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .home-cta-box h2 {
   background: #000;
   color: #fff;
@@ -9743,7 +9738,7 @@ img {
   z-index: 3;
 }
 
-/* line 188, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
+/* line 214, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_images.scss */
 .home-cta-box:hover h2 {
   color: #ffc72c;
 }
@@ -17001,7 +16996,7 @@ button.list-group-item-state.active:hover {
 
 /* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .hero {
-  background-position: 50% 20%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18304,7 +18299,7 @@ li {
 
 /* line 455, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .text-mute {
-  color: #bfbfbf;
+  color: #8c8c8c;
 }
 
 /* line 459, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
