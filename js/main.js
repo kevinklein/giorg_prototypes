@@ -59,7 +59,8 @@
             }
         });
         
-        $('.menu-toggle').click(function() {
+        $('#menu-toggle').click(function() {
+            $(this).addClass('btn-no-focus');
             if ($('body').hasClass('menu-is-visible')) {
                 $('body').removeClass('menu-is-visible');
             } else {

@@ -5,7 +5,7 @@
         
         <div class="container">
             <div class="item-flex">
-                <div class="item-flex-main item-flex p-y">
+                <div class="item-flex-main item-flex p-y p-r">
                     <div class="logo"> 
                         <a href="/" rel="home"><img src="/svg/logo.svg" class="img-circle"></a>
                     </div>
@@ -24,7 +24,7 @@
                         <button class="btn-link text-xl p-xl-r-0" style="right" id="search-toggle"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></button>
                     </div> -->
                     <div class="item-flex position-relative">
-                        <button class="btn-link display-2 m-r p-a-0" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
+                        <button class="btn-link display-2 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
                         <ul class="nav-primary">
                             <li><a href="#">Membership</a></li>
                             <li><a href="#">Education</a></li>

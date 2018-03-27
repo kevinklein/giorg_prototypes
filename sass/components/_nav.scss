@@ -125,6 +125,7 @@
 .tab-content {
   > .tab-pane {
     display: none;
+    padding-top: 1em;
   }
   > .active {
     display: block;

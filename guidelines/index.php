@@ -23,16 +23,39 @@
 <div class="flex-content">
 
     <div class="bg-primary p-y p-lg-y-xl text-inverse hero bg-triangles-primary">
-        <div class="container p-lg-y-lg">
+        <div class="container">
             <h1 class="m-b-sm text-webfont-one display-4 item-reveal-3 text-300">Clinical Guidelines</h1>
-            <p class="display-2 text-webfont-one item-reveal-4 text-300">The Future of Clinical GI</p>
+            <p class="display-2 text-webfont-one item-reveal-4 text-300">Consequat est anim in sint commodo sint consectetur</p>
         </div>
     </div>
 
     <div class="p-y p-lg-y-lg">
-        <div class="container">
-            stuff
-        </div>
+        
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">ACG Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false">Multi-Society Documents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Monographs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Competencies in Endoscopy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Guidelines in Progress</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade in active container p-t" id="one" role="tabpanel" aria-labelledby="one-tab">
+                    fjklafdsj;
+                </div>
+                <div class="tab-pane fade container" id="two" role="tabpanel" aria-labelledby="two-tab">...</div>
+                <div class="tab-pane fade container" id="three" role="tabpanel" aria-labelledby="three-tab">...</div>
+            </div>
+     
     </div>
 
 </div>

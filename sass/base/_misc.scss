@@ -305,13 +305,6 @@ button.circle-outline-xl { line-height: 4.75rem; }
     background-position: 50% 50%;
 }
 
-.tab-pane-border {
-    background: #fff;
-    border: 1px solid $nav-tabs-border-color;
-    border-top: 0;
-    padding: $spacer-y $spacer-x;
-}
-
 .is-selected td {
     border-color: $btn-success-bg;
     background: lighten($btn-success-bg,40%);
