@@ -71,6 +71,9 @@ fieldset[disabled] a.btn {
 }
 .btn-white {
     @include button-variant($btn-white-color, $btn-white-bg, $btn-white-border);
+    &.active {
+        @include button-variant(#fff, $brand-secondary, $brand-secondary);
+    }
 }
 .btn-info {
     @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
@@ -95,6 +98,9 @@ fieldset[disabled] a.btn {
 // Remove all backgrounds
 .btn-outline {
     @include button-outline-variant($brand-black,$brand-black,#fff);
+    &.active {
+        @include button-variant(#fff, $brand-secondary, $brand-secondary);
+    }
 }
 .btn-inverse-outline {
     @include button-outline-variant(#fff,#fff,$btn-primary-bg);
@@ -232,6 +238,13 @@ input[type="button"] {
 
 .btn-opaque-light {
     background: rgba(#fff,.18);
+    &:hover {
+        background: rgba(#000,.35);
+    }
+}
+
+.btn-opaque-lighter {
+    background: rgba(#fff,.26);
     &:hover {
         background: rgba(#000,.35);
     }

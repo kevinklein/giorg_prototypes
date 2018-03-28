@@ -23,6 +23,7 @@
     ol > li > b {
         color: #666;
     }
+    ol > li.current,
     ol > li.current > a,
     ol > li.current > b {
         color: #000;

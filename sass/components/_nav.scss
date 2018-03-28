@@ -125,7 +125,7 @@
 .tab-content {
   > .tab-pane {
     display: none;
-    padding-top: 1em;
+    padding-top: 2.25em;
   }
   > .active {
     display: block;
@@ -177,5 +177,25 @@
         > li > a {
             padding: 0 .5rem .3rem;
         }
+    }
+}
+
+$nav-local-x-padding: .7rem;
+$nav-local-y-padding: .4rem;
+
+.nav-local-header {
+    font-size: .9em;
+    padding: 0 $nav-local-x-padding;
+}
+
+.nav-local {
+    li {
+        margin: 0;
+    }
+    a {
+        display: block;
+        font-weight: 700;
+        line-height: 1.25;
+        padding: $nav-local-y-padding $nav-local-x-padding;
     }
 }

@@ -29,31 +29,70 @@
         </div>
     </div>
 
-    <div class="p-y p-lg-y-lg">
+    <div class="container p-y p-lg-y-xl">
+        <div class="btn-group-responsive-overflow">
+            <ul class="nav nav-tabs border-none btn-group" id="myTab" role="tablist">
+          
+                    <a class="btn btn-sm btn-outline active" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">ACG Guidelines</a>
+          
+                    <a class="btn btn-sm btn-outline" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false">Multi-Society Documents</a>
         
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">ACG Guidelines</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false">Multi-Society Documents</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Monographs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Competencies in Endoscopy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Guidelines in Progress</a>
-                </li>
+                    <a class="btn btn-sm btn-outline" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false">Monographs</a>
+   
+                    <a class="btn btn-sm btn-outline" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="three" aria-selected="false">Competencies in Endoscopy</a>
+           
+                    <a class="btn btn-sm btn-outline" id="contact-tab" data-toggle="tab" href="#five" role="tab" aria-controls="three" aria-selected="false">Guidelines in Progress</a>
+           
             </ul>
+        </div>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade in active container p-t" id="one" role="tabpanel" aria-labelledby="one-tab">
-                    fjklafdsj;
+                <div class="tab-pane fade p-t in active" id="one" role="tabpanel" aria-labelledby="one">
+                    <?php include '../partials/guideline.php' ?>
                 </div>
-                <div class="tab-pane fade container" id="two" role="tabpanel" aria-labelledby="two-tab">...</div>
-                <div class="tab-pane fade container" id="three" role="tabpanel" aria-labelledby="three-tab">...</div>
+                <div class="tab-pane fade p-t" id="two" role="tabpanel" aria-labelledby="two">
+                    <?php include '../partials/guideline.php' ?>
+                </div>
+                <div class="tab-pane fade p-t" id="three" role="tabpanel" aria-labelledby="three">
+                    <?php include '../partials/guideline.php' ?>
+                </div>
+                <div class="tab-pane fade p-t" id="four" role="tabpanel" aria-labelledby="four">
+                    <?php include '../partials/guideline.php' ?>
+                </div>
+                <div class="tab-pane fade p-t" id="five" role="tabpanel" aria-labelledby="five">
+                    <div class="text-center text-lg-right m-b-sm text-sm">
+                        <div class="form-select form-select-xs">
+                            <select>
+                                <option selected="selected">Sort by A to Z</option>
+                                <option>Most Recent</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- row -->
+                        <div class="col-md-4 col-xs-12 display-flex flex-column">
+                            <div href="guideline.php" class="card display-flex flex-column flex-1">
+                                <div class="card-block flex-1">
+                                    <b class="text-uppercase text-400 text-xxs item-flex m-b-sm"><b class="circle circle-xxs bg-success m-r-xs"></b> Update in Progress</b>
+                                    <h3 class="text-md m-b-xs text-700"><a href="#">Diagnosis and Management of <b class="text-info"></b>Achalasia</b></a></h3>
+                                    <p class="text-sm text-mute m-b-xs">August 2013</p>
+                                    <p class="text-sm m-b-0"><svg class="icon icon-user2"><use xlink:href="#icon-user2"></use></svg> Michael F. Vaezi, MD, PhD, MSc, FACG</p>
+                                </div>
+                                <?php include '../partials/guideline-actions.php' ?>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 display-flex flex-column">
+                            <div href="guideline.php" class="card display-flex flex-column flex-1">
+                                <div class="card-block flex-1">
+                                    <b class="text-uppercase text-400 text-xxs item-flex m-b-sm"><b class="circle circle-xxs bg-success m-r-xs"></b> Update in Progress</b>
+                                    <h3 class="text-md m-b-xs text-700"><a href="#">Diagnosis and Management of Small <b class="text-info">Bowel Bleeding</b></a></h3>
+                                    <p class="text-sm text-mute m-b-xs">August 2014</p>
+                                    <p class="text-sm m-b-0"><svg class="icon icon-user2"><use xlink:href="#icon-user2"></use></svg> Michael F. Vaezi, MD, PhD, MSc, FACG</p>
+                                </div>
+                                <?php include '../partials/guideline-actions.php' ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
      
     </div>

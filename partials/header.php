@@ -24,7 +24,7 @@
                         <button class="btn-link text-xl p-xl-r-0" style="right" id="search-toggle"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></button>
                     </div> -->
                     <div class="item-flex position-relative">
-                        <button class="btn-link display-2 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
+                        <button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
                         <ul class="nav-primary">
                             <li><a href="#">Membership</a></li>
                             <li><a href="#">Education</a></li>
@@ -39,11 +39,14 @@
                                 <button class="btn btn-sm btn-secondary br-a-0" type="button">Go</button>
                             </span>
                         </div>
-                        <button class="btn-link display-2 m-l p-a-0" style="right" id="search-toggle"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></button>
+                        <button class="btn-link display-1 m-l p-a-0" style="right" id="search-toggle"><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></button>
                     </div>
                 </div>
             </div>
         </div>
+
+    </div>
+</header>
 
         <div class="bg-primary">
             <nav class="container text-right">

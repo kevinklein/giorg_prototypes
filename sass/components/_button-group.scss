@@ -21,13 +21,13 @@
   }
 }
 
-.btn-group > .btn:not(.btn-white) {
-    border-left: 1px solid rgba(#fff,.25);
-}
+// .btn-group > .btn:not(.btn-white) {
+//     border-left: 1px solid rgba(#fff,.25);
+// }
 
-.btn-group-vertical .btn:not(.btn-white) {
-    border-top: 1px solid rgba(#fff,.25);
-}
+// .btn-group-vertical .btn:not(.btn-white) {
+//     border-top: 1px solid rgba(#fff,.25);
+// }
 
 // Prevent double borders when buttons are next to each other
 .btn-group {
@@ -234,24 +234,6 @@
         @include text-truncate();
         + .btn {
             //border-left: none;
-        }
-    }
-}
-
-.no-flexbox,
-.flex-blocks //bug in flex-basis on invidual flex blocks not responding to hidden overflow 
-{
-    .btn-group-justified {
-        display: table;
-        float: none;
-        table-layout: fixed;
-        width: 100%;
-        > .btn {
-            display: table-cell;
-            float: none;
-            + .btn {
-                border-left: none;
-            }
         }
     }
 }

@@ -240,6 +240,13 @@ button.circle-outline {
     height: 1rem;
 }
 
+.circle-xxs,
+.circle-outline-xs {
+    font-size: .45rem;
+    width: .75rem;
+    height: .75rem;
+}
+
 button.circle-xs,
 button.circle-outline-xs { line-height: 1rem; }
 

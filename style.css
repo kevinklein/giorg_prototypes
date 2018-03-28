@@ -5810,8 +5810,39 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-white:hover {
     background-color: #fff;
     border-color: #ccc; }
+  /* line 74, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-white.active {
+    color: #fff;
+    background-color: #980438;
+    border-color: #980438; }
+    /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-white.active:focus, .btn-white.active.focus, .btn-white.active:active, .btn-white.active.active,
+    .open > .btn-white.active.dropdown-toggle {
+      color: #fff !important;
+      background-color: #660326;
+      border-color: #5c0222; }
+    /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
+    .btn-white.active:hover {
+      color: #fff;
+      background-color: #660326;
+      border-color: #5c0222; }
+    /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-white.active:active, .btn-white.active.active,
+    .open > .btn-white.active.dropdown-toggle {
+      background-image: none; }
+    /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-white.active.disabled:focus, .btn-white.active.disabled.focus, .btn-white.active:disabled:focus, .btn-white.active:disabled.focus,
+    fieldset[disabled] .btn-white.active:focus,
+    fieldset[disabled] .btn-white.active.focus {
+      background-color: #980438;
+      border-color: #980438; }
+    /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
+    .btn-white.active.disabled:hover, .btn-white.active:disabled:hover,
+    fieldset[disabled] .btn-white.active:hover {
+      background-color: #980438;
+      border-color: #980438; }
 
-/* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 78, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #00a3d8;
@@ -5843,7 +5874,7 @@ fieldset[disabled] a.btn {
     background-color: #00a3d8;
     border-color: #00a3d8; }
 
-/* line 78, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 81, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #58ba47;
@@ -5875,7 +5906,7 @@ fieldset[disabled] a.btn {
     background-color: #58ba47;
     border-color: #58ba47; }
 
-/* line 81, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 84, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #ffc72c;
@@ -5908,7 +5939,7 @@ fieldset[disabled] a.btn {
     background-color: #ffc72c;
     border-color: #ffc72c; }
 
-/* line 85, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 88, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #cc0000;
@@ -5940,7 +5971,7 @@ fieldset[disabled] a.btn {
     background-color: #cc0000;
     border-color: #cc0000; }
 
-/* line 88, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 91, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-orange {
   color: #fff;
   background-color: #ea7600;
@@ -5972,7 +6003,7 @@ fieldset[disabled] a.btn {
     background-color: #ea7600;
     border-color: #ea7600; }
 
-/* line 91, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 94, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-orange-light {
   color: #fff;
   background-color: #ff8911;
@@ -6004,7 +6035,7 @@ fieldset[disabled] a.btn {
     background-color: #ff8911;
     border-color: #ff8911; }
 
-/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 99, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-outline {
   color: #141414;
   background-image: none;
@@ -6030,8 +6061,39 @@ fieldset[disabled] a.btn {
   .btn-outline.disabled:hover, .btn-outline:disabled:hover,
   fieldset[disabled] .btn-outline:hover {
     border-color: #474747; }
+  /* line 101, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-outline.active {
+    color: #fff;
+    background-color: #980438;
+    border-color: #980438; }
+    /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-outline.active:focus, .btn-outline.active.focus, .btn-outline.active:active, .btn-outline.active.active,
+    .open > .btn-outline.active.dropdown-toggle {
+      color: #fff !important;
+      background-color: #660326;
+      border-color: #5c0222; }
+    /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
+    .btn-outline.active:hover {
+      color: #fff;
+      background-color: #660326;
+      border-color: #5c0222; }
+    /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-outline.active:active, .btn-outline.active.active,
+    .open > .btn-outline.active.dropdown-toggle {
+      background-image: none; }
+    /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    .btn-outline.active.disabled:focus, .btn-outline.active.disabled.focus, .btn-outline.active:disabled:focus, .btn-outline.active:disabled.focus,
+    fieldset[disabled] .btn-outline.active:focus,
+    fieldset[disabled] .btn-outline.active.focus {
+      background-color: #980438;
+      border-color: #980438; }
+    /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
+    .btn-outline.active.disabled:hover, .btn-outline.active:disabled:hover,
+    fieldset[disabled] .btn-outline.active:hover {
+      background-color: #980438;
+      border-color: #980438; }
 
-/* line 99, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 105, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-inverse-outline {
   color: #fff;
   background-image: none;
@@ -6058,7 +6120,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-inverse-outline:hover {
     border-color: white; }
 
-/* line 102, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 108, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-primary-outline {
   color: #002e6d;
   background-image: none;
@@ -6085,7 +6147,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-primary-outline:hover {
     border-color: #0059d3; }
 
-/* line 105, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 111, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-white-outline {
   color: #fff;
   background-image: none;
@@ -6112,7 +6174,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-white-outline:hover {
     border-color: white; }
 
-/* line 108, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 114, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-secondary-outline {
   color: #980438;
   background-image: none;
@@ -6139,7 +6201,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-secondary-outline:hover {
     border-color: #f9095d; }
 
-/* line 111, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-info-outline {
   color: #00a3d8;
   background-image: none;
@@ -6166,7 +6228,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-info-outline:hover {
     border-color: #3fd0ff; }
 
-/* line 114, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 120, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-success-outline {
   color: #58ba47;
   background-image: none;
@@ -6193,7 +6255,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-success-outline:hover {
     border-color: #9bd691; }
 
-/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 123, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-warning-outline {
   color: #ffc72c;
   background-image: none;
@@ -6220,7 +6282,7 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-warning-outline:hover {
     border-color: #ffe292; }
 
-/* line 120, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 126, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-danger-outline {
   color: #cc0000;
   background-image: none;
@@ -6247,17 +6309,17 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-danger-outline:hover {
     border-color: #ff3333; }
 
-/* line 129, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 135, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-link {
   font-weight: normal;
   color: #001e47;
   border-radius: 0;
   line-height: 1; }
-  /* line 134, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  /* line 140, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled,
   fieldset[disabled] .btn-link {
     background-color: transparent; }
-  /* line 142, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  /* line 148, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-link, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
@@ -6275,90 +6337,97 @@ fieldset[disabled] a.btn {
     color: #999;
     text-decoration: none; }
 
-/* line 165, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 171, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .no-outline:active,
 .no-outline:focus {
   outline: none; }
 
-/* line 170, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 176, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .text-inverse .btn-link,
 .btn-link.text-inverse {
   color: #fff; }
 
-/* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 181, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-link.text-muted {
   color: #666; }
-  /* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  /* line 183, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-link.text-muted:hover {
     color: #000; }
 
-/* line 182, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 188, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-link.active {
   color: #000;
   font-weight: bold; }
 
-/* line 191, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 197, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-xl {
   padding: 0.625rem 0.9375rem;
   font-size: 1.5625rem;
   line-height: 1.6666666667;
   border-radius: 6px; }
 
-/* line 195, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 201, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1.3333333333;
   border-radius: 5px; }
 
-/* line 199, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 205, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.75rem;
   font-size: 0.85rem;
   line-height: 1.5;
   border-radius: 4px; }
 
-/* line 203, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 209, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-xs {
   padding: 0.2rem 0.6rem;
   font-size: 0.68rem;
   line-height: 1.5;
   border-radius: 3px; }
 
-/* line 210, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 216, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%; }
 
-/* line 216, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 222, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px; }
 
-/* line 224, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 230, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
-/* line 229, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 235, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-pill {
   border-radius: 1.3em; }
 
-/* line 233, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 239, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-opaque-light {
   background: rgba(255, 255, 255, 0.18); }
-  /* line 235, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  /* line 241, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-opaque-light:hover {
     background: rgba(0, 0, 0, 0.35); }
 
-/* line 240, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 246, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+.btn-opaque-lighter {
+  background: rgba(255, 255, 255, 0.26); }
+  /* line 248, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-opaque-lighter:hover {
+    background: rgba(0, 0, 0, 0.35); }
+
+/* line 253, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-opaque-dark {
   background: rgba(0, 0, 0, 0.18); }
-  /* line 242, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  /* line 255, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-opaque-dark:hover {
     background: rgba(0, 0, 0, 0.35); }
 
-/* line 247, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn.disabled,
 .btn:disabled,
 .btn[disabled] {
@@ -6367,14 +6436,14 @@ input[type="button"].btn-block {
   color: #999 !important;
   text-shadow: none !important; }
 
-/* line 256, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 269, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-text {
   background: transparent;
   border: none;
   padding: 0;
   text-align: left; }
 
-/* line 264, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+/* line 277, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
 .btn-no-focus:focus, .btn-no-focus:active {
   outline: none !important; }
 
@@ -8437,11 +8506,12 @@ td.check:after {
   .breadcrumb ol > li > b {
     color: #666; }
   /* line 26, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
+  .breadcrumb ol > li.current,
   .breadcrumb ol > li.current > a,
   .breadcrumb ol > li.current > b {
     color: #000;
     font-weight: 600; }
-  /* line 31, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
+  /* line 32, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
   .breadcrumb ol > li + li:before {
     content: "/";
     color: #bbb;
@@ -8470,14 +8540,6 @@ td.check:after {
     .btn-group > .btn:hover,
     .btn-group-vertical > .btn:hover {
       z-index: 2; }
-
-/* line 24, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-.btn-group > .btn:not(.btn-white) {
-  border-left: 1px solid rgba(255, 255, 255, 0.25); }
-
-/* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-.btn-group-vertical .btn:not(.btn-white) {
-  border-top: 1px solid rgba(255, 255, 255, 0.25); }
 
 /* line 34, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
 .btn-group .btn + .btn,
@@ -8667,55 +8729,38 @@ td.check:after {
     text-overflow: ellipsis;
     white-space: nowrap; }
 
-/* line 244, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-.no-flexbox .btn-group-justified,
-.flex-blocks .btn-group-justified {
-  display: table;
-  float: none;
-  table-layout: fixed;
-  width: 100%; }
-  /* line 249, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-  .no-flexbox .btn-group-justified > .btn,
-  .flex-blocks .btn-group-justified > .btn {
-    display: table-cell;
-    float: none; }
-    /* line 252, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-    .no-flexbox .btn-group-justified > .btn + .btn,
-    .flex-blocks .btn-group-justified > .btn + .btn {
-      border-left: none; }
-
 @media (max-width: 47.9em) {
-  /* line 261, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+  /* line 243, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
   .btn-group-responsive > .btn {
     font-size: .8rem !important; }
-  /* line 265, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+  /* line 247, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
   .btn-group-responsive-justified {
     float: none;
     display: table;
     table-layout: fixed;
     width: 100%; }
-    /* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+    /* line 252, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
     .btn-group-responsive-justified > .btn {
       display: table-cell;
       float: none; }
-      /* line 273, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+      /* line 255, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
       .btn-group-responsive-justified > .btn + .btn {
         border-left: none; }
-  /* line 278, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+  /* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
   .btn-group-responsive-overflow {
     max-width: 100%;
     -webkit-overflow-scrolling: touch; }
-    /* line 281, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+    /* line 263, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
     .btn-group-responsive-overflow > div {
       padding-bottom: 6px;
       position: relative;
       overflow-x: auto;
       white-space: nowrap;
       max-width: 100%; }
-      /* line 287, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+      /* line 269, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
       .btn-group-responsive-overflow > div > .btn {
         float: none; }
-        /* line 289, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+        /* line 271, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
         .btn-group-responsive-overflow > div > .btn + .btn {
           margin-left: -6px !important; } }
 
@@ -10826,7 +10871,7 @@ button.list-group-item-state {
 /* line 126, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
 .tab-content > .tab-pane {
   display: none;
-  padding-top: 1em; }
+  padding-top: 2.25em; }
 
 /* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
 .tab-content > .active {
@@ -10880,6 +10925,22 @@ button.list-group-item-state {
   /* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
   .nav-lines > li > a {
     padding: 0 .5rem .3rem; } }
+
+/* line 186, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
+.nav-local-header {
+  font-size: .9em;
+  padding: 0 0.7rem; }
+
+/* line 192, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
+.nav-local li {
+  margin: 0; }
+
+/* line 195, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav.scss */
+.nav-local a {
+  display: block;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0.4rem 0.7rem; }
 
 @media (min-width: 62em) {
   /* line 2, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
@@ -13532,9 +13593,10 @@ button.list-group-item-state {
 
 /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top #header-main {
+  border: none;
   background: #fff;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   left: 0;
   position: fixed;
   top: 0;
@@ -13545,55 +13607,55 @@ button.list-group-item-state {
   -webkit-animation: slideInDown .35s .15s ease forwards;
           animation: slideInDown .35s .15s ease forwards; }
 
-/* line 51, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 52, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .logo {
   z-index: 3; }
   @media (max-width: 61.9em) {
-    /* line 51, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+    /* line 52, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
     .logo {
       margin-bottom: 10px; } }
-  /* line 56, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
   .logo img {
     -webkit-transition: all .35s;
     transition: all .35s;
     width: 75px;
     max-height: 75px; }
 
-/* line 63, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 64, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .logo-description {
   -webkit-transition: all 1s;
   transition: all 1s; }
 
-/* line 69, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 70, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top .logo img {
   width: 45px; }
 
-/* line 72, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 73, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top .logo-description {
   opacity: 1; }
 
-/* line 77, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 78, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search {
   margin-bottom: 1rem; }
-  /* line 79, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+  /* line 80, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
   .body-fixed-top .header-main-search {
     margin-bottom: .35rem; }
 
-/* line 84, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 85, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search-form {
   opacity: 0;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
   -webkit-transition: .25s all;
   transition: .25s all;
   max-width: 300px; }
-  /* line 89, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+  /* line 90, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
   .header-main-search-form.is-toggled {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); }
 
-/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .hero {
   background-position: 50% 0%;
   background-repeat: no-repeat;
@@ -14080,101 +14142,108 @@ button.circle-outline {
   height: 1rem; }
 
 /* line 243, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+.circle-xxs,
+.circle-outline-xs {
+  font-size: .45rem;
+  width: .75rem;
+  height: .75rem; }
+
+/* line 250, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-xs,
 button.circle-outline-xs {
   line-height: 1rem; }
 
-/* line 246, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 253, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-sm,
 .circle-outline-sm {
   font-size: .75rem;
   width: 1.25rem;
   height: 1.25rem; }
 
-/* line 253, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-sm,
 button.circle-outline-sm {
   line-height: 1.25rem; }
 
-/* line 256, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 263, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-md,
 .circle-outline-md {
   font-size: 1.3rem;
   width: 2.25rem;
   height: 2.25rem; }
 
-/* line 263, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-md,
 button.circle-outline-md {
   line-height: 2.25rem; }
 
-/* line 266, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 273, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-lg,
 .circle-outline-lg {
   font-size: 1.6rem;
   width: 3.6rem;
   height: 3.6rem; }
 
-/* line 273, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 280, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-lg,
 button.circle-outline-lg {
   line-height: 3.6rem; }
 
-/* line 276, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 283, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-xl,
 .circle-outline-xl {
   font-size: 2.5rem;
   width: 4.75rem;
   height: 4.75rem; }
 
-/* line 283, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 290, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-xl,
 button.circle-outline-xl {
   line-height: 4.75rem; }
 
-/* line 286, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 293, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .close-circle {
   margin-right: -.5em;
   margin-left: .4em; }
 
-/* line 291, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 298, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .transition,
 .no-touch .hover-transition {
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }
 
-/* line 296, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 303, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .bg-cover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
 
-/* line 302, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 309, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .bg-contain {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%; }
 
-/* line 308, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 315, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .is-selected td {
   border-color: #58ba47;
   background: #dff2db; }
 
-/* line 313, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 320, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .is-hidden {
   display: none; }
 
-/* line 317, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 324, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .z-index-10 {
   position: relative;
   z-index: 10; }
 
-/* line 322, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 329, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .faq-item {
   cursor: pointer;
   padding-left: 20px;
   position: relative; }
-  /* line 326, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+  /* line 333, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
   .faq-item::after {
     background: url(img/chevron-right.svg) no-repeat 0 0;
     background-size: 100% 100%;
@@ -14185,12 +14254,12 @@ button.circle-outline-xl {
     top: 6px;
     height: 11px;
     width: 11px; }
-  /* line 338, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+  /* line 345, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
   .faq-item.is-toggled::after {
     background: url(img/chevron-down.svg) no-repeat 0 0;
     top: 8px; }
 
-/* line 346, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 353, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .faq-answer p:last-child {
   margin-bottom: 0; }
 

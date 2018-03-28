@@ -36,8 +36,9 @@
 }
 
 .body-fixed-top #header-main {
+    border: none;
     background: #fff;
-    box-shadow: 0 2px 5px rgba(#000,.25);
+    box-shadow: 0 1px 5px rgba(#000,.1);
     left: 0;
     //height: $fixed-top;
     position: fixed;
@@ -83,7 +84,7 @@
 
 .header-main-search-form {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(-50px);
     transition: .25s all;
     max-width: 300px;
     &.is-toggled {
