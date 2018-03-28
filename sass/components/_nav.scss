@@ -197,5 +197,14 @@ $nav-local-y-padding: .4rem;
         font-weight: 700;
         line-height: 1.25;
         padding: $nav-local-y-padding $nav-local-x-padding;
+        transition: all .25s;
+        &:active,
+        &:focus {
+            text-decoration: none;
+        }
+        &.active {
+            background: $brand-info-lighter;
+            text-decoration: none;
+        }
     }
 }

@@ -68,14 +68,13 @@
 // Wrapper for the tooltip content
 .tooltip-inner {
   max-width: ($tooltip-max-width * 1.5);
-  border-radius: $border-radius-xs;
-  padding: .4rem .6rem;
+  padding: $card-spacer-y/2 $card-spacer-x/2;
   color: $tooltip-color;
   text-align: left;
   background-color: $tooltip-bg;
   font-size: $font-size-xs;
   font-weight: normal;
-  box-shadow: 0 1px 1px rgba(#000,.2);
+  box-shadow: 0 1px 4px 0 rgba(#000,.35);
 }
 
 // Arrows

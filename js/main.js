@@ -25,6 +25,18 @@
             fixSidebar
         ];
 
+        var $container = $('#main');
+        var numScenes = $container.data('scenes');
+        console.log('numScenes', numScenes)
+
+        for (var i = 1; i <= numScenes; i++) {
+            scenes.push(
+                new ScrollMagic.Scene(
+                    {triggerElement: '#section-' + i, triggerHook: 'onLeave', duration: $("#section-" + i).outerHeight(), offset: -headerOffset})
+                    .setClassToggle("#high-" + i, "active")
+            );
+        }
+
         controller.addScene(scenes);
        
         $(function() {
