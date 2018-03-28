@@ -1,4 +1,4 @@
-
+<div id="top"></div>
 <header id="header-main">
     <?php include 'hud.php' ?>
     <div class="header-main" role="banner">

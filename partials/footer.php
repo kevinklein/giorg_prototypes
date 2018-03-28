@@ -62,3 +62,4 @@
         <a href="#" class="text-muted text-hover-underline">Terms of Use</a> <span class="text-pipe">|</span> <a href="#" class="text-muted text-hover-underline">Privacy Policy</a>
     </div>
 </div>
+<a href="#top" class="link-top"><svg class="icon icon-chevron-with-circle-up"><use xlink:href="#icon-chevron-with-circle-up"></use</svg></a>
