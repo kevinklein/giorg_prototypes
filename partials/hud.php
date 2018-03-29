@@ -1,6 +1,6 @@
 <header class="bg-primary-dark text-sm text-inverse" role="directory" id="header-hud">
     <div class="container item-flex">
-        <nav class="nav nav-inline item-flex-main text-sm p-y-xs">
+        <nav class="nav nav-inline item-flex-main text-sm p-y-xs hidden-sm-down">
             <a href="#" class="nav-link text-hover-underline text-700">About ACG</a>
             <a href="#" class="nav-link text-hover-underline text-700">Join</a>
             <a href="#" class="nav-link text-hover-underline text-700">Donate</a>

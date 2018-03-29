@@ -25,7 +25,7 @@
                     </div> -->
                     <div class="item-flex position-relative">
                         <button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
-                        <ul class="nav-primary">
+                        <ul class="nav-primary hidden-sm-down">
                             <li><a href="#">Membership</a></li>
                             <li><a href="#">Education</a></li>
                             <li><a href="/guidelines">Clinical Guidelines</a></li>
@@ -48,25 +48,22 @@
     </div>
 </header>
 
-        <div class="bg-primary">
-            <nav class="container text-right">
-                <ul class="nav-secondary" id="subnav-trainees" style="display:none;">
-                    <li><a href="#">Membership</a></li>
-                    <li><a href="#">Professional Development Resources</a></li>
-                    <li><a href="#">Grants & Publishing</a></li>
-                    <li><a href="#">For Program Directors</a></li>
-                    <li><a href="#">For Residents</a></li>
-                    <li><a href="#">Program Directors</a></li>
-                </ul>
-                <ul class="nav-secondary" id="subnav-guidelines" style="display:none;">
-                    <li><a href="#">Guideline Development Policies</a></li>
-                    <li><a href="#">ACG Guidelines App</a></li>
-                </ul>
-            </div>
-        </div>
-
+<div class="bg-primary hidden-sm-down">
+    <nav class="container text-right">
+        <ul class="nav-secondary" id="subnav-trainees" style="display:none;">
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Professional Development Resources</a></li>
+            <li><a href="#">Grants & Publishing</a></li>
+            <li><a href="#">For Program Directors</a></li>
+            <li><a href="#">For Residents</a></li>
+            <li><a href="#">Program Directors</a></li>
+        </ul>
+        <ul class="nav-secondary" id="subnav-guidelines" style="display:none;">
+            <li><a href="#">Guideline Development Policies</a></li>
+            <li><a href="#">ACG Guidelines App</a></li>
+        </ul>
     </div>
-</header>
+</div>
     
 <!-- menu modal -->
 <div class="modal modal-menu fade" tabindex="-1">

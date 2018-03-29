@@ -8751,18 +8751,18 @@ td.check:after {
     max-width: 100%;
     -webkit-overflow-scrolling: touch; }
     /* line 263, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-    .btn-group-responsive-overflow > div {
-      padding-bottom: 6px;
+    .btn-group-responsive-overflow > .btn-group {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      max-width: 100%;
+      padding-bottom: 10px;
       position: relative;
       overflow-x: auto;
-      white-space: nowrap;
-      max-width: 100%; }
-      /* line 269, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-      .btn-group-responsive-overflow > div > .btn {
-        float: none; }
-        /* line 271, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
-        .btn-group-responsive-overflow > div > .btn + .btn {
-          margin-left: -6px !important; } }
+      white-space: nowrap; }
+      /* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_button-group.scss */
+      .btn-group-responsive-overflow > .btn-group > .btn {
+        float: none; } }
 
 /* line 1, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_close.scss */
 .close {
@@ -12249,6 +12249,14 @@ button.list-group-item-state {
   border-color: transparent;
   border-style: solid; }
 
+/* line 2, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+:target::before {
+  display: block;
+  content: " ";
+  margin-top: -129px;
+  height: 129px;
+  visibility: hidden; }
+
 /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .search-toggle {
   border: none;
@@ -12525,27 +12533,29 @@ button.list-group-item-state {
           flex-direction: column; }
 
 /* line 235, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
-.flex-group-addon-stretch,
-.item-flex-addon-stretch {
-  -ms-flex-item-align: stretch;
-      align-self: stretch; }
-
-/* line 240, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .has-match-height-cta {
   position: relative;
   padding-bottom: 2rem; }
 
-/* line 245, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+/* line 240, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .match-height-cta {
   position: absolute;
   bottom: 1.25rem;
   right: 1.25rem; }
 
-/* line 252, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+@media (max-width: 61.9em) {
+  /* line 247, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  .item-flex-responsive {
+    display: block; }
+    /* line 249, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    .item-flex-responsive .item-flex-main {
+      margin-bottom: .65rem; } }
+
+/* line 256, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .final-tiles-gallery {
   padding: 10px; }
 
-/* line 256, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+/* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .meet-the-faculty {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12553,16 +12563,16 @@ button.list-group-item-state {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: -2.5px -2.5px; }
-  /* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 264, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .meet-the-faculty .tile {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     padding: 2.5px;
     position: relative; }
-    /* line 264, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 268, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .meet-the-faculty .tile img {
       display: block; }
-    /* line 267, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 271, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .meet-the-faculty .tile > h3 {
       background: rgba(0, 0, 0, 0.85);
       bottom: 2px;
@@ -12575,14 +12585,14 @@ button.list-group-item-state {
       text-transform: uppercase;
       width: calc(100% - 5px);
       z-index: 2; }
-    /* line 280, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 284, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .meet-the-faculty .tile b,
     .meet-the-faculty .tile strong {
       display: block; }
-    /* line 284, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 288, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .meet-the-faculty .tile:hover > h3 {
       display: none; }
-  /* line 288, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 292, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .meet-the-faculty .tile-backface {
     background: rgba(51, 205, 255, 0.85);
     -webkit-box-sizing: border-box;
@@ -12617,17 +12627,17 @@ button.list-group-item-state {
     transition: opacity .25s;
     text-align: left;
     z-index: 3; }
-    /* line 306, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 310, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .meet-the-faculty .tile-backface h3 {
       font-size: 14px;
       font-weight: bold;
       text-transform: uppercase;
       margin-bottom: 3px; }
-  /* line 313, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 317, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .meet-the-faculty .tile:hover .tile-backface {
     opacity: 1; }
 
-/* line 319, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+/* line 323, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .tiles .tile {
   background: #980438;
   display: -webkit-box;
@@ -12651,13 +12661,13 @@ button.list-group-item-state {
   color: #fff;
   padding: 20px 0;
   text-align: center; }
-  /* line 333, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 337, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .tiles .tile:hover {
     background: #002e6d;
     text-decoration: none; }
 
 @media (min-width: 48em) {
-  /* line 341, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 345, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .tiles {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -12669,7 +12679,7 @@ button.list-group-item-state {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap; }
-    /* line 346, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 350, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .tiles .tile {
       -webkit-box-flex: 1;
           -ms-flex: 1;
@@ -12677,23 +12687,23 @@ button.list-group-item-state {
       padding: 40px 0; } }
 
 @media (min-width: 48em) {
-  /* line 354, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 358, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .meet-the-faculty .tile {
     -ms-flex-preferred-size: 25%;
         flex-basis: 25%; } }
 
 @media (min-width: 75em) {
-  /* line 360, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 364, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .meet-the-faculty .tile {
     -ms-flex-preferred-size: 16.66667%;
         flex-basis: 16.66667%; } }
 
-/* line 365, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+/* line 369, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .layout-flex .layout-flex-item {
   display: block; }
 
 @media (min-width: 48em) {
-  /* line 370, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 374, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .layout-flex {
     -ms-flex-line-pack: center;
         align-content: center;
@@ -12702,19 +12712,19 @@ button.list-group-item-state {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap; }
-    /* line 374, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+    /* line 378, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
     .layout-flex .layout-flex-item {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 auto;
               flex: 1 1 auto; } }
 
-/* line 380, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+/* line 384, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
 .pricing-table-middle {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important; }
 
 @media (min-width: 48em) {
-  /* line 386, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
+  /* line 390, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
   .pricing-table-middle {
     margin-left: -4px !important;
     margin-right: -4px !important;

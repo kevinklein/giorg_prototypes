@@ -43,9 +43,9 @@
         controller.scrollTo(function (newpos) {
             TweenMax.to(window, 0.5, {scrollTo: {y: newpos, offsetY: headerOffset - 5} });
         });
-
+        
         //  bind scroll to anchor links
-        $(document).on("click", "a[href^='#']", function (e) {
+        $(document).on("click", ".nav-local a[href^='#']", function (e) {
             var id = $(this).attr("href");
             if ($(id).length > 0) {
                 e.preventDefault();

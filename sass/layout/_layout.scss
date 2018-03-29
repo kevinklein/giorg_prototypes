@@ -1,11 +1,11 @@
 //account for fixed header on anchor links
-// :target::before { 
-//     display: block; 
-//     content: " "; 
-//     margin-top: -$fixed-top; 
-//     height: $fixed-top; 
-//     visibility: hidden;
-// }
+:target::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -$fixed-top; 
+    height: $fixed-top; 
+    visibility: hidden;
+}
 
 .search-toggle {
     border: none;
@@ -232,11 +232,6 @@
     flex-direction: column;
 }
 
-.flex-group-addon-stretch,
-.item-flex-addon-stretch {
-    align-self: stretch;
-}
-
 .has-match-height-cta {
     position: relative;
     padding-bottom: 2rem;
@@ -246,6 +241,15 @@
     position: absolute;
     bottom: $card-spacer-y;
     right: $card-spacer-x;
+}
+
+@include media-breakpoint-down(md) {
+    .item-flex-responsive {
+        display: block;
+        .item-flex-main {
+            margin-bottom: .65rem;
+        }
+    }
 }
 
 //meeting stuff

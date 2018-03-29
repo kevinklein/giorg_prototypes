@@ -1,7 +1,7 @@
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
         <h3><a href="#" class="text-hover-underline">Membership</a></h3>
-        <ul class="list-unstyled m-b-0">
+        <ul class="list-unstyled m-lg-b-0">
             <li><a href="#" class="text-muted text-hover-underline">Join</a></li>
             <li><a href="#" class="text-muted text-hover-underline">MY ACG</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Renew/Pay Dues</a></li>
@@ -10,7 +10,7 @@
             <li><a href="#" class="text-muted text-hover-underline">Get Involved</a></li>
         </ul>
         <h3 class="m-t-md"><a href="#" class="text-hover-underline">Education</a></h3>
-        <ul class="list-unstyled m-b-0">
+        <ul class="list-unstyled m-lg-b-0">
             <li><a href="#" class="text-muted text-hover-underline">Meetings & Events Calendar</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Claim CME & MOC</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Board Prep</a></li>
@@ -20,15 +20,15 @@
             <li><a href="#" class="text-muted text-hover-underline">Exhibitors & Sponsors</a></li>
         </ul>
     </div>
-    <div class="col-md-4">
-        <h3><a href="#" class="text-hover-underline">Clinical Guidelines</a></h3>
+    <div class="col-md-4 col-xs-12">
+        <h3><a href="/guidelines" class="text-hover-underline">Clinical Guidelines</a></h3>
         <!-- <ul class="list-unstyled m-b-0">
             <li><a href="#" class="text-muted text-hover-underline"></a></li>
             <li><a href="#" class="text-muted text-hover-underline">Trainees</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Patients & Families</a></li>
         </ul> -->
         <h3 class="m-t-md"><a href="#" class="text-hover-underline">Publications</a></h3>
-        <ul class="list-unstyled m-b-0">
+        <ul class="list-unstyled m-lg-b-0">
             <li><a href="#" class="text-muted text-hover-underline">AJG</a></li>
             <li><a href="#" class="text-muted text-hover-underline">CTG</a></li>
             <li><a href="#" class="text-muted text-hover-underline">ACG Case Reports Journal</a></li>
@@ -37,8 +37,8 @@
             <li><a href="#" class="text-muted text-hover-underline">Podcasts</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Newletters</a></li>
         </ul>
-        <h3 class="m-t-md"><a href="#" class="text-hover-underline">Trainees</a></h3>
-        <ul class="list-unstyled m-b-0">
+        <h3 class="m-t-md"><a href="/trainees" class="text-hover-underline">Trainees</a></h3>
+        <ul class="list-unstyled m-lg-b-0">
             <li><a href="#" class="text-muted text-hover-underline">Membership</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Professional Development Resources</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Grants & Publishing</a></li>
@@ -47,7 +47,7 @@
             
         </ul>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 col-xs-12">
         <h3><a href="#" class="text-hover-underline">Patients & Families</a></h3>
         <ul class="list-unstyled">
             <li><a href="#" class="text-muted text-hover-underline">GI Health and Disease Resources </a></li>
