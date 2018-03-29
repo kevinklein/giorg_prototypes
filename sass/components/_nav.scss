@@ -193,17 +193,24 @@ $nav-local-y-padding: .4rem;
         margin: 0;
     }
     a {
+        color: lighten($text-color,7.5%);
         display: block;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 1.25;
         padding: $nav-local-y-padding $nav-local-x-padding;
         transition: all .25s;
+        &:hover {
+            background: $gray-lightest;
+        }
         &:active,
         &:focus {
+            background: none;
             text-decoration: none;
         }
         &.active {
-            background: $brand-info-lighter;
+            background: $gray-lighter;
+            color: #000;
+            font-weight: 700;
             text-decoration: none;
         }
     }

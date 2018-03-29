@@ -1,15 +1,11 @@
-body {
-    
-}
-
 //account for fixed header on anchor links
-:target::before { 
-    display: block; 
-    content: " "; 
-    margin-top: (-$fixed-top + 10); 
-    height: ($fixed-top + 10); 
-    visibility: hidden;
-}
+// :target::before { 
+//     display: block; 
+//     content: " "; 
+//     margin-top: -$fixed-top; 
+//     height: $fixed-top; 
+//     visibility: hidden;
+// }
 
 .search-toggle {
     border: none;

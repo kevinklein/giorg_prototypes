@@ -14,7 +14,7 @@
     <div class="container">
         <ol>
             <li><svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg> <a href="/">Gi.org</a></li>
-            <li class="current"><a href="javascript:void()">Trainees</a></li>
+            <li class="current"><a href="/trainees">Trainees</a></li>
         </ol>
     </div>
 </nav>

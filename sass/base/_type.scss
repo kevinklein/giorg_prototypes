@@ -534,6 +534,24 @@ a.text-inverse:hover {
     color: rgba(255,255,255,.7);
 }
 
+// .main-content {
+//     a {
+//         border-bottom: 1px solid transparent;
+//         color: $link-color;
+//         text-decoration: none;
+
+//         @include hover-focus {
+//             border-color: $link-hover-color;
+//             color: $link-hover-color;
+//             text-decoration: none;
+//         }
+
+//         &:focus {
+//             @include tab-focus();
+//         }
+//     }
+// }
+
 // generally used for link type text
 .text-more {
     font-weight: 600;

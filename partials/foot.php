@@ -4,7 +4,10 @@
 <script type="text/javascript" src="/js/matchHeight-min.js"></script>
 <script type="text/javascript" src="/js/tether.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/gsap.min.js"></script>
+<script type="text/javascript" src="/js/gsap/TweenLite.min.js"></script>
 <script type="text/javascript" src="/js/scrollmagic/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="/js/scrollmagic/ScrollMagic.animation.gsap.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>     
 <script>
 var ajax = new XMLHttpRequest();

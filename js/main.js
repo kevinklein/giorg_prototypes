@@ -27,7 +27,8 @@
 
         var $container = $('#main');
         var numScenes = $container.data('scenes');
-        console.log('numScenes', numScenes)
+        console.log('numScenes', numScenes);
+        console.log(headerOffset);
 
         for (var i = 1; i <= numScenes; i++) {
             scenes.push(
@@ -38,6 +39,24 @@
         }
 
         controller.addScene(scenes);
+
+        controller.scrollTo(function (newpos) {
+            TweenMax.to(window, 0.5, {scrollTo: {y: newpos, offsetY: headerOffset - 5} });
+        });
+
+        //  bind scroll to anchor links
+        $(document).on("click", "a[href^='#']", function (e) {
+            var id = $(this).attr("href");
+            if ($(id).length > 0) {
+                e.preventDefault();
+                // trigger scroll
+                controller.scrollTo(id);
+                // if supported by the browser update the URL.
+                if (window.history && window.history.pushState) {
+                    history.pushState("", document.title, id);
+                }
+            }
+        });
        
         $(function() {
             $('.match-height').matchHeight();
