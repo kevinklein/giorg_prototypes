@@ -78,6 +78,108 @@
     }
 }
 
+.nav-primary-v3 {
+    background: $brand-primary;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    > li {
+        margin: 0;
+        position: relative;
+        > a {
+            color: rgba(#fff,.85); 
+            display: block;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: .5rem 0;
+            position: relative;
+            // &:after {
+            //     background: transparent;
+            //     content: '';
+            //     display: block;
+            //     height: 3px;
+            //     left: 0;
+            //     width: 100%;
+            //     position: absolute;
+            //     bottom: -1px;
+            // }
+        }
+        &:hover {
+            > a {
+                color: #fff;
+            }
+        }
+        &.current-menu-item,
+        &.current-menu-ancestor,
+        &.active {
+            > a {
+                color: #fff;
+                font-weight: 700;
+            }
+            &:after {
+                content: "";
+                background: $brand-primary;
+                position: absolute;
+                -webkit-transform: translateX(-50%) rotate(-45deg);
+                transform: translateX(-50%) rotate(-45deg);
+                width: 10px;
+                height: 10px;
+                bottom: -5px;
+                left: 50%
+            }
+        }
+    }
+}
+
+.nav-secondary-v3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-start;
+    > li {
+        margin: 0;
+        + li {
+            margin-left: 1.25rem;
+        }
+    }
+    a {
+        border-bottom: 3px solid transparent;
+        color: $gray-darker;
+        display: block;
+        font-size: 1em;
+        font-weight: 400;
+        padding: .75em 0 .6rem;
+        transition: all .25s;
+        &:hover {
+            //background: rgba(#000,.5);
+            //background: $gray-lighter;
+            color: #000;
+            border-bottom: 3px solid #000;
+        }
+        &:after {
+            background: transparent;
+            content: '';
+            display: block;
+            height: 3px;
+            left: 0;
+            width: 100%;
+            position: absolute;
+            bottom: -1px;
+        }
+    }
+    > li.active a {
+        //background: $gray-lighter;
+        color: $brand-primary;
+        font-weight: 700;
+        border-bottom: 3px solid $brand-primary;
+    }
+}
+
 // @include media-breakpoint-down(lg) {
 //     .nav-primary  {
 //         li a {

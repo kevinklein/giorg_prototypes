@@ -21,7 +21,12 @@
     }
     ol > li > a,
     ol > li > b {
-        color: #666;
+        border-bottom: 1px solid transparent;
+        color: #888;
+        &:hover {
+            border-bottom: 1px solid #222;
+            color: #222;
+        }
     }
     ol > li.current,
     ol > li.current > a,

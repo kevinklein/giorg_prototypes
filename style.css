@@ -8504,14 +8504,20 @@ td.check:after {
   /* line 22, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
   .breadcrumb ol > li > a,
   .breadcrumb ol > li > b {
-    color: #666; }
-  /* line 26, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
+    border-bottom: 1px solid transparent;
+    color: #888; }
+    /* line 26, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
+    .breadcrumb ol > li > a:hover,
+    .breadcrumb ol > li > b:hover {
+      border-bottom: 1px solid #222;
+      color: #222; }
+  /* line 31, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
   .breadcrumb ol > li.current,
   .breadcrumb ol > li.current > a,
   .breadcrumb ol > li.current > b {
     color: #000;
     font-weight: 600; }
-  /* line 32, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
+  /* line 37, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_breadcrumbs.scss */
   .breadcrumb ol > li + li:before {
     content: "/";
     color: #bbb;
@@ -11029,7 +11035,99 @@ button.list-group-item-state {
 .nav-primary > li + li {
   margin-left: 1.5rem; }
 
-/* line 94, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+/* line 81, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.nav-primary-v3 {
+  background: #002e6d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 88, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .nav-primary-v3 > li {
+    margin: 0;
+    position: relative; }
+    /* line 91, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v3 > li > a {
+      color: rgba(255, 255, 255, 0.85);
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: .5rem 0;
+      position: relative; }
+    /* line 112, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v3 > li:hover > a {
+      color: #fff; }
+    /* line 119, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v3 > li.current-menu-item > a, .nav-primary-v3 > li.current-menu-ancestor > a, .nav-primary-v3 > li.active > a {
+      color: #fff;
+      font-weight: 700; }
+    /* line 123, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v3 > li.current-menu-item:after, .nav-primary-v3 > li.current-menu-ancestor:after, .nav-primary-v3 > li.active:after {
+      content: "";
+      background: #002e6d;
+      position: absolute;
+      -webkit-transform: translateX(-50%) rotate(-45deg);
+      transform: translateX(-50%) rotate(-45deg);
+      width: 10px;
+      height: 10px;
+      bottom: -5px;
+      left: 50%; }
+
+/* line 138, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.nav-secondary-v3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  /* line 144, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .nav-secondary-v3 > li {
+    margin: 0; }
+    /* line 146, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-secondary-v3 > li + li {
+      margin-left: 1.25rem; }
+  /* line 150, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .nav-secondary-v3 a {
+    border-bottom: 3px solid transparent;
+    color: #333;
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    padding: .75em 0 .6rem;
+    -webkit-transition: all .25s;
+    transition: all .25s; }
+    /* line 158, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-secondary-v3 a:hover {
+      color: #000;
+      border-bottom: 3px solid #000; }
+    /* line 164, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-secondary-v3 a:after {
+      background: transparent;
+      content: '';
+      display: block;
+      height: 3px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      bottom: -1px; }
+  /* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .nav-secondary-v3 > li.active a {
+    color: #002e6d;
+    font-weight: 700;
+    border-bottom: 3px solid #002e6d; }
+
+/* line 196, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .nav-secondary a {
   color: #fff;
   display: block;
@@ -11038,12 +11136,12 @@ button.list-group-item-state {
   padding: .6em .75em;
   -webkit-transition: all .25s;
   transition: all .25s; }
-  /* line 101, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 203, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary a:hover {
     background: #0044a0;
     color: #fff;
     text-decoration: none; }
-  /* line 107, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 209, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary a:after {
     background: transparent;
     content: '';
@@ -11054,17 +11152,17 @@ button.list-group-item-state {
     position: absolute;
     bottom: -1px; }
 
-/* line 118, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+/* line 220, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .nav-secondary > li.active a {
   background: #980438; }
 
 @media (max-width: 61.9em) {
-  /* line 124, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 226, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-primary {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     z-index: 999; }
-    /* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    /* line 232, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
     .nav-primary > li > a {
       padding-bottom: .8rem;
       padding-top: .8rem; } }
@@ -13677,6 +13775,15 @@ button.list-group-item-state {
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover; }
+
+/* line 103, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+.logo-description-v3 img {
+  margin-left: 10px;
+  width: 270px; }
+
+/* line 107, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+.body-fixed-top .logo-description-v3 {
+  width: 220px; }
 
 /* line 2, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_footer.scss */
 .site-footer h3 {

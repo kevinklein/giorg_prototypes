@@ -98,3 +98,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.logo-description-v3 {
+    img {
+        margin-left: 10px;
+        width: 270px;
+    }
+    .body-fixed-top & {
+        width: 220px;
+    }
+}
