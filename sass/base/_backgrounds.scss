@@ -1,6 +1,6 @@
 
 .bg-white,
-.no-touch .hover-bg-white:hover {
+.hover-bg-white:hover {
 	background-color: #fff;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .bg-gray-lightest,
-.no-touch .hover-bg-gray-lightest:hover {
+ hover-bg-gray-lightest:hover {
     background-color: $gray-lightest;
 }
 
@@ -46,6 +46,21 @@
     background-color: $brand-primary;
 }
 
+.bg-primary-light,
+.hover-bg-primary-light:hover  {
+    background: $brand-primary-light;
+}
+
+.bg-primary-lighter,
+.hover-bg-primary-lighter:hover {
+    background-color: $brand-primary-lighter;
+}
+
+.bg-primary-lightest,
+.hover-bg-primary-lightest:hover  {
+    background-color: $brand-primary-lightest;
+}
+
 .bg-primary-dark {
     background-color: $brand-primary-dark;
 }
@@ -59,7 +74,7 @@
 }
 
 .bg-secondary,
-.no-touch .hover-bg-secondary:hover {
+.hover-bg-secondary:hover {
     background-color: $brand-secondary;
 }
 
@@ -80,7 +95,7 @@
 }
 
 .bg-opaque-info,
-.no-touch .hover-bg-opaque-info:hover {
+.hover-bg-opaque-info:hover {
     background-color: rgba($brand-info,.65);
 }
 
@@ -93,18 +108,18 @@
 }
 
 .bg-info-light,
-.no-touch .hover-bg-info-light:hover  {
+.hover-bg-info-light:hover  {
     background: $brand-info-light;
 }
 
 .bg-info-lighter,
-.no-touch .hover-bg-info-lighter:hover {
+.hover-bg-info-lighter:hover {
     background-color: $brand-info-lighter;
 }
 
 .bg-info-lightest,
-.no-touch .hover-bg-info-lightest:hover  {
-    background-color: lighten($brand-info-lighter,1%);
+.hover-bg-info-lightest:hover  {
+    background-color: $brand-info-lightest;
 }
 
 .bg-success {
@@ -157,23 +172,23 @@
 }
 
 .bg-opaque-dark,
-.no-touch .hover-bg-opaque-dark:hover {
+ hover-bg-opaque-dark:hover {
     background-color: rgba(#000,.15);
 }
 
 .bg-opaque-darker,
-.no-touch .hover-bg-opaque-darker:hover {
+.hover-bg-opaque-darker:hover {
     background-color: rgba(#000,.25);
 }
 
 .bg-opaque-darkest,
-.no-touch .hover-bg-opaque-darkest:hover {
+.hover-bg-opaque-darkest:hover {
     background-color: rgba(#000,.65);
 }
 
 .bg-opaque-white,
 .bg-opaque-light,
-.no-touch .hover-bg-opaque-light:hover {
+.hover-bg-opaque-light:hover {
     background-color: rgba(#fff,.15);
 }
 

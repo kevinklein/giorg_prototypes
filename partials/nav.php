@@ -35,7 +35,7 @@
             <li><a href="#" class="text-muted text-hover-underline">ACG Magazine</a></li>
             <li><a href="#" class="text-muted text-hover-underline">ACG Blog</a></li>
             <li><a href="#" class="text-muted text-hover-underline">Podcasts</a></li>
-            <li><a href="#" class="text-muted text-hover-underline">Newletters</a></li>
+            <li><a href="#" class="text-muted text-hover-underline">Newsletters</a></li>
         </ul>
         <h3 class="m-t-md"><a href="/trainees" class="text-hover-underline">Trainees</a></h3>
         <ul class="list-unstyled m-lg-b-0">
@@ -44,7 +44,6 @@
             <li><a href="#" class="text-muted text-hover-underline">Grants & Publishing</a></li>
             <li><a href="#" class="text-muted text-hover-underline">For Program Directors</a></li>
             <li><a href="#" class="text-muted text-hover-underline">For Residents</a></li>
-            
         </ul>
     </div>
     <div class="col-md-4 col-xs-12">

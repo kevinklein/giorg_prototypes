@@ -8141,15 +8141,15 @@ td.check:after {
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: #ceedf4; }
+  background-color: #28caff; }
 
 /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
 .table-hover .table-active:hover {
-  background-color: #b9e5ef; }
+  background-color: #0fc4ff; }
   /* line 23, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_table-row.scss */
   .table-hover .table-active:hover > td,
   .table-hover .table-active:hover > th {
-    background-color: #b9e5ef; }
+    background-color: #0fc4ff; }
 
 /* line 7, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_table-row.scss */
 .table-success,
@@ -8169,15 +8169,15 @@ td.check:after {
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #bbe8f5; }
+  background-color: #0cc3ff; }
 
 /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
 .table-hover .table-info:hover {
-  background-color: #a5e0f2; }
+  background-color: #00b6f2; }
   /* line 23, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_table-row.scss */
   .table-hover .table-info:hover > td,
   .table-hover .table-info:hover > th {
-    background-color: #a5e0f2; }
+    background-color: #00b6f2; }
 
 /* line 7, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_table-row.scss */
 .table-warning,
@@ -8433,24 +8433,24 @@ td.check:after {
 
 /* line 62, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_alert.scss */
 .alert-primary {
-  background-color: #bbe8f5;
-  border-color: #9cddf0;
+  background-color: #0cc3ff;
+  border-color: #00afe7;
   color: rgba(0, 0, 0, 0.75); }
   /* line 8, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_alert.scss */
   .alert-primary hr {
-    border-top-color: #86d6ed; }
+    border-top-color: #009bce; }
   /* line 11, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_alert.scss */
   .alert-primary .alert-link {
     color: #00183a; }
 
 /* line 65, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_alert.scss */
 .alert-info {
-  background-color: #bbe8f5;
-  border-color: #93daef;
+  background-color: #0cc3ff;
+  border-color: #00a7dd;
   color: rgba(0, 0, 0, 0.75); }
   /* line 8, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_alert.scss */
   .alert-info hr {
-    border-top-color: #7dd3ec; }
+    border-top-color: #0094c4; }
   /* line 11, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_alert.scss */
   .alert-info .alert-link {
     color: #007da5; }
@@ -8983,209 +8983,6 @@ button.close {
 .file input:focus ~ .file-custom {
   -webkit-box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9;
           box-shadow: 0 0 0 .075rem #fff, 0 0 0 .2rem #0074d9; }
-
-/* line 2, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropup,
-.dropdown {
-  position: relative; }
-
-/* line 9, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-toggle:after {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: .25rem;
-  vertical-align: middle;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent; }
-
-/* line 22, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-toggle:focus {
-  outline: 0; }
-
-/* line 27, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-toggle-sm:after {
-  border-top: 0.2em solid;
-  border-right: 0.2em solid transparent;
-  border-left: 0.2em solid transparent; }
-
-/* line 34, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-toggle-absolute {
-  position: relative; }
-
-/* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-toggle-absolute:after {
-  position: absolute;
-  top: 50%; }
-
-/* line 43, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0;
-  font-size: 1rem;
-  text-align: left;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 20, 0.1), 0 5px 20px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 0 1px rgba(0, 0, 20, 0.1), 0 5px 20px rgba(0, 0, 0, 0.25);
-  margin: 0; }
-
-/* line 64, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu {
-  display: block;
-  opacity: 0;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-transform: scale(1, 0);
-          transform: scale(1, 0);
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1);
-  transition: -webkit-transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1);
-  transition: transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1);
-  transition: transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1), -webkit-transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1);
-  -webkit-transform-origin: 50% 0%;
-          transform-origin: 50% 0%; }
-
-/* line 73, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu.in,
-.open > .dropdown-menu {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  opacity: 1; }
-
-/* line 79, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu.collapsing,
-.user-notifications.collapsing {
-  -webkit-transition-timing-function: cubic-bezier(0.34, 1.61, 0.7, 1);
-          transition-timing-function: cubic-bezier(0.34, 1.61, 0.7, 1);
-  -webkit-transition-duration: .15s;
-          transition-duration: .15s;
-  -webkit-transition-property: height;
-  transition-property: height; }
-
-/* line 87, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-divider {
-  height: 1px;
-  margin: 0.5rem 0;
-  overflow: hidden;
-  background-color: #e5e5e5; }
-
-/* line 92, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-item {
-  display: block;
-  padding: 3px 20px;
-  font-size: .9rem;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #555;
-  white-space: nowrap;
-  text-align: inherit;
-  width: 100%;
-  background: none;
-  border: 0; }
-  /* line 20, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
-  .dropdown-item:focus, .dropdown-item:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #00a3d8; }
-  /* line 36, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
-  .dropdown-item.active, .dropdown-item.active:focus, .dropdown-item.active:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #002e6d;
-    outline: 0; }
-  /* line 36, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
-  .dropdown-item.disabled, .dropdown-item.disabled:focus, .dropdown-item.disabled:hover {
-    color: #999; }
-  /* line 20, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
-  .dropdown-item.disabled:focus, .dropdown-item.disabled:hover {
-    text-decoration: none;
-    cursor: not-allowed;
-    background-color: transparent;
-    background-image: none;
-    filter: "progid:DXImageTransform.Microsoft.gradient(enabled = false)"; }
-
-/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-item-light {
-  color: #8c8c8c; }
-  /* line 145, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-  .dropdown-item-light:hover {
-    background: #ebebeb;
-    color: #333; }
-
-/* line 151, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-item-wrap {
-  white-space: normal; }
-
-/* line 155, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-item-sm {
-  font-size: .75rem;
-  line-height: 1.35;
-  padding-bottom: .5em;
-  padding-top: .5em;
-  white-space: normal; }
-
-/* line 166, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.open > .dropdown-menu {
-  display: block; }
-
-/* line 171, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.open > a {
-  outline: 0; }
-
-/* line 180, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu-right {
-  right: 0;
-  left: auto; }
-
-/* line 186, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-menu-left {
-  right: auto;
-  left: 0; }
-
-/* line 192, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-header {
-  display: block;
-  padding: 3px 20px;
-  color: #555;
-  white-space: nowrap; }
-
-/* line 201, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 990; }
-
-/* line 211, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.pull-right > .dropdown-menu {
-  right: 0;
-  left: auto; }
-
-/* line 216, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.dropdown-header {
-  font-size: .7rem;
-  font-weight: 500;
-  margin: 0;
-  text-transform: uppercase; }
-
-/* line 224, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_dropdown.scss */
-.user-notifications-overflow {
-  max-height: 225px;
-  overflow: auto; }
 
 /* line 1, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_fancybox.scss */
 .fancybox-wrap,
@@ -10309,7 +10106,7 @@ button.list-group-item {
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
   z-index: 2;
   color: #000;
-  background-color: #bbe8f5;
+  background-color: #0cc3ff;
   border-color: #ccc;
   font-weight: 500; }
   /* line 123, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_list-group.scss */
@@ -10372,7 +10169,7 @@ button.list-group-item-state {
 /* line 4, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_list-group.scss */
 .list-group-item-state {
   color: rgba(0, 0, 0, 0.75);
-  background-color: #bbe8f5; }
+  background-color: #0cc3ff; }
 
 /* line 9, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_list-group.scss */
 a.list-group-item-state,
@@ -10387,7 +10184,7 @@ button.list-group-item-state {
   button.list-group-item-state:focus,
   button.list-group-item-state:hover {
     color: rgba(0, 0, 0, 0.75);
-    background-color: #a5e0f2; }
+    background-color: #00b6f2; }
   /* line 36, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_hover.scss */
   a.list-group-item-state.active, a.list-group-item-state.active:focus, a.list-group-item-state.active:hover,
   button.list-group-item-state.active,
@@ -11081,6 +10878,263 @@ button.list-group-item-state {
       left: 50%; }
 
 /* line 138, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.nav-primary-v4 {
+  background: #00183a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 145, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .nav-primary-v4 > li {
+    margin: 0;
+    position: relative; }
+    /* line 148, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v4 > li > a {
+      color: rgba(255, 255, 255, 0.85);
+      display: block;
+      font-size: .95rem;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: .6rem 3vw;
+      position: relative; }
+    /* line 169, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v4 > li:hover > a {
+      color: #fff; }
+    /* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v4 > li.current-menu-item > a, .nav-primary-v4 > li.current-menu-ancestor > a {
+      color: #fff;
+      font-weight: 700; }
+    /* line 179, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    .nav-primary-v4 > li.current-menu-item:after, .nav-primary-v4 > li.current-menu-ancestor:after {
+      content: "";
+      background: #002354;
+      position: absolute;
+      -webkit-transform: translateX(-50%) rotate(-45deg);
+      transform: translateX(-50%) rotate(-45deg);
+      width: 10px;
+      height: 10px;
+      bottom: -5px;
+      left: 50%; }
+
+/* line 194, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown {
+  z-index: 9999; }
+
+/* line 197, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown::before {
+  /* never visible - used in JS to check mq */
+  content: 'mobile';
+  display: none; }
+
+/* line 202, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown .morph-dropdown-wrapper {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  padding: 1.2em 5%;
+  -webkit-box-shadow: inset 0 1px 0 #e6e6e6;
+          box-shadow: inset 0 1px 0 #e6e6e6;
+  background-color: #FFFFFF; }
+
+/* line 212, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown.nav-open .morph-dropdown-wrapper {
+  display: block; }
+
+/* line 215, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown .dropdown-list > ul > li {
+  margin-bottom: 3.3em; }
+
+/* line 219, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown .list-unstyled li {
+  margin: 0; }
+
+/* line 222, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+.cd-morph-dropdown .list-unstyled a {
+  color: #444;
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 5px 1rem;
+  -webkit-transition: all .15s;
+  transition: all .15s; }
+  /* line 229, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .list-unstyled a:hover {
+    background: #002e6d;
+    color: #fff; }
+
+@media only screen and (min-width: 1000px) {
+  /* line 236, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown {
+    padding: 0;
+    text-align: center;
+    background-color: transparent; }
+  /* line 241, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown::before {
+    content: 'desktop'; }
+  /* line 244, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .nav-trigger {
+    display: none; }
+  /* .cd-morph-dropdown .main-nav {
+    display: inline-block;
+  }
+  .cd-morph-dropdown .main-nav > ul > li {
+    display: inline-block;
+    float: left;
+  }
+  .cd-morph-dropdown .main-nav > ul > li > a {
+    display: block;
+    padding: 0 1.8em;
+  } */
+  /* line 258, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .main-nav > ul > li > a {
+    /* main navigation hover effect - on hover, reduce opacity of elements not hovered over */
+    opacity: .6; }
+  /* line 262, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .main-nav > ul > li.active > a {
+    opacity: 1; }
+  /* line 265, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .morph-dropdown-wrapper {
+    /* dropdown wrapper - used to create the slide up/slide down effect when dropdown is revealed/hidden */
+    display: block;
+    top: 41px;
+    /* overwrite mobile style */
+    width: auto;
+    padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: transparent;
+    /* Force Hardware acceleration */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s; }
+  /* line 286, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .morph-dropdown-wrapper {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  /* line 291, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform, width, height;
+    -webkit-transition: visibility .3s;
+    transition: visibility .3s;
+    -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 1px 15px rgba(0, 0, 0, 0.35); }
+  /* line 303, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .no-csstransitions .cd-morph-dropdown .dropdown-list {
+    display: none; }
+  /* line 306, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown-list::before {
+    /* dropdown top triangle */
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #FFFFFF;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s; }
+  /* line 324, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown-list > ul {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+  /* line 331, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .dropdown-list {
+    visibility: visible;
+    -webkit-transition: width .3s, height .3s, -webkit-transform .3s;
+    transition: width .3s, height .3s, -webkit-transform .3s;
+    transition: transform .3s, width .3s, height .3s;
+    transition: transform .3s, width .3s, height .3s, -webkit-transform .3s; }
+  /* line 338, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .dropdown-list::before {
+    opacity: 1; }
+  /* line 341, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    -webkit-transition: opacity .3s, visibility .3s;
+    transition: opacity .3s, visibility .3s; }
+  /* line 351, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown.active {
+    opacity: 1;
+    visibility: visible; }
+  /* line 355, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown.move-left .content {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  /* line 360, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .dropdown.move-right .content {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px); }
+  /* line 366, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .content {
+    padding: .2em .8em .8em;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    text-align: left;
+    width: 300px;
+    border-bottom: 5px solid #980438; }
+  /* line 377, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown .bg-layer {
+    /* morph dropdown background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 1px;
+    background: #FFFFFF;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  /* line 397, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  .cd-morph-dropdown.is-dropdown-visible .bg-layer {
+    opacity: 1;
+    -webkit-transition: opacity .3s, -webkit-transform .3s;
+    transition: opacity .3s, -webkit-transform .3s;
+    transition: transform .3s, opacity .3s;
+    transition: transform .3s, opacity .3s, -webkit-transform .3s; } }
+
+/* line 406, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .nav-secondary-v3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11091,13 +11145,13 @@ button.list-group-item-state {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
-  /* line 144, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 412, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary-v3 > li {
     margin: 0; }
-    /* line 146, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    /* line 414, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
     .nav-secondary-v3 > li + li {
       margin-left: 1.25rem; }
-  /* line 150, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 418, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary-v3 a {
     border-bottom: 3px solid transparent;
     color: #333;
@@ -11107,11 +11161,11 @@ button.list-group-item-state {
     padding: .75em 0 .6rem;
     -webkit-transition: all .25s;
     transition: all .25s; }
-    /* line 158, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    /* line 426, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
     .nav-secondary-v3 a:hover {
       color: #000;
       border-bottom: 3px solid #000; }
-    /* line 164, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    /* line 432, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
     .nav-secondary-v3 a:after {
       background: transparent;
       content: '';
@@ -11121,13 +11175,13 @@ button.list-group-item-state {
       width: 100%;
       position: absolute;
       bottom: -1px; }
-  /* line 175, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 443, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary-v3 > li.active a {
     color: #002e6d;
     font-weight: 700;
     border-bottom: 3px solid #002e6d; }
 
-/* line 196, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+/* line 464, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .nav-secondary a {
   color: #fff;
   display: block;
@@ -11136,12 +11190,12 @@ button.list-group-item-state {
   padding: .6em .75em;
   -webkit-transition: all .25s;
   transition: all .25s; }
-  /* line 203, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 471, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary a:hover {
     background: #0044a0;
     color: #fff;
     text-decoration: none; }
-  /* line 209, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 477, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-secondary a:after {
     background: transparent;
     content: '';
@@ -11152,17 +11206,17 @@ button.list-group-item-state {
     position: absolute;
     bottom: -1px; }
 
-/* line 220, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+/* line 488, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .nav-secondary > li.active a {
   background: #980438; }
 
 @media (max-width: 61.9em) {
-  /* line 226, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+  /* line 494, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
   .nav-primary {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     z-index: 999; }
-    /* line 232, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
+    /* line 500, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
     .nav-primary > li > a {
       padding-bottom: .8rem;
       padding-top: .8rem; } }
@@ -11844,7 +11898,7 @@ button.list-group-item-state {
     border-bottom-left-radius: 4px; }
   /* line 456, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_select.scss */
   .Select-option.is-focused {
-    background-color: #daf2f7;
+    background-color: #37ceff;
     color: #333; }
   /* line 461, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_select.scss */
   .Select-option.is-disabled {
@@ -12351,8 +12405,8 @@ button.list-group-item-state {
 :target::before {
   display: block;
   content: " ";
-  margin-top: -129px;
-  height: 129px;
+  margin-top: -145px;
+  height: 145px;
   visibility: hidden; }
 
 /* line 10, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_layout.scss */
@@ -14728,7 +14782,7 @@ li {
   padding: 0 4px; }
 
 /* line 341, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
-.text-uc, .dropdown-header {
+.text-uc {
   font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase; }
@@ -14815,15 +14869,15 @@ li {
 
 /* line 426, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .text-info-light {
-  color: #bbe8f5; }
+  color: #0cc3ff; }
 
 /* line 430, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .text-info-lighter {
-  color: #ceedf4; }
+  color: #28caff; }
 
 /* line 434, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .text-info-lightest {
-  color: #d2eff5; }
+  color: #2dccff; }
 
 /* line 438, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .text-orange {
@@ -14969,7 +15023,7 @@ a.text-inverse:hover {
 
 /* line 610, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
 .link-hover-cta {
-  border-bottom: 1px solid #a5e0f2;
+  border-bottom: 1px solid #00b6f2;
   display: inline-block;
   padding: 2px 4px 2px 4px;
   position: relative;
@@ -14982,7 +15036,7 @@ a.text-inverse:hover {
     z-index: 2; }
   /* line 621, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_type.scss */
   .link-hover-cta:after {
-    background: #bbe8f5;
+    background: #0cc3ff;
     content: '';
     display: block;
     position: absolute;
@@ -15091,7 +15145,7 @@ a.text-inverse:hover {
 
 /* line 2, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-white,
-.no-touch .hover-bg-white:hover {
+.hover-bg-white:hover {
   background-color: #fff; }
 
 /* line 7, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
@@ -15117,7 +15171,7 @@ a.text-inverse:hover {
 
 /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-gray-lightest,
-.no-touch .hover-bg-gray-lightest:hover {
+hover-bg-gray-lightest:hover {
   background-color: #f3f3f6; }
 
 /* line 33, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
@@ -15137,160 +15191,175 @@ a.text-inverse:hover {
   background-color: #002e6d; }
 
 /* line 49, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-primary-light,
+.hover-bg-primary-light:hover {
+  background: #003987; }
+
+/* line 54, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-primary-lighter,
+.hover-bg-primary-lighter:hover {
+  background-color: #0044a0; }
+
+/* line 59, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-primary-lightest,
+.hover-bg-primary-lightest:hover {
+  background-color: #004eba; }
+
+/* line 64, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-primary-dark {
   background-color: #002354; }
 
-/* line 53, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 68, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-primary-darker {
   background-color: #00183a; }
 
-/* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 72, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-primary-darkest {
   background-color: #000e21; }
 
-/* line 61, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-secondary,
-.no-touch .hover-bg-secondary:hover {
+.hover-bg-secondary:hover {
   background-color: #980438; }
 
-/* line 66, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 81, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-secondary-light {
   background-color: #b10541; }
 
-/* line 70, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 85, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-secondary-dark {
   background-color: #7f032f; }
 
-/* line 74, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 89, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-secondary-darker {
   background-color: #660326; }
 
-/* line 78, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 93, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-info {
   background-color: #00a3d8; }
 
-/* line 82, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 97, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-info,
-.no-touch .hover-bg-opaque-info:hover {
+.hover-bg-opaque-info:hover {
   background-color: rgba(0, 163, 216, 0.65); }
 
-/* line 87, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 102, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-info-dark {
   background-color: #0090bf; }
 
-/* line 91, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 106, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-info-darker {
   background-color: #007da5; }
 
-/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
-.bg-info-light,
-.no-touch .hover-bg-info-light:hover {
-  background: #bbe8f5; }
-
-/* line 100, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
-.bg-info-lighter,
-.no-touch .hover-bg-info-lighter:hover {
-  background-color: #ceedf4; }
-
-/* line 105, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
-.bg-info-lightest,
-.no-touch .hover-bg-info-lightest:hover {
-  background-color: #d2eff5; }
-
 /* line 110, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-info-light,
+.hover-bg-info-light:hover {
+  background: #0cc3ff; }
+
+/* line 115, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-info-lighter,
+.hover-bg-info-lighter:hover {
+  background-color: #28caff; }
+
+/* line 120, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+.bg-info-lightest,
+.hover-bg-info-lightest:hover {
+  background-color: #f4fcff; }
+
+/* line 125, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-success {
   background-color: #58ba47; }
 
-/* line 114, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 129, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-success-light {
   background-color: #e6f9e6; }
 
-/* line 118, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 133, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-success-lighter {
   background-color: #f6fdf6; }
 
-/* line 122, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 137, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-warning {
   background-color: #ffc72c; }
 
-/* line 126, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 141, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-warning-lighter {
   background-color: #fff5de; }
 
-/* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 145, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-danger {
   background-color: #cc0000; }
 
-/* line 134, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 149, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-danger-light,
 .bg-danger-lighter {
   background-color: #fef2f2; }
 
-/* line 139, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 154, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-orange {
   background-color: #ea7600; }
 
-/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 158, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-orange-light {
   background-color: #ff8911; }
 
-/* line 147, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 162, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-orange-lighter {
   background-color: #fcedcf; }
 
-/* line 151, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 166, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-orange-lightest {
   background-color: #feebd1; }
 
-/* line 155, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 170, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-orange-dark {
   background-color: #c46300; }
 
-/* line 159, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 174, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-dark,
-.no-touch .hover-bg-opaque-dark:hover {
+hover-bg-opaque-dark:hover {
   background-color: rgba(0, 0, 0, 0.15); }
 
-/* line 164, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 179, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-darker,
-.no-touch .hover-bg-opaque-darker:hover {
+.hover-bg-opaque-darker:hover {
   background-color: rgba(0, 0, 0, 0.25); }
 
-/* line 169, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 184, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-darkest,
-.no-touch .hover-bg-opaque-darkest:hover {
+.hover-bg-opaque-darkest:hover {
   background-color: rgba(0, 0, 0, 0.65); }
 
-/* line 174, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 189, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-white,
 .bg-opaque-light,
-.no-touch .hover-bg-opaque-light:hover {
+.hover-bg-opaque-light:hover {
   background-color: rgba(255, 255, 255, 0.15); }
 
-/* line 180, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 195, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-transparent {
   background: transparent !important;
   border-color: transparent !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important; }
 
-/* line 185, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 200, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-gradient-primary-secondary {
   background: linear-gradient(45deg, #002e6d, #980438); }
 
-/* line 189, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 204, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-cover {
   background-size: cover; }
 
-/* line 193, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 208, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-50-50 {
   background-position: 50% 50%; }
 
-/* line 197, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 212, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-50-20 {
   background-position: 50% 20%; }
 
-/* line 202, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 217, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-envelope-primary {
   background-color: #002e6d;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(74)'%3E%3Cstop offset='0' stop-color='%23002e6d'/%3E%3Cstop offset='1' stop-color='%23980438'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1' gradientTransform='rotate(23)'%3E%3Cstop offset='0' stop-color='%23980438' stop-opacity='0.46'/%3E%3Cstop offset='1' stop-color='%23980438' stop-opacity='0.46'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2' %3E%3Cstop offset='0' stop-color='%23980438' stop-opacity='0.46'/%3E%3Cstop offset='1' stop-color='%23980438' stop-opacity='0.46'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.46'%3E%3Cpolygon fill='url(%23b)' points='0%2C1 0%2C0 2%2C0'/%3E%3Cpolygon fill='url(%23c)' points='2%2C1 2%2C0 0%2C0'/%3E%3C/g%3E%3C/svg%3E");
@@ -15298,7 +15367,7 @@ a.text-inverse:hover {
   background-size: cover;
   background-position: center; }
 
-/* line 210, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 225, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-envelope-secondary {
   background-color: #980438;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(42)'%3E%3Cstop offset='0' stop-color='%23980438'/%3E%3Cstop offset='1' stop-color='%23002e6d'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1' gradientTransform='rotate(23)'%3E%3Cstop offset='0' stop-color='%23002e6d' stop-opacity='0.35'/%3E%3Cstop offset='1' stop-color='%23002e6d' stop-opacity='0.35'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2' %3E%3Cstop offset='0' stop-color='%23002e6d' stop-opacity='0.35'/%3E%3Cstop offset='1' stop-color='%23002e6d' stop-opacity='0.35'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.35'%3E%3Cpolygon fill='url(%23b)' points='0%2C1 0%2C0 2%2C0'/%3E%3Cpolygon fill='url(%23c)' points='2%2C1 2%2C0 0%2C0'/%3E%3C/g%3E%3C/svg%3E");
@@ -15306,22 +15375,22 @@ a.text-inverse:hover {
   background-size: cover;
   background-position: center; }
 
-/* line 218, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 233, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-triangles-primary {
   background-color: #002e6d;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90%2C150 0%2C300 180%2C300'/%3E%3Cpolygon points='90%2C150 180%2C0 0%2C0'/%3E%3Cpolygon fill='%23AAA' points='270%2C150 360%2C0 180%2C0'/%3E%3Cpolygon fill='%23DDD' points='450%2C150 360%2C300 540%2C300'/%3E%3Cpolygon fill='%23999' points='450%2C150 540%2C0 360%2C0'/%3E%3Cpolygon points='630%2C150 540%2C300 720%2C300'/%3E%3Cpolygon fill='%23DDD' points='630%2C150 720%2C0 540%2C0'/%3E%3Cpolygon fill='%23444' points='810%2C150 720%2C300 900%2C300'/%3E%3Cpolygon fill='%23FFF' points='810%2C150 900%2C0 720%2C0'/%3E%3Cpolygon fill='%23DDD' points='990%2C150 900%2C300 1080%2C300'/%3E%3Cpolygon fill='%23444' points='990%2C150 1080%2C0 900%2C0'/%3E%3Cpolygon fill='%23DDD' points='90%2C450 0%2C600 180%2C600'/%3E%3Cpolygon points='90%2C450 180%2C300 0%2C300'/%3E%3Cpolygon fill='%23666' points='270%2C450 180%2C600 360%2C600'/%3E%3Cpolygon fill='%23AAA' points='270%2C450 360%2C300 180%2C300'/%3E%3Cpolygon fill='%23DDD' points='450%2C450 360%2C600 540%2C600'/%3E%3Cpolygon fill='%23999' points='450%2C450 540%2C300 360%2C300'/%3E%3Cpolygon fill='%23999' points='630%2C450 540%2C600 720%2C600'/%3E%3Cpolygon fill='%23FFF' points='630%2C450 720%2C300 540%2C300'/%3E%3Cpolygon points='810%2C450 720%2C600 900%2C600'/%3E%3Cpolygon fill='%23DDD' points='810%2C450 900%2C300 720%2C300'/%3E%3Cpolygon fill='%23AAA' points='990%2C450 900%2C600 1080%2C600'/%3E%3Cpolygon fill='%23444' points='990%2C450 1080%2C300 900%2C300'/%3E%3Cpolygon fill='%23222' points='90%2C750 0%2C900 180%2C900'/%3E%3Cpolygon points='270%2C750 180%2C900 360%2C900'/%3E%3Cpolygon fill='%23DDD' points='270%2C750 360%2C600 180%2C600'/%3E%3Cpolygon points='450%2C750 540%2C600 360%2C600'/%3E%3Cpolygon points='630%2C750 540%2C900 720%2C900'/%3E%3Cpolygon fill='%23444' points='630%2C750 720%2C600 540%2C600'/%3E%3Cpolygon fill='%23AAA' points='810%2C750 720%2C900 900%2C900'/%3E%3Cpolygon fill='%23666' points='810%2C750 900%2C600 720%2C600'/%3E%3Cpolygon fill='%23999' points='990%2C750 900%2C900 1080%2C900'/%3E%3Cpolygon fill='%23999' points='180%2C0 90%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='360%2C0 270%2C150 450%2C150'/%3E%3Cpolygon fill='%23FFF' points='540%2C0 450%2C150 630%2C150'/%3E%3Cpolygon points='900%2C0 810%2C150 990%2C150'/%3E%3Cpolygon fill='%23222' points='0%2C300 -90%2C450 90%2C450'/%3E%3Cpolygon fill='%23FFF' points='0%2C300 90%2C150 -90%2C150'/%3E%3Cpolygon fill='%23FFF' points='180%2C300 90%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='180%2C300 270%2C150 90%2C150'/%3E%3Cpolygon fill='%23222' points='360%2C300 270%2C450 450%2C450'/%3E%3Cpolygon fill='%23FFF' points='360%2C300 450%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='540%2C300 450%2C450 630%2C450'/%3E%3Cpolygon fill='%23222' points='540%2C300 630%2C150 450%2C150'/%3E%3Cpolygon fill='%23AAA' points='720%2C300 630%2C450 810%2C450'/%3E%3Cpolygon fill='%23666' points='720%2C300 810%2C150 630%2C150'/%3E%3Cpolygon fill='%23FFF' points='900%2C300 810%2C450 990%2C450'/%3E%3Cpolygon fill='%23999' points='900%2C300 990%2C150 810%2C150'/%3E%3Cpolygon points='0%2C600 -90%2C750 90%2C750'/%3E%3Cpolygon fill='%23666' points='0%2C600 90%2C450 -90%2C450'/%3E%3Cpolygon fill='%23AAA' points='180%2C600 90%2C750 270%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C600 270%2C450 90%2C450'/%3E%3Cpolygon fill='%23444' points='360%2C600 270%2C750 450%2C750'/%3E%3Cpolygon fill='%23999' points='360%2C600 450%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='540%2C600 630%2C450 450%2C450'/%3E%3Cpolygon fill='%23222' points='720%2C600 630%2C750 810%2C750'/%3E%3Cpolygon fill='%23FFF' points='900%2C600 810%2C750 990%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C600 990%2C450 810%2C450'/%3E%3Cpolygon fill='%23DDD' points='0%2C900 90%2C750 -90%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C900 270%2C750 90%2C750'/%3E%3Cpolygon fill='%23FFF' points='360%2C900 450%2C750 270%2C750'/%3E%3Cpolygon fill='%23AAA' points='540%2C900 630%2C750 450%2C750'/%3E%3Cpolygon fill='%23FFF' points='720%2C900 810%2C750 630%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C900 990%2C750 810%2C750'/%3E%3Cpolygon fill='%23222' points='1080%2C300 990%2C450 1170%2C450'/%3E%3Cpolygon fill='%23FFF' points='1080%2C300 1170%2C150 990%2C150'/%3E%3Cpolygon points='1080%2C600 990%2C750 1170%2C750'/%3E%3Cpolygon fill='%23666' points='1080%2C600 1170%2C450 990%2C450'/%3E%3Cpolygon fill='%23DDD' points='1080%2C900 1170%2C750 990%2C750'/%3E%3C/g%3E%3C/svg%3E"); }
 
-/* line 223, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 238, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-triangles-secondary {
   background-color: #980438;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90%2C150 0%2C300 180%2C300'/%3E%3Cpolygon points='90%2C150 180%2C0 0%2C0'/%3E%3Cpolygon fill='%23AAA' points='270%2C150 360%2C0 180%2C0'/%3E%3Cpolygon fill='%23DDD' points='450%2C150 360%2C300 540%2C300'/%3E%3Cpolygon fill='%23999' points='450%2C150 540%2C0 360%2C0'/%3E%3Cpolygon points='630%2C150 540%2C300 720%2C300'/%3E%3Cpolygon fill='%23DDD' points='630%2C150 720%2C0 540%2C0'/%3E%3Cpolygon fill='%23444' points='810%2C150 720%2C300 900%2C300'/%3E%3Cpolygon fill='%23FFF' points='810%2C150 900%2C0 720%2C0'/%3E%3Cpolygon fill='%23DDD' points='990%2C150 900%2C300 1080%2C300'/%3E%3Cpolygon fill='%23444' points='990%2C150 1080%2C0 900%2C0'/%3E%3Cpolygon fill='%23DDD' points='90%2C450 0%2C600 180%2C600'/%3E%3Cpolygon points='90%2C450 180%2C300 0%2C300'/%3E%3Cpolygon fill='%23666' points='270%2C450 180%2C600 360%2C600'/%3E%3Cpolygon fill='%23AAA' points='270%2C450 360%2C300 180%2C300'/%3E%3Cpolygon fill='%23DDD' points='450%2C450 360%2C600 540%2C600'/%3E%3Cpolygon fill='%23999' points='450%2C450 540%2C300 360%2C300'/%3E%3Cpolygon fill='%23999' points='630%2C450 540%2C600 720%2C600'/%3E%3Cpolygon fill='%23FFF' points='630%2C450 720%2C300 540%2C300'/%3E%3Cpolygon points='810%2C450 720%2C600 900%2C600'/%3E%3Cpolygon fill='%23DDD' points='810%2C450 900%2C300 720%2C300'/%3E%3Cpolygon fill='%23AAA' points='990%2C450 900%2C600 1080%2C600'/%3E%3Cpolygon fill='%23444' points='990%2C450 1080%2C300 900%2C300'/%3E%3Cpolygon fill='%23222' points='90%2C750 0%2C900 180%2C900'/%3E%3Cpolygon points='270%2C750 180%2C900 360%2C900'/%3E%3Cpolygon fill='%23DDD' points='270%2C750 360%2C600 180%2C600'/%3E%3Cpolygon points='450%2C750 540%2C600 360%2C600'/%3E%3Cpolygon points='630%2C750 540%2C900 720%2C900'/%3E%3Cpolygon fill='%23444' points='630%2C750 720%2C600 540%2C600'/%3E%3Cpolygon fill='%23AAA' points='810%2C750 720%2C900 900%2C900'/%3E%3Cpolygon fill='%23666' points='810%2C750 900%2C600 720%2C600'/%3E%3Cpolygon fill='%23999' points='990%2C750 900%2C900 1080%2C900'/%3E%3Cpolygon fill='%23999' points='180%2C0 90%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='360%2C0 270%2C150 450%2C150'/%3E%3Cpolygon fill='%23FFF' points='540%2C0 450%2C150 630%2C150'/%3E%3Cpolygon points='900%2C0 810%2C150 990%2C150'/%3E%3Cpolygon fill='%23222' points='0%2C300 -90%2C450 90%2C450'/%3E%3Cpolygon fill='%23FFF' points='0%2C300 90%2C150 -90%2C150'/%3E%3Cpolygon fill='%23FFF' points='180%2C300 90%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='180%2C300 270%2C150 90%2C150'/%3E%3Cpolygon fill='%23222' points='360%2C300 270%2C450 450%2C450'/%3E%3Cpolygon fill='%23FFF' points='360%2C300 450%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='540%2C300 450%2C450 630%2C450'/%3E%3Cpolygon fill='%23222' points='540%2C300 630%2C150 450%2C150'/%3E%3Cpolygon fill='%23AAA' points='720%2C300 630%2C450 810%2C450'/%3E%3Cpolygon fill='%23666' points='720%2C300 810%2C150 630%2C150'/%3E%3Cpolygon fill='%23FFF' points='900%2C300 810%2C450 990%2C450'/%3E%3Cpolygon fill='%23999' points='900%2C300 990%2C150 810%2C150'/%3E%3Cpolygon points='0%2C600 -90%2C750 90%2C750'/%3E%3Cpolygon fill='%23666' points='0%2C600 90%2C450 -90%2C450'/%3E%3Cpolygon fill='%23AAA' points='180%2C600 90%2C750 270%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C600 270%2C450 90%2C450'/%3E%3Cpolygon fill='%23444' points='360%2C600 270%2C750 450%2C750'/%3E%3Cpolygon fill='%23999' points='360%2C600 450%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='540%2C600 630%2C450 450%2C450'/%3E%3Cpolygon fill='%23222' points='720%2C600 630%2C750 810%2C750'/%3E%3Cpolygon fill='%23FFF' points='900%2C600 810%2C750 990%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C600 990%2C450 810%2C450'/%3E%3Cpolygon fill='%23DDD' points='0%2C900 90%2C750 -90%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C900 270%2C750 90%2C750'/%3E%3Cpolygon fill='%23FFF' points='360%2C900 450%2C750 270%2C750'/%3E%3Cpolygon fill='%23AAA' points='540%2C900 630%2C750 450%2C750'/%3E%3Cpolygon fill='%23FFF' points='720%2C900 810%2C750 630%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C900 990%2C750 810%2C750'/%3E%3Cpolygon fill='%23222' points='1080%2C300 990%2C450 1170%2C450'/%3E%3Cpolygon fill='%23FFF' points='1080%2C300 1170%2C150 990%2C150'/%3E%3Cpolygon points='1080%2C600 990%2C750 1170%2C750'/%3E%3Cpolygon fill='%23666' points='1080%2C600 1170%2C450 990%2C450'/%3E%3Cpolygon fill='%23DDD' points='1080%2C900 1170%2C750 990%2C750'/%3E%3C/g%3E%3C/svg%3E"); }
 
-/* line 228, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 243, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-triangles-gray-lightest {
   background-color: #f3f3f6;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.02'%3E%3Cpolygon fill='%23444' points='90%2C150 0%2C300 180%2C300'/%3E%3Cpolygon points='90%2C150 180%2C0 0%2C0'/%3E%3Cpolygon fill='%23AAA' points='270%2C150 360%2C0 180%2C0'/%3E%3Cpolygon fill='%23DDD' points='450%2C150 360%2C300 540%2C300'/%3E%3Cpolygon fill='%23999' points='450%2C150 540%2C0 360%2C0'/%3E%3Cpolygon points='630%2C150 540%2C300 720%2C300'/%3E%3Cpolygon fill='%23DDD' points='630%2C150 720%2C0 540%2C0'/%3E%3Cpolygon fill='%23444' points='810%2C150 720%2C300 900%2C300'/%3E%3Cpolygon fill='%23FFF' points='810%2C150 900%2C0 720%2C0'/%3E%3Cpolygon fill='%23DDD' points='990%2C150 900%2C300 1080%2C300'/%3E%3Cpolygon fill='%23444' points='990%2C150 1080%2C0 900%2C0'/%3E%3Cpolygon fill='%23DDD' points='90%2C450 0%2C600 180%2C600'/%3E%3Cpolygon points='90%2C450 180%2C300 0%2C300'/%3E%3Cpolygon fill='%23666' points='270%2C450 180%2C600 360%2C600'/%3E%3Cpolygon fill='%23AAA' points='270%2C450 360%2C300 180%2C300'/%3E%3Cpolygon fill='%23DDD' points='450%2C450 360%2C600 540%2C600'/%3E%3Cpolygon fill='%23999' points='450%2C450 540%2C300 360%2C300'/%3E%3Cpolygon fill='%23999' points='630%2C450 540%2C600 720%2C600'/%3E%3Cpolygon fill='%23FFF' points='630%2C450 720%2C300 540%2C300'/%3E%3Cpolygon points='810%2C450 720%2C600 900%2C600'/%3E%3Cpolygon fill='%23DDD' points='810%2C450 900%2C300 720%2C300'/%3E%3Cpolygon fill='%23AAA' points='990%2C450 900%2C600 1080%2C600'/%3E%3Cpolygon fill='%23444' points='990%2C450 1080%2C300 900%2C300'/%3E%3Cpolygon fill='%23222' points='90%2C750 0%2C900 180%2C900'/%3E%3Cpolygon points='270%2C750 180%2C900 360%2C900'/%3E%3Cpolygon fill='%23DDD' points='270%2C750 360%2C600 180%2C600'/%3E%3Cpolygon points='450%2C750 540%2C600 360%2C600'/%3E%3Cpolygon points='630%2C750 540%2C900 720%2C900'/%3E%3Cpolygon fill='%23444' points='630%2C750 720%2C600 540%2C600'/%3E%3Cpolygon fill='%23AAA' points='810%2C750 720%2C900 900%2C900'/%3E%3Cpolygon fill='%23666' points='810%2C750 900%2C600 720%2C600'/%3E%3Cpolygon fill='%23999' points='990%2C750 900%2C900 1080%2C900'/%3E%3Cpolygon fill='%23999' points='180%2C0 90%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='360%2C0 270%2C150 450%2C150'/%3E%3Cpolygon fill='%23FFF' points='540%2C0 450%2C150 630%2C150'/%3E%3Cpolygon points='900%2C0 810%2C150 990%2C150'/%3E%3Cpolygon fill='%23222' points='0%2C300 -90%2C450 90%2C450'/%3E%3Cpolygon fill='%23FFF' points='0%2C300 90%2C150 -90%2C150'/%3E%3Cpolygon fill='%23FFF' points='180%2C300 90%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='180%2C300 270%2C150 90%2C150'/%3E%3Cpolygon fill='%23222' points='360%2C300 270%2C450 450%2C450'/%3E%3Cpolygon fill='%23FFF' points='360%2C300 450%2C150 270%2C150'/%3E%3Cpolygon fill='%23444' points='540%2C300 450%2C450 630%2C450'/%3E%3Cpolygon fill='%23222' points='540%2C300 630%2C150 450%2C150'/%3E%3Cpolygon fill='%23AAA' points='720%2C300 630%2C450 810%2C450'/%3E%3Cpolygon fill='%23666' points='720%2C300 810%2C150 630%2C150'/%3E%3Cpolygon fill='%23FFF' points='900%2C300 810%2C450 990%2C450'/%3E%3Cpolygon fill='%23999' points='900%2C300 990%2C150 810%2C150'/%3E%3Cpolygon points='0%2C600 -90%2C750 90%2C750'/%3E%3Cpolygon fill='%23666' points='0%2C600 90%2C450 -90%2C450'/%3E%3Cpolygon fill='%23AAA' points='180%2C600 90%2C750 270%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C600 270%2C450 90%2C450'/%3E%3Cpolygon fill='%23444' points='360%2C600 270%2C750 450%2C750'/%3E%3Cpolygon fill='%23999' points='360%2C600 450%2C450 270%2C450'/%3E%3Cpolygon fill='%23666' points='540%2C600 630%2C450 450%2C450'/%3E%3Cpolygon fill='%23222' points='720%2C600 630%2C750 810%2C750'/%3E%3Cpolygon fill='%23FFF' points='900%2C600 810%2C750 990%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C600 990%2C450 810%2C450'/%3E%3Cpolygon fill='%23DDD' points='0%2C900 90%2C750 -90%2C750'/%3E%3Cpolygon fill='%23444' points='180%2C900 270%2C750 90%2C750'/%3E%3Cpolygon fill='%23FFF' points='360%2C900 450%2C750 270%2C750'/%3E%3Cpolygon fill='%23AAA' points='540%2C900 630%2C750 450%2C750'/%3E%3Cpolygon fill='%23FFF' points='720%2C900 810%2C750 630%2C750'/%3E%3Cpolygon fill='%23222' points='900%2C900 990%2C750 810%2C750'/%3E%3Cpolygon fill='%23222' points='1080%2C300 990%2C450 1170%2C450'/%3E%3Cpolygon fill='%23FFF' points='1080%2C300 1170%2C150 990%2C150'/%3E%3Cpolygon points='1080%2C600 990%2C750 1170%2C750'/%3E%3Cpolygon fill='%23666' points='1080%2C600 1170%2C450 990%2C450'/%3E%3Cpolygon fill='%23DDD' points='1080%2C900 1170%2C750 990%2C750'/%3E%3C/g%3E%3C/svg%3E"); }
 
-/* line 234, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
+/* line 249, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-zag {
   background: #f3f3f6;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnPgoJPGRlZnM+CgkJPHBhdHRlcm4gcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgaWQ9J2MnIHdpZHRoPScxMCcgaGVpZ2h0PScyMCcgeD0nMCcgeT0nMCcgdmlld0JveD0nMCAwIDUgMTAnPgoJCQk8bGluZSB4MT0nLTInIHkxPScxJyB4Mj0nNycgeTI9JzEwJyBzdHJva2U9JyNkZGRkZGQnIHN0cm9rZS13aWR0aD0nLjUnLz4KCQkJPGxpbmUgeDE9Jy0yJyB5MT0nNicgeDI9JzcnIHkyPScxNScgc3Ryb2tlPScjZGRkZGRkJyBzdHJva2Utd2lkdGg9Jy41Jy8+CgkJCTxsaW5lIHgxPSctMicgeTE9Jy00JyB4Mj0nNycgeTI9JzUnIHN0cm9rZT0nI2RkZGRkZCcgc3Ryb2tlLXdpZHRoPScuNScvPgoJCTwvcGF0dGVybj4KCQk8cmFkaWFsR3JhZGllbnQgaWQ9J2cnIGdyYWRpZW50VW5pdHM9J3VzZXJTcGFjZU9uVXNlJyBjeD0nNTAlJyBjeT0nNTAlJyByPSc3NSUnIGZ4PSc0NiUnIGZ5PScyMiUnPgoJCQk8c3RvcCBvZmZzZXQ9JzAlJyBzdG9wLW9wYWNpdHk9Jy4yJyBzdG9wLWNvbG9yPScjZmZmJyAvPgoJCQk8c3RvcCBvZmZzZXQ9JzEwMCUnIHN0b3AtY29sb3I9JyNlZWVlZWUnIC8+CgkJPC9yYWRpYWxHcmFkaWVudD4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYyknLz4KCTxyZWN0IHdpZHRoPScxMjAlJyB4PSctMTAlJyB5PSctMTAlJyBoZWlnaHQ9JzEyMCUnIGZpbGw9J3VybCgjZyknLz4KPC9zdmc+); }
