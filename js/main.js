@@ -20,9 +20,14 @@
             .setPin("#sidebar")
             .setClassToggle("body", "sidebar-affixed");
 
+        // var fixLocalnav = new ScrollMagic.Scene({triggerElement: "#localnav", triggerHook: 'onLeave', duration: $('#main').height(), offset: -headerOffset})
+        //     .setPin("#localnav")
+        //     .setClassToggle("body", "localnav-affixed");
+
         var scenes = [
             fixHeader,
-            fixSidebar
+            fixSidebar,
+            //fixLocalnav
         ];
 
         var $container = $('#main');
