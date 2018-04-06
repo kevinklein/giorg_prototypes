@@ -3,8 +3,8 @@ body.body-fixed-top { padding-top: 170px; }
 </style>
 <div id="top"></div>
 <header id="header-main">
-    <div class="text-sm" role="directory" id="header-hud">
-        <div class="container item-flex justify-content-flex-end p-y-sm">
+    <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
+        <div class="container item-flex justify-content-flex-end p-y-xs">
             <nav class="text-sm p-y-xs hidden-sm-down p-r">
                 <a href="#" class="nav-link text-hover-underline">About ACG</a>
                 <span class="text-pipe">|</span>
@@ -19,14 +19,14 @@ body.body-fixed-top { padding-top: 170px; }
                 <a href="#" class="nav-link text-hover-underline">ACG 2018 Annual Meeting</a>
             </nav>
             <div class="item-flex-addon">
-                <a href="#" class="btn btn-primary btn-sm br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
+                <a href="#" class="btn btn-primary btn-xs br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
             </div>
         </div>
     </div>
     <div class="header-main" role="banner">
         <div class="container">
             <div class="item-flex">
-                <div class="item-flex-main item-flex p-y-sm p-r">
+                <div class="item-flex-main item-flex p-y p-r">
                     <div class="logo"> 
                         <a href="/" rel="home"><img src="/svg/logo.svg" class="img-circle"></a>
                     </div>
