@@ -55,9 +55,7 @@ body.body-fixed-top { padding-top: 170px; }
     <div class="bg-primary hidden-sm-down text-inverse">
         <nav class="container item-flex">
 
-            <button class="btn-link display-1 p-a-0 toggle-is-toggled item-flex-addon" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
-
-            <ul class="nav-primary-v3 hidden-sm-down item-flex-main p-l-lg">
+            <ul class="nav-primary-v3 hidden-sm-down item-flex-main p-r-lg">
                 <!-- <li><button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button></li> -->
                 <li><a href="#"><span>Membership</span></a></li>
                 <li><a href="#"><span>Education</span></a></li>
@@ -66,6 +64,8 @@ body.body-fixed-top { padding-top: 170px; }
                 <li><a href="/trainees"><span>Trainees</span></a></li>
                 <li><a href="#"><span>Patients & Families</span></a></li>
             </ul>
+
+            <button class="btn-link display-1 p-a-0 toggle-is-toggled item-flex-addon" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
 
         </nav>
     </div>

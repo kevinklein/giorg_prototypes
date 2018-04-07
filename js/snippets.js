@@ -220,3 +220,187 @@ $(document).ready(function(){
         });
     }
 });
+
+https://www.frontdeskanywhere.com/about
+    
+$(document).ready(function() {
+// HEADER BEHAVIOR
+function resizeHeader(){        
+var scrollVal = $(this).scrollTop();
+var windowWidth = $(window).width();
+if ( scrollVal > 0 ) {
+$('.header-container-wrapper').addClass('scroll-resize');
+} else {
+$('.header-container-wrapper').removeClass('scroll-resize');
+}
+}
+$(".header-main-menu .hs-menu-wrapper>ul").append("<li class='search-trigger'> </li><li class='menu-trigger'> </li>");
+var mainMenuHtml = $('.header-main-menu .hs-menu-wrapper>ul').html();
+$('body').append("<div class=mobile-menu><i class=close-menu></i><ul>" + mainMenuHtml + "</ul></div>");
+$('.header-container .menu-trigger').click(function() {
+$('.header-container-wrapper, .body-container-wrapper, .footer-container-wrapper').css({display: "none"});
+$('.mobile-menu').slideDown('slow');
+});
+$('.mobile-menu .close-menu').click(function() {
+$('.mobile-menu').slideUp('slow');
+$('.header-container-wrapper, .body-container-wrapper, .footer-container-wrapper').css({display: "block"});
+});
+$(window).bind('orientationchange', function(event) {
+resizeHeader();
+});
+$(window).scroll(function() {
+resizeHeader();
+});
+$(window).resize(function() {
+resizeHeader();
+if ($(window).width() > 850) {
+$('.header-container .hs-menu-wrapper>ul:nth-child(1)>li').removeAttr('style');
+$('.header-container-wrapper, .body-container-wrapper, .footer-container-wrapper').removeAttr('style');
+$('.mobile-menu').removeAttr('style');
+}
+});
+// END HEADER BEHAVIOR
+if(!navigator.userAgent.match(/(iPhone|Android.*Mobile)/i))
+{
+$('a[href*="tel:"]').each(function(){
+var telnumber = $(this).attr('href');
+$(this).removeAttr('href');
+$(this).attr('data-tel',telnumber);
+});
+}
+if ($(".main-banner").length) {
+banner_image_src = $(".main-banner .banner-image img").attr("src");
+$(".main-banner").css({
+opacity: "0",
+backgroundImage: 'url(' + banner_image_src + ')'
+});
+$(".main-banner").animate({
+opacity: "1"
+}, 1000);
+}
+if ($(".fixed-bg-section").length) {
+fixed_image_src = $(".fixed-bg-section .bg-image img").attr("src");
+$(".fixed-bg-section").css({
+opacity: "0",
+backgroundImage: 'url(' + fixed_image_src + ')'
+});
+$(".fixed-bg-section").animate({
+opacity: "1"
+}, 1000);
+}
+$('.header-container .google-search>div').css({
+opacity: 0
+});
+$('.header-container .search-trigger').click(function() {
+search_opacity = $('.header-container .google-search>div').css('opacity');
+if (search_opacity == 0) {
+$('.header-container .google-search').css({
+display: "block",
+opacity: 1
+});
+$('.header-container .google-search>div').stop().animate({
+opacity: 1,
+marginTop: "10px"
+}, 300);
+} else {
+$('.header-container .google-search>div').stop().animate({
+opacity: 0,
+marginTop: "20px"
+}, 300);
+$('.header-container .google-search').fadeOut();
+}
+});
+$('.page-breadcrumb .hs-breadcrumb-menu').prepend('<li class="hs-breadcrumb-menu-item first-crumb">You are here:</li><li class="hs-breadcrumb-menu-item"><a href="/">Home</a><span class="hs-breadcrumb-menu-divider"></span></li>');
+if ($(".blog-page").length) {
+$title=$('.author-list h3').text();
+$link=$('#authors-list-link').attr("href");
+$('.author-list h3').html('<a href="'+$link+'">'+$title+'</a>');
+}
+$('body').append('<div class="scrollToTopButton"></div>');
+//Check to see if the window is top if not then display button
+$(window).scroll(function(){
+if ($(this).scrollTop() > 1000) {
+$('.scrollToTopButton').fadeIn();
+} else {
+$('.scrollToTopButton').fadeOut();
+}
+});
+//Click event to scroll to top
+$('.scrollToTopButton').click(function(){
+$('html, body').animate({scrollTop : 0},800);
+return false;
+});
+if ($(".features-table").length) {
+var colCount = 0;
+var tableInit = $('.features-table table:nth-child(1)').html();
+$('.features-table table:nth-child(1) tr:nth-child(1) th').each(function () {
+colCount++;
+});
+//alert(colCount);
+for ( var i = 2; i <= colCount; i++ ) {
+$('.features-table>div>span').append('<table class="feature-table-'+ i +'">' + tableInit + '</table>');
+$(".feature-table-"+ i + " tr td").css({display:'none'});
+$(".feature-table-"+ i + " tr th").css({display:'none'});
+$(".feature-table-"+ i + " tr td:nth-child(1)").css({display:'table-cell'});
+$(".feature-table-"+ i + " tr th:nth-child(1)").css({display:'table-cell'});
+$(".feature-table-"+ i + " tr td:nth-child("+ i +")").css({display:'table-cell'});
+$(".feature-table-"+ i + " tr th:nth-child("+ i +")").css({display:'table-cell'});
+}
+}
+});
+$(window).load(function() {
+$('p').each(function() {
+var $this = $(this);
+if ($this.html().replace(/\s| /g, '').length == 0) $this.addClass('p-spacer');
+});
+if ($(".microcopy").length) {
+microcopyText = $(".microcopy").html();
+$(".hs_cos_wrapper_type_form form").append("<div class='microcopy'>" + microcopyText + "</div>");
+}
+});
+$(document).keyup(function(e) {
+if (e.keyCode == 27) {
+$('.header-container .google-search>div').stop().animate({
+opacity: 0,
+marginTop: "20px"
+}, 300);
+$('.header-container .google-search').fadeOut();
+}
+});
+/* EQUAL HEIGHTS */
+equalheight = function(container) {
+var currentTallest = 0,
+currentRowStart = 0,
+rowDivs = new Array(),
+$el, topPosition = 0;
+$(container).each(function() {
+$el = $(this);
+$($el).height('auto');
+topPostion = $el.position().top;
+var windowWidth = $(window).width();
+if ( windowWidth >= 768 ) {
+if (currentRowStart != topPostion) {
+for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) rowDivs[currentDiv].height(currentTallest);
+rowDivs.length = 0;
+currentRowStart = topPostion;
+currentTallest = $el.height();
+rowDivs.push($el);
+} else {
+rowDivs.push($el);
+currentTallest = (currentTallest < $el.height()) ? ($el.height()) : currentTallest;
+}
+for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) rowDivs[currentDiv].height(currentTallest);
+}else{
+$($el).height('auto');
+}
+});
+};
+$(window).load(function() {
+var pricingcol = $('.pricing-col');
+if (pricingcol.length) equalheight(pricingcol);
+});
+$(window).resize(function() {
+var pricingcol = $('.pricing-col');
+if (pricingcol.length) equalheight(pricingcol);
+});
+/* END EQUAL HEIGHTS*/
