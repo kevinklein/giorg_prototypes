@@ -13,7 +13,7 @@
             }
         });
 
-        var fixHeader = new ScrollMagic.Scene({triggerElement: ".hero,.page-title", triggerHook: 'onLeave', offset: 0})
+        var fixHeader = new ScrollMagic.Scene({triggerElement: ".hero,.page-title,.main-section", triggerHook: 'onLeave', offset: 0})
             .setClassToggle("body", "body-fixed-top");
 
         var fixSidebar = new ScrollMagic.Scene({triggerElement: "#sidebar", triggerHook: 'onLeave', duration: $('#main').height(), offset: -headerOffset})

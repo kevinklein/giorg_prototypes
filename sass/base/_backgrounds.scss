@@ -20,14 +20,18 @@
     background-color: $gray-lightly !important;
 }
 
-.bg-gray-lighter,
-.container-grey {
+.bg-gray-lighter {
     background-color: $gray-lighter;
 }
 
 .bg-gray-lightest,
  hover-bg-gray-lightest:hover {
     background-color: $gray-lightest;
+}
+
+.bg-mute,
+.hover-bg-mute:hover {
+    background-color: #f4f4f4;
 }
 
 .bg-gray-dark {
@@ -44,6 +48,11 @@
 
 .bg-primary {
     background-color: $brand-primary;
+}
+
+.bg-opaque-primary,
+.hover-bg-opaque-primary:hover {
+    background-color: rgba($brand-primary,.65);
 }
 
 .bg-primary-light,

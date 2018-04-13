@@ -93,7 +93,7 @@
 (function ($) {
     $(document).ready(function() {
         
-        $('.nav-primary li:nth-child(3)').addClass('current-menu-ancestor');
+        $('.nav-primary-v3 li:nth-child(3)').addClass('active current-menu-ancestor');
         $('#subnav-guidelines').show();
     	
 	});

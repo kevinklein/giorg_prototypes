@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: $headings-font-family;
+    //font-family: $headings-font-family;
 }
 
 h1, .h1 { font-size: $font-size-h1; }
@@ -81,10 +81,7 @@ hr {
     border-top: $hr-border-width solid $hr-border-color;
 }
 
-.hr-div {
-    background: $text-color;
-    border: none;
-    height: 5px;
+.hr-stub {
     margin-left: 0;
     margin-right: 0;
     max-width: 4rem;
@@ -105,9 +102,12 @@ hr {
 }
 
 .hr-lg {
+    background: $text-color;
     border: none;
-    height: 3px;
-    background: $brand-dark;
+    height: 5px;
+    .text-inverse & {
+        background: rgba(#fff,.5);
+    }
 }
 
 .hr-centered,

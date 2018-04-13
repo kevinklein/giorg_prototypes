@@ -58,7 +58,7 @@
                 <!-- <li><button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button></li> -->
                 <li><a href="#"><span>Membership</span></a></li>
                 <li><a href="#"><span>Education</span></a></li>
-                <li class="active"><a href="/guidelines"><span>Clinical Guidelines</span></a></li>
+                <li><a href="/guidelines"><span>Clinical Guidelines</span></a></li>
                 <li><a href="#"><span>Publications</span></a></li>
                 <li><a href="/trainees"><span>Trainees</span></a></li>
                 <li><a href="#"><span>Patients & Families</span></a></li>

@@ -618,7 +618,7 @@ a.card-block {
     transition: box-shadow ease-in-out .15s;
 }
 
-.card-hover-raised:hover,r {
+.card-hover-raised:hover {
     box-shadow: 0 10px 16px rgba(0,0,0,.25), inset 0 0 0 #fff;
     cursor: pointer;
     z-index: 2;

@@ -1,4 +1,4 @@
-<div class="bg-secondary-darker">
+<div class="bg-secondary-darker" id="promo">
     <div class="container p-y text-inverse">
         <div class="row middle-xs">
             <div class="col-md-9 col-xs-12">
