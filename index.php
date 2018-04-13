@@ -461,7 +461,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 					
 						<div class="row display-flex flex-column flex-1">
 							<div class="col-md-6 col-xs-12 display-flex flex-column flex-1">
-								<a href="#" class="card card-hover border-none flex-1 text-inverse" style="background:#005696">
+								<a href="http://giquic.gi.org" target="_blank" class="card card-hover border-none flex-1 text-inverse" style="background:#005696">
 									<div class="card-block p-b-xl text-webfont-two text-lg">
 										With GIQuIC you can demonstrate to patients as well as referring providers and payers the quality of your performance and your dedication to continuous improvement.
 									</div>
