@@ -231,7 +231,7 @@ updates, Breakout Sessions and Hands-on Sessions.
                 <div class="col-md-3 col-xs-12 display-flex flex-column">
                     <a href="#" class="card m-b-0 card-hover raised-sm card-hover-raised link-block flex-1 display-flex flex-column">
                         <div class="card-header border-none p-y-xs bg-success"></div>
-						<div class="ar-box ar-box-2by1 bg-cover" style="background:url(/img/practice-mgmt.png) 0 50% / cover no-repeat;"></div>
+						<div class="bg-cover" style="background:url(/img/practice-mgmt.png) 0 50% / cover no-repeat;height:120px"></div>
                         <div class="card-block flex-1">
                             <h3 class="text-md text-700">Practice Management</h3>
                             <p class="m-b-0">Proident reprehenderit et exercitation deserunt tempor aliquip sit pariatur.</p>
@@ -244,7 +244,7 @@ updates, Breakout Sessions and Hands-on Sessions.
                 <div class="col-md-3 col-xs-12 display-flex flex-column">
                     <a href="#" class="card m-b-0 card-hover raised-sm card-hover-raised link-block flex-1 display-flex flex-column">
                         <div class="card-header border-none p-y-xs bg-warning"></div>
-						<div class="ar-box ar-box-2by1 bg-cover bg-50-50" style="background-image:url(/img/photos/Tuesday.BPV_0844-1024x683.jpg);"></div>
+						<div class="bg-cover bg-50-50" style="background-image:url(/img/photos/Tuesday.BPV_0844-1024x683.jpg);height:120px"></div>
                         <div class="card-block flex-1">
                             <h3 class="text-md text-700">Public Policy</h3>
                             <p class="m-b-0">Laboris aliquip fugiat deserunt dolore commodo nostrud duis in ea consectetur in tempor non.</p>
@@ -257,7 +257,7 @@ updates, Breakout Sessions and Hands-on Sessions.
                 <div class="col-md-3 col-xs-12 display-flex flex-column">
                     <a href="#" class="card m-b-0 card-hover raised-sm card-hover-raised link-block flex-1 display-flex flex-column">
                         <div class="card-header border-none p-y-xs bg-info"></div>
-						<div class="ar-box ar-box-2by1 bg-cover bg-50-50" style="background-image:url(/img/gi-circle.png);"></div>
+						<div class="bg-cover bg-50-50" style="background-image:url(/img/gi-circle.png);height:120px"></div>
                         <div class="card-block flex-1">
                             <h3 class="text-md text-700">GI Circle</h3>
                             <p class="m-b-0">Cupidatat sit veniam consectetur mollit sunt eiusmod est.</p>
@@ -270,7 +270,7 @@ updates, Breakout Sessions and Hands-on Sessions.
                 <div class="col-md-3 col-xs-12 display-flex flex-column">
                     <a href="#" class="card m-b-0 card-hover raised-sm card-hover-raised link-block flex-1 display-flex flex-column">
                         <div class="card-header border-none p-y-xs bg-primary"></div>
-						<div class="ar-box ar-box-2by1 bg-info bg-cover bg-50-50" style="background-image:url(/img/acg-institute.png);"></div>
+						<div class="bg-info bg-cover bg-50-50" style="background-image:url(/img/acg-institute.png);height:120px"></div>
                         <div class="card-block flex-1">
                             <h3 class="text-md text-700">ACG Institute</h3>
                             <p class="m-b-0">Ad deserunt dolore nisi cupidatat labore duis consequat mollit magna.</p>
@@ -290,7 +290,8 @@ updates, Breakout Sessions and Hands-on Sessions.
 			<div class="row">
 				<div class="col-md-6 col-xs-12 display-flex flex-column">
 					<a href="#" class="display-flex flex-column flex-1 link-block bg-envelope-secondary">
-						<div class="card-block ar-box ar-box-16by9 position-relative" style="background: url(/img/ajg.svg) center 0 / 80% 80% no-repeat">
+						<div class="card-block position-relative flex-1 flex-center">
+							<img src="/img/ajg.png" width="500">
 							<div class="position-absolute position-absolute-bl position-absolute-br bg-opaque-darker p-a text-inverse">
 								<p class="text-lg m-b-0">The <em>American Journal of Gastroenterology</em> is the leading clinical journal publishing the latest research in gastroenterology and hepatology. <b>Visit AJG <svg class="icon"><use xlink:href="#icon-chevron-with-circle-right"></use></svg></b></p>
 							</div>
