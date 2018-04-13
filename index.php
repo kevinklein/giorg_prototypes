@@ -291,7 +291,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 				<div class="col-md-6 col-xs-12 display-flex flex-column">
 					<a href="#" class="display-flex flex-column flex-1 link-block bg-envelope-secondary">
 						<div class="card-block position-relative flex-1 flex-center">
-							<img src="/img/ajg.png" width="500">
+							<img src="/img/ajg.png" width="500" class="m-b-xl">
 							<div class="position-absolute position-absolute-bl position-absolute-br bg-opaque-darker p-a text-inverse">
 								<p class="text-lg m-b-0">The <em>American Journal of Gastroenterology</em> is the leading clinical journal publishing the latest research in gastroenterology and hepatology. <b>Visit AJG <svg class="icon"><use xlink:href="#icon-chevron-with-circle-right"></use></svg></b></p>
 							</div>
