@@ -547,6 +547,7 @@ updates, Breakout Sessions and Hands-on Sessions.
             slidesPerView: 'auto',
             centeredSlides: true,
 			loop: true,
+			slideToClickedSlide: true,
             spaceBetween: 100,
             effect: 'coverflow',
             speed: 600,
