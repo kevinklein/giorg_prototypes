@@ -8,8 +8,8 @@ body.body-fixed-top { padding-top: 170px; }
 <div id="top"></div>
 <header id="header-main" class="cd-morph-dropdown raised-sm">
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
-        <div class="container item-flex justify-content-flex-end p-y-xs">
-            <nav class="text-normal p-y-xs hidden-sm-down p-r">
+        <div class="container item-flex justify-content-flex-end">
+            <nav class="text-normal hidden-sm-down p-r">
                 <a href="#" class="nav-link text-hover-underline">About ACG</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Join</a>
