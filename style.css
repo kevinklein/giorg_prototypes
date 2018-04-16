@@ -10953,7 +10953,7 @@ button.list-group-item-state {
     .nav-primary-v6 > li > a {
       color: #002e6d;
       display: block;
-      font-size: .95rem;
+      font-size: 1.05rem;
       font-weight: 500;
       text-decoration: none;
       text-transform: uppercase;
@@ -10982,7 +10982,7 @@ button.list-group-item-state {
         left: 0;
         width: 100%;
         position: absolute;
-        bottom: -11px; }
+        bottom: -12px; }
 
 /* line 262, Users/kevinklein/Dropbox/files/acg/v2/sass/components/_nav-primary.scss */
 .cd-morph-dropdown {

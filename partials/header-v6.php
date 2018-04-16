@@ -1,14 +1,15 @@
 <style>
 body.body-fixed-top { padding-top: 170px; }
 .logo-description-v6 img { width: 230px; }
+.logo img { width: 80px; max-height: 80px; }
 .body-fixed-top .logo-description-v6 img { width: 200px; }
 </style>
 
 <div id="top"></div>
-<header id="header-main" class="cd-morph-dropdown">
+<header id="header-main" class="cd-morph-dropdown raised-sm">
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
         <div class="container item-flex justify-content-flex-end p-y-xs">
-            <nav class="text-sm p-y-xs hidden-sm-down p-r">
+            <nav class="text-normal p-y-xs hidden-sm-down p-r">
                 <a href="#" class="nav-link text-hover-underline">About ACG</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Join</a>
@@ -22,7 +23,7 @@ body.body-fixed-top { padding-top: 170px; }
                 <a href="#" class="nav-link text-hover-underline">ACG 2018 Annual Meeting</a>
             </nav>
             <div class="item-flex-addon">
-                <a href="#" class="btn btn-primary btn-xs br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
+                <a href="#" class="btn btn-primary btn-sm br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
             </div>
         </div>
     </div>
@@ -72,7 +73,7 @@ body.body-fixed-top { padding-top: 170px; }
 
             <ul class="nav-primary-v6 hidden-sm-down item-flex-main main-nav">
                 <!-- <li><button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button></li> -->
-                <li class="has-dropdown" data-content="one"><a href="#"><span>Membership</span></a></li>
+                <li class="has-dropdown" data-content="one"><a href="#"><span>Research</span></a></li>
                 <li class="has-dropdown" data-content="two"><a href="#"><span>Education</span></a></li>
                 <li class="has-dropdown" data-content="three"><a href="/guidelines"><span>Clinical Guidelines</span></a></li>
                 <li class="has-dropdown" data-content="four"><a href="#"><span>Publications</span></a></li>
