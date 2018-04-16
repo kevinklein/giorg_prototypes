@@ -196,8 +196,71 @@
     }
 }
 
+.nav-primary-v6 {
+    background: #fff;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    > li {
+        flex: 1 1 auto;
+        margin: 0;
+        position: relative;
+        > a {
+            color: $brand-primary; 
+            display: block;
+            font-size: .95rem;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding-bottom: .6rem;
+            padding-top: .6rem;
+            position: relative;
+            transition: all .2s;
+            white-space: nowrap;
+            // &:after {
+            //     background: transparent;
+            //     content: '';
+            //     display: block;
+            //     height: 3px;
+            //     left: 0;
+            //     width: 100%;
+            //     position: absolute;
+            //     bottom: -1px;
+            // }
+        }
+        &:hover {
+            > a {
+                background: rgba(#999,.2);
+                
+            }
+        }
+        &.current-menu-item,
+        &.current-menu-ancestor {
+            > a {
+                color: $brand-primary;
+                font-weight: 700;
+            }
+            > a span {
+                position: relative;
+                &:after {
+                    background: $brand-primary;
+                    content: '';
+                    display: block;
+                    height: 3px;
+                    left: 0;
+                    width: 100%;
+                    position: absolute;
+                    bottom: -11px;
+                }
+            }
+        }
+    }
+}
+
 .cd-morph-dropdown {
-  z-index: 9999;
+  z-index: 999;
 }
 .cd-morph-dropdown::before {
   /* never visible - used in JS to check mq */
