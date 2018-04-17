@@ -24,7 +24,7 @@
         <div class="container">
             <ol>
                 <li><svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg> <a href="/">Gi.org</a></li>
-                <li><a href="index.php">Clinical Guidelines</a></li>
+                <li><a href="index.php">Guidelines</a></li>
                 <li><a href="index.php">Browse All Guidelines</a></li>
                 <li class="current">Diagnosis and Management of Achalasia</li>
             </ol>

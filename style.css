@@ -11066,7 +11066,7 @@ button.list-group-item-state {
   .cd-morph-dropdown .morph-dropdown-wrapper {
     /* dropdown wrapper - used to create the slide up/slide down effect when dropdown is revealed/hidden */
     display: block;
-    top: 41px;
+    top: 44px;
     /* overwrite mobile style */
     width: auto;
     padding: 0;
