@@ -350,9 +350,12 @@ updates, Breakout Sessions and Hands-on Sessions.
 							<a href="http://acgmeetings.gi.org" target="_blank" class="item-flex-main"><img src="/img/acg-meeting-logo.svg" width="150"></a>
 							October 5-10, 2018 <span class="text-pipe">|</span> Pennsylvania Convention Center
 						</div>
-						<div class="card-block">
-							<h2 class="text-uc"><svg class="icon"><use xlink:href="#icon-highlight"></use></svg> Conference Highlights</h2>
-							<ul class="border-bottom nav nav-lines nav-schedule text-sm justify-content-flex-start" role="tablist">
+						<div class="card-block p-t-sm">
+							<h2 class="text-uc">
+								<span class="circle bg-warning text-inverse"><svg class="icon text-lg"><use xlink:href="#icon-highlight"></use></svg> </span>
+								Conference Highlights
+							</h2>
+							<ul class="m-b-0 border-bottom nav nav-lines nav-schedule text-sm justify-content-flex-start" role="tablist">
 								<li class="nav-item m-a-0 p-a-0">
 									<a class="nav-link active" data-toggle="tab" href="#schedule-1" role="tab" aria-expanded="true">Fri<b> Oct. 5</b></a>
 								</li>
@@ -379,32 +382,32 @@ updates, Breakout Sessions and Hands-on Sessions.
 							<!-- Tab panes -->
 							<div class="tab-content">
 								<div class="tab-pane fade p-t active in" id="schedule-1" role="tabpanel" aria-expanded="true">
-									<h3 class="text-lg m-b-xs">Trainees’ Workshop: Navigating, Networking, and Negotiating Your First Job</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">Trainees’ Workshop: Navigating, Networking, and Negotiating Your First Job</h3>
 									<b class="text-secondary">5:00 pm – 8:15 pm</b>	
 								</div>
 
 								<div class="tab-pane fade p-t" id="schedule-2" role="tabpanel" aria-expanded="false">
-									<h3 class="text-lg m-b-xs">GI Jeopardy</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">GI Jeopardy</h3>
 									<b class="text-secondary">5:15 pm – 7:00 pm</b>
 								</div>
 								
 								<div class="tab-pane fade p-t" id="schedule-3" role="tabpanel">
-									<h3 class="text-lg m-b-xs">Hands-on Endoscopy Workshop Center</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">Hands-on Endoscopy Workshop Center</h3>
 									<b class="text-secondary">3:30 pm – 7:00 pm</b>
 								</div>
 								
 								<div class="tab-pane fade p-t" id="schedule-4" role="tabpanel" aria-expanded="false">
-									<h3 class="text-lg m-b-xs">Presidential Address</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">Presidential Address</h3>
 									<b class="text-secondary">9:00 am – 9:30 am</b>
 								</div>
 								
 								<div class="tab-pane fade p-t" id="schedule-5" role="tabpanel" aria-expanded="false">
-									<h3 class="text-lg m-b-xs">Emily Couric Memorial Lecture</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">Emily Couric Memorial Lecture</h3>
 									<b class="text-secondary">4:30 pm – 5:00 pm</b>
 								</div>
 								
 								<div class="tab-pane fade p-t" id="schedule-6" role="tabpanel" aria-expanded="false">
-									<h3 class="text-lg m-b-xs">David Y. Graham Lecture</h3>
+									<h3 class="text-lg m-b-sm display-2 text-400">David Y. Graham Lecture</h3>
 									<b class="text-secondary">10:20 am –10:50 am</b>
 								</div>
 							</div>
@@ -416,7 +419,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 					<a class="card border-none link-block flex-1" href="#" style="height:240px;background:url(/img/patients.jpg) no-repeat center center / cover">
 						<div class="card-block text-inverse position-absolute position-absolute-bl position-absolute-b4">
 							<h3 class="text-300 display-2 m-b-sm">Patients and Families</h3>
-							<p>Explore our GI Health Centers, learn about digestive health topics, and find a gastroenterologist. <b>Patients and Families <svg class="icon"><use xlink:href="#icon-chevron-with-circle-right"></use></svg></b></p>
+							<p class="text-lg">Explore our GI Health Centers. Learn about digestive health topics. Find a gastroenterologist. <b>Explore Now <svg class="icon"><use xlink:href="#icon-chevron-with-circle-right"></use></svg></b></p>
 						</div>
 					</a>
 				</div>
