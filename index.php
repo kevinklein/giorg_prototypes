@@ -496,7 +496,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 							<div class="card-block">
 								<b class="text-uc text-muted">GI Health Center Spotlight</b>
 								<h2 class="m-b-xs"><a href="#" class="text-black">Colorectal Cancer</a></h2>
-								<p class="text-muted m-b">Colorectal cancer is a cancer that starts in the colon or the rectum. These cancers can also be named colon cancer or rectal cancer, depending on where they start. Colon cancer and rectal cancer are often grouped together because they have many features in common.</p>
+								<p class="text-muted m-b"><img src="img/photos/colon.jpg" class="pull-right m-b-md m-l-md img-thumbnail" width="155" alt="colon">Colorectal cancer is a cancer that starts in the colon or the rectum. These cancers can also be named colon cancer or rectal cancer, depending on where they start. Colon cancer and rectal cancer are often grouped together because they have many features in common.</p>
 								<div class="btn-group">
 									<a href="#" class="btn btn-white">Colorectal Cancer GI Health Center</a>
 									<a href="#" class="btn btn-white">The Basics</a>
