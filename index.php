@@ -346,8 +346,8 @@ updates, Breakout Sessions and Hands-on Sessions.
 			<div class="row">
 				<div class="col-md-8 col-xs-12 display-flex flex-column">
 					<div class="card border-none link-block bg-gray-lightest flex-1">
-						<div class="card-header item-flex text-sm text-500">
-							<a href="http://acgmeetings.gi.org" target="_blank" class="item-flex-main"><img src="/img/acg-meeting-logo.svg" width="120"></a>
+						<div class="card-header item-flex text-sm text-500 p-y-md">
+							<a href="http://acgmeetings.gi.org" target="_blank" class="item-flex-main"><img src="/img/acg-meeting-logo.svg" width="150"></a>
 							October 5-10, 2018 <span class="text-pipe">|</span> Pennsylvania Convention Center
 						</div>
 						<div class="card-block">
@@ -428,7 +428,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 				<div class="col-md-4 col-xs-12 display-flex flex-column">
 					<div href="#" class="card m-b-0 border-none display-flex flex-column link-block bg-gray-lightest flex-1">
 						<div class="card-block">
-							<h2 class="m-b"><a href="http://universe.gi.org/" class="text-black">ACG Education Universe</a></h2>
+							<h2 class="display-3 text-300 m-b"><a href="http://universe.gi.org/" class="text-black">ACG Education Universe</a></h2>
 							<p class="text-muted m-b-0">ACG Education Universe is an online, self-directed CME program that provides a way for all gastroenterologists to access outstanding tools in preparing for the GI boards, recertification, or obtaining necessary CME credits outside of the ACG meetings.</p>
 						</div>
 						<a href="http://universe.gi.org/" class="card-block bg-info text-inverse text-center">
@@ -463,7 +463,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 						<div class="row display-flex flex-column flex-1">
 							<div class="col-md-6 col-xs-12 display-flex flex-column flex-1">
 								<a href="http://giquic.gi.org" target="_blank" class="card card-hover border-none flex-1 text-inverse" style="background:#005696">
-									<div class="card-block p-b-xl text-webfont-two text-lg">
+									<div class="card-block p-b-xl text-webfont-two text-xl">
 										With GIQuIC you can demonstrate to patients as well as referring providers and payers the quality of your performance and your dedication to continuous improvement.
 									</div>
 									<div class="card-block text-right position-absolute position-absolute-bl position-absolute-br">
@@ -480,11 +480,11 @@ updates, Breakout Sessions and Hands-on Sessions.
 							<div class="col-md-6 col-xs-12 display-flex flex-column flex-1">
 								<div class="card border-none flex-1 text-inverse" style="background:#1da1f2">
 									<div class="card-block">
-										<div class="text-right text-xl">
+										<div class="pull-right p-l-lg p-t text-xl">
 											<a href="https://twitter.com/AmCollegeGastro"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
 										</div>
 										<div class="p-a">
-											<p class="text-sm">April is #IBSAwarenessMonth so this month in The American Journal of #Gastroenterology Dr. Lisa Lin and Dr. Lin Chang look at Rome IV and offer a multidimensional clinical profile approach to complex #IBS #IrritableBowelSyndrome #AmjGastro @RomeFoundation <a href="#">https://go.nature.com/2GN1Gew</a></p>
+											<p class="text-md m-b">April is #IBSAwarenessMonth so this month in The American Journal of #Gastroenterology we offer a multidimensional clinical profile approach to complex #IBS #IrritableBowelSyndrome #AmjGastro @RomeFoundation <a href="#">https://go.nature.com/2GN1Gew</a></p>
 											<p class="text-muted text-xs m-b-0">ACG @AmCollegeGastro Apr 10</p>
 										</div>
 									</div>
@@ -495,7 +495,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 						<div class="card m-b-0 border-none flex-1" href="#">
 							<div class="card-block">
 								<h2 class="text-uc text-muted">GI Health Center Spotlight</h2>
-								<h3 class="m-b"><a href="#" class="text-black">Colorectal Cancer</a></h3>
+								<h3 class="display-3 text-300 m-b"><a href="#" class="text-black">Colorectal Cancer</a></h3>
 								<p class="text-muted m-b"><img src="img/photos/colon.jpg" class="pull-right m-b-md m-l-md img-thumbnail" width="155" alt="colon">Colorectal cancer is a cancer that starts in the colon or the rectum. These cancers can also be named colon cancer or rectal cancer, depending on where they start. Colon cancer and rectal cancer are often grouped together because they have many features in common.</p>
 								<div class="btn-group">
 									<a href="#" class="btn btn-white">Colorectal Cancer GI Health Center</a>
