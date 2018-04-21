@@ -20,7 +20,7 @@ body.body-fixed-top { padding-top: 170px; }
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Find a GI</a>
                 <span class="text-pipe">|</span>
-                <a href="#" class="nav-link text-hover-underline">ACG 2018 Annual Meeting</a>
+                <a href="/membership/" class="nav-link text-hover-underline">Membership</a>
             </nav>
             <div class="item-flex-addon">
                 <a href="#" class="btn btn-primary btn-sm br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>

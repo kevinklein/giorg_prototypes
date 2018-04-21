@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Trainees - American College of Gastroenterology</title>
+    <title>American College of Gastroenterology</title>
     <?php include 'partials/head.php' ?> 
     <style>
         body.body-fixed-top { padding-top: 145px; }
