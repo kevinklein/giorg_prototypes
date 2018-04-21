@@ -428,7 +428,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 				<div class="col-md-4 col-xs-12 display-flex flex-column">
 					<div href="#" class="card m-b-0 border-none display-flex flex-column link-block bg-gray-lightest flex-1">
 						<div class="card-block">
-							<h2 class="m-b-xs"><a href="http://universe.gi.org/" class="text-black">ACG Education Universe</a></h2>
+							<h2 class="m-b"><a href="http://universe.gi.org/" class="text-black">ACG Education Universe</a></h2>
 							<p class="text-muted m-b-0">ACG Education Universe is an online, self-directed CME program that provides a way for all gastroenterologists to access outstanding tools in preparing for the GI boards, recertification, or obtaining necessary CME credits outside of the ACG meetings.</p>
 						</div>
 						<a href="http://universe.gi.org/" class="card-block bg-info text-inverse text-center">
@@ -449,7 +449,7 @@ updates, Breakout Sessions and Hands-on Sessions.
 									<ul class="list-unstyled m-b-0">
 										<li><a href="#" class="text-more">Journal Articles</a></li>
 										<li><a href="#" class="text-more">Learning Modules</a></li>
-										<li><a href="#" class="text-more">Tools and Techniques</a></li>
+										<li><a href="#" class="text-more">Tools/Techniques</a></li>
 									</ul>
 								</div>
 							</div>
@@ -494,8 +494,8 @@ updates, Breakout Sessions and Hands-on Sessions.
 					
 						<div class="card m-b-0 border-none flex-1" href="#">
 							<div class="card-block">
-								<b class="text-uc text-muted">GI Health Center Spotlight</b>
-								<h2 class="m-b-xs"><a href="#" class="text-black">Colorectal Cancer</a></h2>
+								<h2 class="text-uc text-muted">GI Health Center Spotlight</h2>
+								<h3 class="m-b"><a href="#" class="text-black">Colorectal Cancer</a></h3>
 								<p class="text-muted m-b"><img src="img/photos/colon.jpg" class="pull-right m-b-md m-l-md img-thumbnail" width="155" alt="colon">Colorectal cancer is a cancer that starts in the colon or the rectum. These cancers can also be named colon cancer or rectal cancer, depending on where they start. Colon cancer and rectal cancer are often grouped together because they have many features in common.</p>
 								<div class="btn-group">
 									<a href="#" class="btn btn-white">Colorectal Cancer GI Health Center</a>
