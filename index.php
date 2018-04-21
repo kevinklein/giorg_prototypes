@@ -135,7 +135,7 @@
 					</div>
 				</div>
                 <div class="col-md-6 col-xs-12 display-flex flex-column">
-					<h2 class="text-400">ACG Calendar <svg class="icon icon-calendar pull-right"><use xlink:href="#icon-calendar"></use></svg></h2>
+					<h2 class="text-400">ACG Calendar <a href="#"><svg class="icon icon-calendar pull-right"><use xlink:href="#icon-calendar"></use></svg></a></h2>
 					<div class="card flex-1 bg-white m-b-0">
 						<ul class="list-items list-items-card list-striped">
 							<hr class="hr-lg m-y-0">
