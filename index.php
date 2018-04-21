@@ -431,8 +431,8 @@ updates, Breakout Sessions and Hands-on Sessions.
 							<h2 class="display-3 text-300 m-b"><a href="http://universe.gi.org/" class="text-black">ACG Education Universe</a></h2>
 							<p class="text-muted m-b-0">ACG Education Universe is an online, self-directed CME program that provides a way for all gastroenterologists to access outstanding tools in preparing for the GI boards, recertification, or obtaining necessary CME credits outside of the ACG meetings.</p>
 						</div>
-						<a href="http://universe.gi.org/" class="card-block bg-info text-inverse text-center">
-							<div class="text-uc text-mute">ACG Members</div>
+						<div class="card-block m-t-sm text-uc text-inverse p-y-sm bg-info-dark">ACG Members</div>
+						<a href="http://universe.gi.org/" class="card-block p-y-sm m-b-sm bg-info text-inverse text-center">
 							<p class="text-lg m-b-0 text-muted">Use <b class="text-white text-uppercase">CODE UNIGET18</b> for <b class="text-white text-uppercase">600 Free Minutes</b> of CME on the Education Universe for 2018.</p>
 						</a>
 						<div class="card-block">
