@@ -105,7 +105,7 @@ body.body-fixed-top { padding-top: 170px; }
                                 <li><a href="#" class="">Exhibitors & Sponsors</a></li>
                             </ul>
                             <a class="bg-gray-lighter p-a item-flex" href="#">
-                                <img src="http://acgmeetings.acggi.net/wp-content/themes/acgmeetings/svg/acg2018-logo-type.svg" class="" width="70">
+                                <img src="/svg/acg2018-logo-type.svg" class="" width="70">
                                 <div class="p-l item-flex-main">
                                    <span class="text-xs display-block text-muted">October 5-10, 2018  <!-- <span class="text-pipe">|</span> Philadelphia, PA --></span>
                                     <span class="text-dark text-normal text-500">Join us in Philly for ACG 2018</span>
