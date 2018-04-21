@@ -10,17 +10,19 @@ body.body-fixed-top { padding-top: 170px; }
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
         <div class="container item-flex justify-content-flex-end">
             <nav class="text-normal hidden-sm-down p-r">
-                <a href="#" class="nav-link text-hover-underline">About ACG</a>
-                <span class="text-pipe">|</span>
-                <a href="#" class="nav-link text-hover-underline">Join</a>
+                <a href="#" class="nav-link text-hover-underline">About</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Donate</a>
                 <span class="text-pipe">|</span>
-                <a href="#" class="nav-link text-hover-underline">Online Store</a>
+                <a href="#" class="nav-link text-hover-underline">ACG Store</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Find a GI</a>
                 <span class="text-pipe">|</span>
-                <a href="/membership/" class="nav-link text-hover-underline">Membership</a>
+                <a href="http://acgmeetings.gi.org" target="_blank" class="nav-link text-hover-underline">ACG 2018</a>
+                <span class="text-pipe">|</span>
+                <a href="/membership/" class="nav-link text-hover-underline nav-membership">Membership</a>
+                <span class="text-pipe">|</span>
+                <a href="#" class="nav-link text-hover-underline">Join</a>
             </nav>
             <div class="item-flex-addon">
                 <a href="#" class="btn btn-primary btn-sm br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
