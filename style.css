@@ -1,4 +1,4 @@
-/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 94, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon {
   position: relative;
   display: inline-block;
@@ -6,7 +6,7 @@
   width: 20px;
   height: 14px; }
 
-/* line 104, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 103, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span,
 .menu-icon span:before,
 .menu-icon span:after {
@@ -15,56 +15,56 @@
   background-color: #000;
   display: block; }
 
-/* line 113, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 112, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-staggered span {
   width: 17px; }
 
-/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 116, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-staggered span:before {
   width: 20px; }
 
-/* line 121, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 120, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-staggered span:after {
   width: 14px; }
 
-/* line 125, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 124, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span {
   left: 0;
   margin: 0 auto;
   position: relative;
   top: 9px; }
 
-/* line 132, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 131, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span:before,
 .menu-icon span:after {
   position: absolute;
   content: ''; }
 
-/* line 138, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 137, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span {
   background-color: #000;
   opacity: .7; }
 
-/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 142, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span:before {
   margin-top: -6px;
   -webkit-transform: rotate(0);
           transform: rotate(0); }
 
-/* line 148, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 147, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon span:after {
   margin-top: 6px;
   -webkit-transform: rotate(0);
           transform: rotate(0); }
 
-/* line 154, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 153, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-animated span {
   -webkit-transition-duration: 0s;
           transition-duration: 0s;
   -webkit-transition-delay: 0.15s;
           transition-delay: 0.15s; }
 
-/* line 159, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 158, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-animated span:before {
   -webkit-transition-property: margin, -webkit-transform;
   transition-property: margin, -webkit-transform;
@@ -75,7 +75,7 @@
   -webkit-transition-delay: 0.15s, 0s;
           transition-delay: 0.15s, 0s; }
 
-/* line 165, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 164, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .menu-icon.menu-icon-animated span:after {
   -webkit-transition-property: margin, -webkit-transform;
   transition-property: margin, -webkit-transform;
@@ -86,12 +86,12 @@
   -webkit-transition-delay: 0.15s, 0s;
           transition-delay: 0.15s, 0s; }
 
-/* line 172, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 171, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .is-toggled .menu-icon.menu-icon-animated span {
   background-color: transparent;
   width: 20px; }
 
-/* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 176, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .is-toggled .menu-icon.menu-icon-animated span:before {
   margin-top: 0;
   -webkit-transform: rotate(45deg);
@@ -100,7 +100,7 @@
           transition-delay: 0s, 0.15s;
   width: 20px; }
 
-/* line 184, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+/* line 183, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
 .is-toggled .menu-icon.menu-icon-animated span:after {
   margin-top: 0;
   -webkit-transform: rotate(-45deg);
@@ -5720,7 +5720,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #002e6d;
   border-color: #002e6d; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: #fff !important;
@@ -5731,11 +5731,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #00183a;
     border-color: #001430; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary.focus {
@@ -5752,7 +5752,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #980438;
   border-color: #980438; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active,
   .open > .btn-secondary.dropdown-toggle {
     color: #fff !important;
@@ -5763,11 +5763,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #660326;
     border-color: #5c0222; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-secondary:active, .btn-secondary.active,
   .open > .btn-secondary.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-secondary.disabled:focus, .btn-secondary.disabled.focus, .btn-secondary:disabled:focus, .btn-secondary:disabled.focus,
   fieldset[disabled] .btn-secondary:focus,
   fieldset[disabled] .btn-secondary.focus {
@@ -5784,7 +5784,7 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-white:focus, .btn-white.focus, .btn-white:active, .btn-white.active,
   .open > .btn-white.dropdown-toggle {
     color: #333 !important;
@@ -5795,11 +5795,11 @@ fieldset[disabled] a.btn {
     color: #333;
     background-color: #e6e5e5;
     border-color: #adadad; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-white:active, .btn-white.active,
   .open > .btn-white.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-white.disabled:focus, .btn-white.disabled.focus, .btn-white:disabled:focus, .btn-white:disabled.focus,
   fieldset[disabled] .btn-white:focus,
   fieldset[disabled] .btn-white.focus {
@@ -5815,7 +5815,7 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #980438;
     border-color: #980438; }
-    /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-white.active:focus, .btn-white.active.focus, .btn-white.active:active, .btn-white.active.active,
     .open > .btn-white.active.dropdown-toggle {
       color: #fff !important;
@@ -5826,11 +5826,11 @@ fieldset[disabled] a.btn {
       color: #fff;
       background-color: #660326;
       border-color: #5c0222; }
-    /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-white.active:active, .btn-white.active.active,
     .open > .btn-white.active.dropdown-toggle {
       background-image: none; }
-    /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-white.active.disabled:focus, .btn-white.active.disabled.focus, .btn-white.active:disabled:focus, .btn-white.active:disabled.focus,
     fieldset[disabled] .btn-white.active:focus,
     fieldset[disabled] .btn-white.active.focus {
@@ -5847,7 +5847,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #2e75bc;
   border-color: #2e75bc; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active,
   .open > .btn-info.dropdown-toggle {
     color: #fff !important;
@@ -5858,11 +5858,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #245c93;
     border-color: #22568b; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-info:active, .btn-info.active,
   .open > .btn-info.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info:disabled:focus, .btn-info:disabled.focus,
   fieldset[disabled] .btn-info:focus,
   fieldset[disabled] .btn-info.focus {
@@ -5879,7 +5879,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #58ba47;
   border-color: #58ba47; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     color: #fff !important;
@@ -5890,11 +5890,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #469638;
     border-color: #438e35; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success:disabled:focus, .btn-success:disabled.focus,
   fieldset[disabled] .btn-success:focus,
   fieldset[disabled] .btn-success.focus {
@@ -5912,7 +5912,7 @@ fieldset[disabled] a.btn {
   background-color: #ffc72c;
   border-color: #ffc72c;
   color: #000; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active,
   .open > .btn-warning.dropdown-toggle {
     color: #fff !important;
@@ -5923,11 +5923,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #f8b600;
     border-color: #eeaf00; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-warning:active, .btn-warning.active,
   .open > .btn-warning.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning:disabled:focus, .btn-warning:disabled.focus,
   fieldset[disabled] .btn-warning:focus,
   fieldset[disabled] .btn-warning.focus {
@@ -5944,7 +5944,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #d02230;
   border-color: #d02230; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active,
   .open > .btn-danger.dropdown-toggle {
     color: #fff !important;
@@ -5955,11 +5955,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #a41b26;
     border-color: #9b1924; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-danger:active, .btn-danger.active,
   .open > .btn-danger.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger:disabled:focus, .btn-danger:disabled.focus,
   fieldset[disabled] .btn-danger:focus,
   fieldset[disabled] .btn-danger.focus {
@@ -5976,7 +5976,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #ea7600;
   border-color: #ea7600; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange:focus, .btn-orange.focus, .btn-orange:active, .btn-orange.active,
   .open > .btn-orange.dropdown-toggle {
     color: #fff !important;
@@ -5987,11 +5987,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #b75c00;
     border-color: #ad5700; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange:active, .btn-orange.active,
   .open > .btn-orange.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange.disabled:focus, .btn-orange.disabled.focus, .btn-orange:disabled:focus, .btn-orange:disabled.focus,
   fieldset[disabled] .btn-orange:focus,
   fieldset[disabled] .btn-orange.focus {
@@ -6008,7 +6008,7 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-color: #ff8911;
   border-color: #ff8911; }
-  /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange-light:focus, .btn-orange-light.focus, .btn-orange-light:active, .btn-orange-light.active,
   .open > .btn-orange-light.dropdown-toggle {
     color: #fff !important;
@@ -6019,11 +6019,11 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #dd7000;
     border-color: #d36a00; }
-  /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange-light:active, .btn-orange-light.active,
   .open > .btn-orange-light.dropdown-toggle {
     background-image: none; }
-  /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-orange-light.disabled:focus, .btn-orange-light.disabled.focus, .btn-orange-light:disabled:focus, .btn-orange-light:disabled.focus,
   fieldset[disabled] .btn-orange-light:focus,
   fieldset[disabled] .btn-orange-light.focus {
@@ -6040,8 +6040,9 @@ fieldset[disabled] a.btn {
   color: #141414;
   background-image: none;
   background-color: transparent;
-  border-color: #141414; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #141414;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-outline:focus, .btn-outline.focus, .btn-outline:active, .btn-outline.active,
   .open > .btn-outline.dropdown-toggle {
     color: #fff;
@@ -6052,7 +6053,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #141414;
     border-color: #141414; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-outline.disabled:focus, .btn-outline.disabled.focus, .btn-outline:disabled:focus, .btn-outline:disabled.focus,
   fieldset[disabled] .btn-outline:focus,
   fieldset[disabled] .btn-outline.focus {
@@ -6066,7 +6067,7 @@ fieldset[disabled] a.btn {
     color: #fff;
     background-color: #980438;
     border-color: #980438; }
-    /* line 16, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-outline.active:focus, .btn-outline.active.focus, .btn-outline.active:active, .btn-outline.active.active,
     .open > .btn-outline.active.dropdown-toggle {
       color: #fff !important;
@@ -6077,11 +6078,11 @@ fieldset[disabled] a.btn {
       color: #fff;
       background-color: #660326;
       border-color: #5c0222; }
-    /* line 30, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-outline.active:active, .btn-outline.active.active,
     .open > .btn-outline.active.dropdown-toggle {
       background-image: none; }
-    /* line 40, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+    /* line 38, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
     .btn-outline.active.disabled:focus, .btn-outline.active.disabled.focus, .btn-outline.active:disabled:focus, .btn-outline.active:disabled.focus,
     fieldset[disabled] .btn-outline.active:focus,
     fieldset[disabled] .btn-outline.active.focus {
@@ -6098,8 +6099,9 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-image: none;
   background-color: transparent;
-  border-color: #fff; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #fff;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-inverse-outline:focus, .btn-inverse-outline.focus, .btn-inverse-outline:active, .btn-inverse-outline.active,
   .open > .btn-inverse-outline.dropdown-toggle {
     color: #002e6d;
@@ -6110,7 +6112,7 @@ fieldset[disabled] a.btn {
     color: #002e6d !important;
     background-color: #fff;
     border-color: #fff; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-inverse-outline.disabled:focus, .btn-inverse-outline.disabled.focus, .btn-inverse-outline:disabled:focus, .btn-inverse-outline:disabled.focus,
   fieldset[disabled] .btn-inverse-outline:focus,
   fieldset[disabled] .btn-inverse-outline.focus {
@@ -6125,8 +6127,9 @@ fieldset[disabled] a.btn {
   color: #002e6d;
   background-image: none;
   background-color: transparent;
-  border-color: #002e6d; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #002e6d;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-primary-outline:focus, .btn-primary-outline.focus, .btn-primary-outline:active, .btn-primary-outline.active,
   .open > .btn-primary-outline.dropdown-toggle {
     color: #fff;
@@ -6137,7 +6140,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #002e6d;
     border-color: #002e6d; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-primary-outline.disabled:focus, .btn-primary-outline.disabled.focus, .btn-primary-outline:disabled:focus, .btn-primary-outline:disabled.focus,
   fieldset[disabled] .btn-primary-outline:focus,
   fieldset[disabled] .btn-primary-outline.focus {
@@ -6152,8 +6155,9 @@ fieldset[disabled] a.btn {
   color: #fff;
   background-image: none;
   background-color: transparent;
-  border-color: #fff; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #fff;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-white-outline:focus, .btn-white-outline.focus, .btn-white-outline:active, .btn-white-outline.active,
   .open > .btn-white-outline.dropdown-toggle {
     color: #777;
@@ -6164,7 +6168,7 @@ fieldset[disabled] a.btn {
     color: #777 !important;
     background-color: #fff;
     border-color: #fff; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-white-outline.disabled:focus, .btn-white-outline.disabled.focus, .btn-white-outline:disabled:focus, .btn-white-outline:disabled.focus,
   fieldset[disabled] .btn-white-outline:focus,
   fieldset[disabled] .btn-white-outline.focus {
@@ -6179,8 +6183,9 @@ fieldset[disabled] a.btn {
   color: #980438;
   background-image: none;
   background-color: transparent;
-  border-color: #980438; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #980438;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-secondary-outline:focus, .btn-secondary-outline.focus, .btn-secondary-outline:active, .btn-secondary-outline.active,
   .open > .btn-secondary-outline.dropdown-toggle {
     color: #fff;
@@ -6191,7 +6196,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #980438;
     border-color: #980438; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-secondary-outline.disabled:focus, .btn-secondary-outline.disabled.focus, .btn-secondary-outline:disabled:focus, .btn-secondary-outline:disabled.focus,
   fieldset[disabled] .btn-secondary-outline:focus,
   fieldset[disabled] .btn-secondary-outline.focus {
@@ -6206,8 +6211,9 @@ fieldset[disabled] a.btn {
   color: #2e75bc;
   background-image: none;
   background-color: transparent;
-  border-color: #2e75bc; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #2e75bc;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-info-outline:focus, .btn-info-outline.focus, .btn-info-outline:active, .btn-info-outline.active,
   .open > .btn-info-outline.dropdown-toggle {
     color: #fff;
@@ -6218,7 +6224,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #2e75bc;
     border-color: #2e75bc; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-info-outline.disabled:focus, .btn-info-outline.disabled.focus, .btn-info-outline:disabled:focus, .btn-info-outline:disabled.focus,
   fieldset[disabled] .btn-info-outline:focus,
   fieldset[disabled] .btn-info-outline.focus {
@@ -6233,8 +6239,9 @@ fieldset[disabled] a.btn {
   color: #58ba47;
   background-image: none;
   background-color: transparent;
-  border-color: #58ba47; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #58ba47;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-success-outline:focus, .btn-success-outline.focus, .btn-success-outline:active, .btn-success-outline.active,
   .open > .btn-success-outline.dropdown-toggle {
     color: #fff;
@@ -6245,7 +6252,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #58ba47;
     border-color: #58ba47; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-success-outline.disabled:focus, .btn-success-outline.disabled.focus, .btn-success-outline:disabled:focus, .btn-success-outline:disabled.focus,
   fieldset[disabled] .btn-success-outline:focus,
   fieldset[disabled] .btn-success-outline.focus {
@@ -6260,8 +6267,9 @@ fieldset[disabled] a.btn {
   color: #ffc72c;
   background-image: none;
   background-color: transparent;
-  border-color: #ffc72c; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #ffc72c;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-warning-outline:focus, .btn-warning-outline.focus, .btn-warning-outline:active, .btn-warning-outline.active,
   .open > .btn-warning-outline.dropdown-toggle {
     color: #fff;
@@ -6272,7 +6280,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #ffc72c;
     border-color: #ffc72c; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-warning-outline.disabled:focus, .btn-warning-outline.disabled.focus, .btn-warning-outline:disabled:focus, .btn-warning-outline:disabled.focus,
   fieldset[disabled] .btn-warning-outline:focus,
   fieldset[disabled] .btn-warning-outline.focus {
@@ -6287,8 +6295,9 @@ fieldset[disabled] a.btn {
   color: #d02230;
   background-image: none;
   background-color: transparent;
-  border-color: #d02230; }
-  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  border-color: #d02230;
+  border-radius: 0; }
+  /* line 57, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-danger-outline:focus, .btn-danger-outline.focus, .btn-danger-outline:active, .btn-danger-outline.active,
   .open > .btn-danger-outline.dropdown-toggle {
     color: #fff;
@@ -6299,7 +6308,7 @@ fieldset[disabled] a.btn {
     color: #fff !important;
     background-color: #d02230;
     border-color: #d02230; }
-  /* line 76, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
+  /* line 75, Users/kevinklein/Dropbox/files/acg/v2/sass/helpers/mixins/_buttons.scss */
   .btn-danger-outline.disabled:focus, .btn-danger-outline.disabled.focus, .btn-danger-outline:disabled:focus, .btn-danger-outline:disabled.focus,
   fieldset[disabled] .btn-danger-outline:focus,
   fieldset[disabled] .btn-danger-outline.focus {
@@ -6447,7 +6456,7 @@ input[type="button"].btn-block {
 .btn-no-focus:focus, .btn-no-focus:active {
   outline: none !important; }
 
-/* line 5, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 4, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card {
   background: #fff;
   position: relative;
@@ -6457,25 +6466,25 @@ input[type="button"].btn-block {
   position: relative;
   text-decoration: none; }
 
-/* line 15, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 14, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-block {
   padding: 1.25rem 1.25rem; }
 
-/* line 19, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 18, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-title {
   font-size: 1.35rem;
   margin-top: 0;
   margin-bottom: 1.25rem; }
-  /* line 23, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 22, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-header .card-title {
     margin-bottom: 0; }
 
-/* line 28, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 27, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-subtitle {
   margin-top: -0.625rem;
   margin-bottom: 0; }
 
-/* line 33, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 32, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-text:last-child {
   margin-bottom: 0; }
 
@@ -6483,17 +6492,22 @@ input[type="button"].btn-block {
 .card-link:hover {
   text-decoration: none; }
 
-/* line 50, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 46, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-link + .card-link {
   margin-left: 1.25rem; }
 
-/* line 59, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 54, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header {
   padding: 0.625rem 1.25rem;
   background-color: #fff;
   border-bottom: 0.0625rem solid #dfdfdf; }
-  /* line 63, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
-  .card-header h1, .card-header h2, .card-header h3, .card-header h4, .card-header h5, .card-header h6 {
+  /* line 58, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  .card-header h1,
+  .card-header h2,
+  .card-header h3,
+  .card-header h4,
+  .card-header h5,
+  .card-header h6 {
     margin-bottom: 0; }
   /* line 66, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-header.card-page-title {
@@ -6504,7 +6518,7 @@ input[type="button"].btn-block {
   padding: 0.625rem 1.25rem;
   border-radius: 0 0 0 0; }
 
-/* line 81, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 80, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-dark {
   background-color: #444;
   border-color: #444; }
@@ -6514,247 +6528,247 @@ input[type="button"].btn-block {
   background-color: #002e6d;
   border-color: #002e6d; }
 
-/* line 89, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 90, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-secondary {
   background-color: #980438;
   border-color: #980438; }
 
-/* line 93, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-secondary-dark {
   background-color: #7f032f;
   border-color: #7f032f; }
 
-/* line 97, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 100, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-success {
   background-color: #58ba47;
   border-color: #58ba47; }
 
-/* line 101, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 105, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-info {
   background-color: #2e75bc;
   border-color: #2e75bc; }
 
-/* line 105, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 110, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-warning {
   background-color: #ffc72c;
   border-color: #ffc72c; }
 
-/* line 109, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 115, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-danger {
   background-color: #d02230;
   border-color: #d02230; }
 
-/* line 113, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 120, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-gray-darker {
   background-color: #333;
   border-color: #333; }
 
-/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 125, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-gray-dark {
   background-color: #555;
   border-color: #555; }
 
-/* line 121, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 130, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-gray {
   background-color: #777;
   border-color: #777; }
 
-/* line 125, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 135, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-gray-light {
   background-color: #999;
   border-color: #999; }
 
-/* line 129, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 140, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-gray-lighter {
   background-color: #ebebeb;
   border-color: #ebebeb; }
 
-/* line 133, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 145, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-highlight,
 .card-gray-lightest {
   background-color: #f3f3f6;
   border-color: #f3f3f6; }
 
-/* line 138, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 151, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-opaque-dark {
   background: rgba(0, 0, 0, 0.15);
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-/* line 143, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 157, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-opaque-light {
   background: rgba(255, 255, 255, 0.15);
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none; }
 
-/* line 149, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 164, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-dark {
   background-color: #444;
   border-color: #444; }
 
-/* line 153, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 169, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-primary {
   background-color: #002e6d;
   border-color: #002e6d; }
 
-/* line 157, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 174, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-secondary {
   background-color: #980438;
   border-color: #980438; }
 
-/* line 161, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 179, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-secondary-dark {
   background-color: #7f032f;
   border-color: #7f032f; }
 
-/* line 165, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 184, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-success {
   background-color: #58ba47;
   border-color: #58ba47; }
 
-/* line 169, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 189, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-info {
   background-color: #2e75bc;
   border-color: #2e75bc; }
 
-/* line 173, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 194, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-warning {
   background-color: #ffc72c;
   border-color: #ffc72c; }
 
-/* line 177, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 199, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-danger {
   background-color: #d02230;
   border-color: #d02230; }
 
-/* line 181, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 204, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray-darker {
   background-color: #333;
   border-color: #333; }
 
-/* line 185, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 209, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray-dark {
   background-color: #555;
   border-color: #555; }
 
-/* line 189, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 214, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray {
   background-color: #777;
   border-color: #777; }
 
-/* line 193, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 219, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray-light {
   background-color: #999;
   border-color: #999; }
 
-/* line 197, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 224, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray-lighter {
   background-color: #ebebeb;
   border-color: #ebebeb; }
 
-/* line 201, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 229, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-gray-lightest {
   background-color: #f3f3f6;
   border-color: #f3f3f6; }
 
-/* line 205, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 234, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-opaque-dark {
   background: rgba(0, 0, 0, 0.15);
   border: none; }
 
-/* line 209, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 239, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-header-opaque-light {
   background: rgba(255, 255, 255, 0.15);
   border: none; }
 
-/* line 214, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 245, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-dark {
   background-color: #444;
   border-color: #444; }
 
-/* line 218, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 250, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-primary {
   background-color: #002e6d;
   border-color: #002e6d; }
 
-/* line 222, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 255, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-secondary {
   background-color: #980438;
   border-color: #980438; }
 
-/* line 226, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-secondary-dark {
   background-color: #7f032f;
   border-color: #7f032f; }
 
-/* line 230, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 265, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-success {
   background-color: #58ba47;
   border-color: #58ba47; }
 
-/* line 234, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-info {
   background-color: #2e75bc;
   border-color: #2e75bc; }
 
-/* line 238, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 275, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-warning {
   background-color: #ffc72c;
   border-color: #ffc72c; }
 
-/* line 242, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 280, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-danger {
   background-color: #d02230;
   border-color: #d02230; }
 
-/* line 246, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 285, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray-darker {
   background-color: #333;
   border-color: #333; }
 
-/* line 250, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 290, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray-dark {
   background-color: #555;
   border-color: #555; }
 
-/* line 254, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 295, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray {
   background-color: #777;
   border-color: #777; }
 
-/* line 258, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 300, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray-light {
   background-color: #999;
   border-color: #999; }
 
-/* line 262, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 305, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray-lighter {
   background-color: #ebebeb;
   border-color: #ebebeb; }
 
-/* line 266, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 310, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-gray-lightest {
   background-color: #f3f3f6;
   border-color: #f3f3f6; }
 
-/* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 315, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-opaque-dark {
   background: rgba(0, 0, 0, 0.15);
   border: none; }
 
-/* line 274, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 320, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-footer-opaque-light {
   background: rgba(255, 255, 255, 0.15);
   border: none; }
 
-/* line 283, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 329, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-inverse .card-header,
 .card-inverse .card-footer {
   border-bottom: 0.075rem solid rgba(255, 255, 255, 0.2); }
 
-/* line 287, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 333, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-inverse .card-header,
 .card-inverse .card-footer,
 .card-inverse .card-title,
@@ -6762,7 +6776,7 @@ input[type="button"].btn-block {
 .card-inverse .card-block {
   color: #fff; }
 
-/* line 294, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 340, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-inverse .card-link,
 .card-inverse .card-text,
 .card-inverse .card-blockquote > footer,
@@ -6773,17 +6787,17 @@ input[type="button"].btn-block {
 .card-inverse .card-link:focus, .card-inverse .card-link:hover {
   color: #fff; }
 
-/* line 312, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 356, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-blockquote {
   padding: 0;
   margin-bottom: 0;
   border-left: 0; }
 
-/* line 319, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 363, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-img {
   border-radius: 0; }
 
-/* line 323, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 368, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -6792,45 +6806,67 @@ input[type="button"].btn-block {
   left: 0;
   padding: 1.25rem; }
 
-/* line 335, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 378, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-img-top {
   border-radius: 0 0 0 0; }
 
-/* line 338, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 382, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-img-bottom {
   border-radius: 0 0 0 0; }
 
-/* line 417, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 459, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-columns {
   -webkit-column-count: 3;
           column-count: 3;
   -webkit-column-gap: 1.25rem;
           column-gap: 1.25rem; }
-  /* line 421, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 462, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-columns .card {
     display: inline-block;
     width: 100%; }
 
-/* line 428, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 469, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 a.card,
 a.card-block {
   display: block; }
 
-/* line 433, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 474, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-white {
   background: #fff; }
 
-/* line 439, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 480, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-sm .card-header,
 .card-sm .card-footer {
   padding: 0.416875rem 0.83375rem; }
 
-/* line 445, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 486, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-sm .card-block,
 .card-sm.card-block {
   padding: 0.625rem 0.83375rem; }
 
-/* line 452, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 491, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+.card-half {
+  position: relative; }
+
+/* line 495, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+.card-half .card-block {
+  position: relative;
+  z-index: 2; }
+
+/* line 500, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+.card-half:before {
+  background: currentColor;
+  border-radius: .2rem .2rem 0 0;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; }
+
+/* line 514, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-top:after {
   background: #444;
   content: '';
@@ -6841,7 +6877,7 @@ a.card-block {
   position: absolute;
   height: 5px; }
 
-/* line 463, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 525, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-left:after {
   left: -5px;
   right: auto;
@@ -6850,91 +6886,91 @@ a.card-block {
   height: auto;
   width: 5px; }
 
-/* line 472, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 534, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-black:after {
   background: #141414; }
 
-/* line 475, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 538, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-primary:after {
   background: #002e6d; }
 
-/* line 478, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 542, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-secondary:after {
   background: #980438; }
 
-/* line 481, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 546, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-tertiary:after {
   background: #ea7600; }
 
-/* line 484, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 550, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-success:after {
   background: #58ba47; }
 
-/* line 487, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 554, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-info:after {
   background: #2e75bc; }
 
-/* line 490, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 558, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-warning:after {
   background: #ffc72c; }
 
-/* line 493, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 562, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-border-danger:after {
   background: #d02230; }
 
-/* line 497, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 566, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card .text-type-absolute .text-type-icon {
   border-radius: 0 0 0 0; }
 
-/* line 501, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 570, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-icon-absolute {
   position: absolute !important;
   left: -6px;
   top: -6px; }
 
-/* line 507, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 576, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-primary,
 .card-flag-primary {
   background: #002e6d; }
 
-/* line 511, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 581, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-info,
 .card-flag-info {
   background: #2e75bc; }
 
-/* line 515, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 586, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-secondary,
 .card-flag-secondary {
   background: #980438; }
 
-/* line 519, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 591, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-tertiary,
 .card-flag-tertiary {
   background: #ea7600; }
 
-/* line 523, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 596, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-success,
 .card-flag-success {
   background: #58ba47; }
 
-/* line 527, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 601, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-warning,
 .card-flag-warning {
   background: #ffc72c; }
 
-/* line 531, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 606, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .flag-danger,
 .card-flag-danger {
   background: #d02230; }
 
-/* line 536, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 611, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-block .card-flag {
   margin-left: -1.25rem; }
-  /* line 538, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 613, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-sm .card-block .card-flag {
     margin-left: -0.83375rem; }
 
-/* line 543, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 618, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon {
   color: #fff;
   height: 75px;
@@ -6947,7 +6983,7 @@ a.card-block {
   width: 75px;
   white-space: nowrap;
   z-index: 1; }
-  /* line 555, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 630, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-ribbon span {
     background: #444;
     -webkit-box-shadow: 0 2px 5px -3px rgba(0, 0, 0, 0.4);
@@ -6965,78 +7001,78 @@ a.card-block {
     right: -26px;
     width: 100px; }
 
-/* line 572, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 647, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-sm span {
   font-size: .625rem; }
 
-/* line 576, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 651, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-primary span {
   background: -webkit-gradient(linear, left top, left bottom, from(#003781), to(#002559));
   background: linear-gradient(#003781 0%, #002559 100%); }
-  /* line 578, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 653, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .no-cssgradients .card-ribbon-primary span {
     background: #002e6d; }
 
-/* line 582, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 658, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-success span {
   background: -webkit-gradient(linear, left top, left bottom, from(#65c056), to(#50ac41));
   background: linear-gradient(#65c056 0%, #50ac41 100%); }
-  /* line 584, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 660, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .no-cssgradients .card-ribbon-success span {
     background: #58ba47; }
 
-/* line 588, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 665, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-info span {
   background: -webkit-gradient(linear, left top, left bottom, from(#327fcc), to(#2a6bac));
   background: linear-gradient(#327fcc 0%, #2a6bac 100%); }
-  /* line 590, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 667, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .no-cssgradients .card-ribbon-info span {
     background: #2e75bc; }
 
-/* line 594, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 672, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-warning span {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffcc40), to(#ffc218));
   background: linear-gradient(#ffcc40 0%, #ffc218 100%); }
-  /* line 596, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 674, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .no-cssgradients .card-ribbon-warning span {
     background: #ffc72c; }
 
-/* line 600, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 679, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-danger span {
   background: -webkit-gradient(linear, left top, left bottom, from(#dc2a39), to(#be1f2c));
   background: linear-gradient(#dc2a39 0%, #be1f2c 100%); }
-  /* line 602, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 681, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .no-cssgradients .card-ribbon-danger span {
     background: #d02230; }
 
-/* line 607, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 686, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-ribbon-left {
   left: 0; }
-  /* line 609, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 688, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-ribbon-left span {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
     left: -26px;
     right: auto; }
 
-/* line 617, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 696, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover {
   -webkit-transition: -webkit-box-shadow ease-in-out .15s;
   transition: -webkit-box-shadow ease-in-out .15s;
   transition: box-shadow ease-in-out .15s;
   transition: box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s; }
 
-/* line 621, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 700, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover-raised:hover {
   -webkit-box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25), inset 0 0 0 #fff;
           box-shadow: 0 10px 16px rgba(0, 0, 0, 0.25), inset 0 0 0 #fff;
   cursor: pointer;
   z-index: 2; }
-  /* line 625, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+  /* line 704, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
   .card-hover-raised:hover .text-description {
     color: #222; }
 
-/* line 631, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 710, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-backface {
   background: rgba(0, 0, 0, 0.25);
   color: #fff;
@@ -7052,16 +7088,16 @@ a.card-block {
   top: 0;
   width: 100%; }
 
-/* line 646, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 725, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover:hover .card-backface {
   opacity: 1; }
 
-/* line 650, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 729, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card-hover:hover .card-backface-icon {
   -webkit-animation-name: bounceIn;
           animation-name: bounceIn; }
 
-/* line 656, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 735, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .item-flex.card .item-flex-addon {
   padding: 1.25rem 1.25rem;
   /*
@@ -7073,7 +7109,7 @@ a.card-block {
         }
 */ }
 
-/* line 670, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
+/* line 749, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .item-flex.card-sm .item-flex-addon {
   padding: 0.625rem 0.83375rem; }
 
@@ -13938,26 +13974,35 @@ button.list-group-item-state {
     max-height: 75px; }
 
 /* line 64, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+.logo-footer {
+  background: #fff;
+  border-radius: 50%;
+  margin: -50px 0 0 -25px;
+  width: 50px;
+  height: 50px;
+  position: absolute; }
+
+/* line 74, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .logo-description {
   -webkit-transition: all 1s;
   transition: all 1s; }
 
-/* line 70, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 80, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top .logo img {
   width: 45px; }
 
-/* line 73, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 83, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top .logo-description {
   opacity: 1; }
 
-/* line 78, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 88, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search {
   margin-bottom: 1rem; }
-  /* line 80, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+  /* line 90, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
   .body-fixed-top .header-main-search {
     margin-bottom: .35rem; }
 
-/* line 85, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 95, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .header-main-search-form {
   opacity: 0;
   -webkit-transform: translateY(-50px);
@@ -13965,24 +14010,24 @@ button.list-group-item-state {
   -webkit-transition: .25s all;
   transition: .25s all;
   max-width: 300px; }
-  /* line 90, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+  /* line 100, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
   .header-main-search-form.is-toggled {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); }
 
-/* line 96, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 106, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .hero {
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 103, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 113, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .logo-description-v3 img {
   margin-left: 10px;
   width: 270px; }
 
-/* line 107, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
+/* line 117, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .body-fixed-top .logo-description-v3 {
   width: 220px; }
 
@@ -14447,132 +14492,138 @@ button.list-group-item-state {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  display: -webkit-inline-flex;
   line-height: 1;
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 50%; }
 
-/* line 227, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 226, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle,
 button.circle-outline {
   display: inline-block;
   line-height: 1.8rem; }
 
-/* line 233, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 232, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-outline {
   border: .0625rem solid currentColor; }
 
-/* line 237, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 236, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-xs,
 .circle-outline-xs {
   font-size: .65rem;
   width: 1rem;
   height: 1rem; }
 
-/* line 244, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 243, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-xxs,
 .circle-outline-xs {
   font-size: .45rem;
   width: .75rem;
   height: .75rem; }
 
-/* line 251, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 250, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-xs,
 button.circle-outline-xs {
   line-height: 1rem; }
 
-/* line 254, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 253, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-sm,
 .circle-outline-sm {
   font-size: .75rem;
   width: 1.25rem;
   height: 1.25rem; }
 
-/* line 261, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 260, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-sm,
 button.circle-outline-sm {
   line-height: 1.25rem; }
 
-/* line 264, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 263, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-md,
 .circle-outline-md {
   font-size: 1.3rem;
   width: 2.25rem;
   height: 2.25rem; }
 
-/* line 271, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 270, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-md,
 button.circle-outline-md {
   line-height: 2.25rem; }
 
-/* line 274, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 273, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-lg,
 .circle-outline-lg {
   font-size: 1.6rem;
   width: 3.6rem;
   height: 3.6rem; }
 
-/* line 281, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 280, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-lg,
 button.circle-outline-lg {
   line-height: 3.6rem; }
 
-/* line 284, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 283, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .circle-xl,
 .circle-outline-xl {
   font-size: 2.5rem;
   width: 4.75rem;
   height: 4.75rem; }
 
-/* line 291, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 290, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 button.circle-xl,
 button.circle-outline-xl {
   line-height: 4.75rem; }
 
-/* line 294, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 293, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+.circle-xxl,
+.circle-outline-xxl {
+  font-size: 4rem;
+  width: 6.75rem;
+  height: 6.75rem; }
+
+/* line 300, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .close-circle {
   margin-right: -.5em;
   margin-left: .4em; }
 
-/* line 299, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 305, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .transition,
 .no-touch .hover-transition {
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }
 
-/* line 304, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 310, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .bg-cover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
 
-/* line 310, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 316, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .bg-contain {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%; }
 
-/* line 316, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 322, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .is-selected td {
   border-color: #58ba47;
   background: #dff2db; }
 
-/* line 321, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 327, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .is-hidden {
   display: none; }
 
-/* line 325, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 331, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .z-index-10 {
   position: relative;
   z-index: 10; }
 
-/* line 330, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 336, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .faq-item {
   cursor: pointer;
   padding-left: 20px;
   position: relative; }
-  /* line 334, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+  /* line 340, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
   .faq-item::after {
     background: url(img/chevron-right.svg) no-repeat 0 0;
     background-size: 100% 100%;
@@ -14583,12 +14634,12 @@ button.circle-outline-xl {
     top: 6px;
     height: 11px;
     width: 11px; }
-  /* line 346, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+  /* line 352, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
   .faq-item.is-toggled::after {
     background: url(img/chevron-down.svg) no-repeat 0 0;
     top: 8px; }
 
-/* line 354, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
+/* line 360, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_misc.scss */
 .faq-answer p:last-child {
   margin-bottom: 0; }
 
@@ -15355,7 +15406,7 @@ hover-bg-gray-lightest:hover {
 /* line 68, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-primary-lightest,
 .hover-bg-primary-lightest:hover {
-  background-color: #004eba; }
+  background-color: #edf4ff; }
 
 /* line 73, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-primary-dark {
@@ -15475,7 +15526,7 @@ hover-bg-opaque-dark:hover {
 /* line 188, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-darker,
 .hover-bg-opaque-darker:hover {
-  background-color: rgba(0, 0, 0, 0.25); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 /* line 193, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_backgrounds.scss */
 .bg-opaque-darkest,

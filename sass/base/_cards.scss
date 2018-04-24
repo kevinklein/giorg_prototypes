@@ -1,7 +1,6 @@
 //
 // Base styles
 //
-
 .card {
     background: #fff;
     position: relative;
@@ -36,18 +35,15 @@
 
 // .card-actions {
 //   padding: $card-spacer-y $card-spacer-x;
-
 //   .card-link + .card-link {
 //     margin-left: $card-spacer-x;
 //   }
 // }
-
 .card-link {
     @include hover {
         text-decoration: none;
     }
-    
-    + .card-link {
+    +.card-link {
         margin-left: $card-spacer-x;
     }
 }
@@ -55,12 +51,16 @@
 //
 // Optional textual caps
 //
-
 .card-header {
     padding: $card-spacer-y-sm $card-spacer-x;
     background-color: $card-cap-bg;
     border-bottom: $card-border-width solid $card-border-color;
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 0;
     }
     &.card-page-title {
@@ -74,7 +74,6 @@
     @include border-radius(0 0 $card-border-radius-inner $card-border-radius-inner);
 }
 
-
 //
 // Background variations
 //
@@ -82,233 +81,278 @@
     background-color: $brand-dark;
     border-color: $brand-dark;
 }
+
 .card-primary {
     background-color: $brand-primary;
     border-color: $brand-primary;
 }
+
 .card-secondary {
     background-color: $brand-secondary;
     border-color: $brand-secondary;
 }
+
 .card-secondary-dark {
     background-color: $brand-secondary-dark;
     border-color: $brand-secondary-dark;
 }
+
 .card-success {
     background-color: $brand-success;
     border-color: $brand-success;
 }
+
 .card-info {
     background-color: $brand-info;
     border-color: $brand-info;
 }
+
 .card-warning {
     background-color: $brand-warning;
     border-color: $brand-warning;
 }
+
 .card-danger {
     background-color: $brand-danger;
     border-color: $brand-danger;
 }
+
 .card-gray-darker {
     background-color: $gray-darker;
     border-color: $gray-darker;
 }
+
 .card-gray-dark {
     background-color: $gray-dark;
     border-color: $gray-dark;
 }
+
 .card-gray {
     background-color: $gray;
     border-color: $gray;
 }
+
 .card-gray-light {
     background-color: $gray-light;
     border-color: $gray-light;
 }
+
 .card-gray-lighter {
     background-color: $gray-lighter;
     border-color: $gray-lighter;
 }
+
 .card-highlight,
 .card-gray-lightest {
     background-color: $gray-lightest;
     border-color: $gray-lightest;
 }
+
 .card-opaque-dark {
-    background:rgba(#000,.15);
-    border:none;
-    box-shadow:none;
+    background: rgba(#000, .15);
+    border: none;
+    box-shadow: none;
 }
+
 .card-opaque-light {
-    background:rgba(#fff,.15);
-    border:none;
-    box-shadow:none;
+    background: rgba(#fff, .15);
+    border: none;
+    box-shadow: none;
 }
+
 //header
 .card-header-dark {
     background-color: $brand-dark;
     border-color: $brand-dark;
 }
+
 .card-header-primary {
     background-color: $brand-primary;
     border-color: $brand-primary;
 }
+
 .card-header-secondary {
     background-color: $brand-secondary;
     border-color: $brand-secondary;
 }
+
 .card-header-secondary-dark {
     background-color: $brand-secondary-dark;
     border-color: $brand-secondary-dark;
 }
+
 .card-header-success {
     background-color: $brand-success;
     border-color: $brand-success;
 }
+
 .card-header-info {
     background-color: $brand-info;
     border-color: $brand-info;
 }
+
 .card-header-warning {
     background-color: $brand-warning;
     border-color: $brand-warning;
 }
+
 .card-header-danger {
     background-color: $brand-danger;
     border-color: $brand-danger;
 }
+
 .card-header-gray-darker {
     background-color: $gray-darker;
     border-color: $gray-darker;
 }
+
 .card-header-gray-dark {
     background-color: $gray-dark;
     border-color: $gray-dark;
 }
+
 .card-header-gray {
     background-color: $gray;
     border-color: $gray;
 }
+
 .card-header-gray-light {
     background-color: $gray-light;
     border-color: $gray-light;
 }
+
 .card-header-gray-lighter {
     background-color: $gray-lighter;
     border-color: $gray-lighter;
 }
+
 .card-header-gray-lightest {
     background-color: $gray-lightest;
     border-color: $gray-lightest;
 }
+
 .card-header-opaque-dark {
-    background:rgba(#000,.15);
-    border:none;
+    background: rgba(#000, .15);
+    border: none;
 }
+
 .card-header-opaque-light {
-    background:rgba(#fff,.15);
-    border:none;
+    background: rgba(#fff, .15);
+    border: none;
 }
+
 //footer
 .card-footer-dark {
     background-color: $brand-dark;
     border-color: $brand-dark;
 }
+
 .card-footer-primary {
     background-color: $brand-primary;
     border-color: $brand-primary;
 }
+
 .card-footer-secondary {
     background-color: $brand-secondary;
     border-color: $brand-secondary
 }
+
 .card-footer-secondary-dark {
     background-color: $brand-secondary-dark;
     border-color: $brand-secondary-dark;
 }
+
 .card-footer-success {
     background-color: $brand-success;
     border-color: $brand-success;
 }
+
 .card-footer-info {
     background-color: $brand-info;
     border-color: $brand-info;
 }
+
 .card-footer-warning {
     background-color: $brand-warning;
     border-color: $brand-warning;
 }
+
 .card-footer-danger {
     background-color: $brand-danger;
     border-color: $brand-danger;
 }
+
 .card-footer-gray-darker {
     background-color: $gray-darker;
     border-color: $gray-darker;
 }
+
 .card-footer-gray-dark {
     background-color: $gray-dark;
     border-color: $gray-dark;
 }
+
 .card-footer-gray {
     background-color: $gray;
     border-color: $gray;
 }
+
 .card-footer-gray-light {
     background-color: $gray-light;
     border-color: $gray-light;
 }
+
 .card-footer-gray-lighter {
     background-color: $gray-lighter;
     border-color: $gray-lighter;
 }
+
 .card-footer-gray-lightest {
     background-color: $gray-lightest;
     border-color: $gray-lightest;
 }
+
 .card-footer-opaque-dark {
-    background:rgba(#000,.15);
-    border:none;
+    background: rgba(#000, .15);
+    border: none;
 }
+
 .card-footer-opaque-light {
-    background:rgba(#fff,.15);
-    border:none;
+    background: rgba(#fff, .15);
+    border: none;
 }
+
 //
 // Inverse text within a card for use with dark backgrounds
 //
-
 .card-inverse {
-  .card-header,
-  .card-footer {
-    border-bottom: .075rem solid rgba(255,255,255,.2);
-  }
-  .card-header,
-  .card-footer,
-  .card-title,
-  .card-blockquote,
-  .card-block {
-    color: #fff;
-  }
-  .card-link,
-  .card-text,
-  .card-blockquote > footer,
-  .card-block > footer {
-    color: rgba(255,255,255,.65);
-  }
-  .card-link {
-    @include hover-focus {
-      color: #fff;
+    .card-header,
+    .card-footer {
+        border-bottom: .075rem solid rgba(255, 255, 255, .2);
     }
-  }
+    .card-header,
+    .card-footer,
+    .card-title,
+    .card-blockquote,
+    .card-block {
+        color: #fff;
+    }
+    .card-link,
+    .card-text,
+    .card-blockquote>footer,
+    .card-block>footer {
+        color: rgba(255, 255, 255, .65);
+    }
+    .card-link {
+        @include hover-focus {
+            color: #fff;
+        }
+    }
 }
-
 
 //
 // Blockquote
 //
-
 .card-blockquote {
     padding: 0;
     margin-bottom: 0;
@@ -320,6 +364,7 @@
     // margin: -1.325rem;
     @include border-radius($card-border-radius);
 }
+
 .card-img-overlay {
     position: absolute;
     top: 0;
@@ -329,16 +374,14 @@
     padding: 1.25rem;
 }
 
-
-
 // Card image caps
 .card-img-top {
     @include border-radius($card-border-radius-inner $card-border-radius-inner 0 0);
 }
+
 .card-img-bottom {
     @include border-radius(0 0 $card-border-radius-inner $card-border-radius-inner);
 }
-
 
 ////
 //// Card set
@@ -413,15 +456,13 @@
 //    }
 //  }
 //}
-
 .card-columns {
-  column-count: 3;
-  column-gap: 1.25rem;
-
-  .card {
-    display: inline-block;
-    width: 100%; // Don't let them exceed the column width
-  }
+    column-count: 3;
+    column-gap: 1.25rem;
+    .card {
+        display: inline-block;
+        width: 100%; // Don't let them exceed the column width
+    }
 }
 
 // cards as links
@@ -437,8 +478,8 @@ a.card-block {
 // card-sizing
 .card-sm {
     .card-header,
-    .card-footer {        
-        padding: ($card-spacer-y-sm  * .667) $card-spacer-x-sm;
+    .card-footer {
+        padding: ($card-spacer-y-sm * .667) $card-spacer-x-sm;
     }
 }
 
@@ -447,12 +488,33 @@ a.card-block {
     padding: $card-spacer-y-sm $card-spacer-x-sm;
 }
 
-// bordered cards
+.card-half {
+    position: relative
+}
 
+.card-half .card-block {
+    position: relative;
+    z-index: 2
+}
+
+.card-half:before {
+    background: currentColor;
+    border-radius: .2rem .2rem 0 0;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
+
+// bordered cards
 .card-border-top:after {
     background: $brand-dark;
     content: '';
-    display: block;            
+    display: block;
     left: 0;
     right: 0;
     top: -5px;
@@ -460,7 +522,7 @@ a.card-block {
     height: 5px;
 }
 
-.card-border-left:after {           
+.card-border-left:after {
     left: -5px;
     right: auto;
     bottom: 0;
@@ -472,24 +534,31 @@ a.card-block {
 .card-border-black:after {
     background: $brand-black;
 }
+
 .card-border-primary:after {
     background: $brand-primary;
 }
+
 .card-border-secondary:after {
     background: $brand-secondary;
 }
+
 .card-border-tertiary:after {
     background: $brand-orange;
 }
+
 .card-border-success:after {
     background: $brand-success;
 }
+
 .card-border-info:after {
     background: $brand-info;
 }
+
 .card-border-warning:after {
     background: $brand-warning;
 }
+
 .card-border-danger:after {
     background: $brand-danger;
 }
@@ -508,27 +577,33 @@ a.card-block {
 .card-flag-primary {
     background: $brand-primary;
 }
+
 .flag-info,
 .card-flag-info {
     background: $brand-info;
 }
+
 .flag-secondary,
 .card-flag-secondary {
     background: $brand-secondary;
 }
+
 .flag-tertiary,
 .card-flag-tertiary {
     background: $brand-orange;
 }
+
 .flag-success,
 .card-flag-success {
     background: $brand-success;
 }
+
 .flag-warning,
 .card-flag-warning {
     background: $brand-warning;
 }
-.flag-danger ,
+
+.flag-danger,
 .card-flag-danger {
     background: $brand-danger;
 }
@@ -542,28 +617,28 @@ a.card-block {
 
 .card-ribbon {
     color: #fff;
-    height: 75px; 
+    height: 75px;
     overflow: hidden;
     position: absolute;
     right: 0;
     text-align: right;
     text-transform: uppercase;
     top: 0;
-    width: 75px; 
+    width: 75px;
     white-space: nowrap;
     z-index: 1;
     span {
         background: $brand-dark;
-        box-shadow: 0 2px 5px -3px rgba(0,0,0,.4);
+        box-shadow: 0 2px 5px -3px rgba(0, 0, 0, .4);
         display: block;
         font-size: $font-size-xxs;
         font-family: $font-family-sans-serif;
-        font-weight: bold; 
+        font-weight: bold;
         line-height: 25px;
         transform: rotate(45deg);
         position: absolute;
         text-align: center;
-        top: 14px; 
+        top: 14px;
         right: -26px;
         width: 100px;
     }
@@ -574,31 +649,35 @@ a.card-block {
 }
 
 .card-ribbon-primary span {
-    background: linear-gradient(lighten($brand-primary,4%) 0%, darken($brand-primary,4%) 100%);
+    background: linear-gradient(lighten($brand-primary, 4%) 0%, darken($brand-primary, 4%) 100%);
     .no-cssgradients & {
         background: $brand-primary;
     }
 }
+
 .card-ribbon-success span {
-    background: linear-gradient(lighten($brand-success,4%) 0%, darken($brand-success,4%) 100%);
+    background: linear-gradient(lighten($brand-success, 4%) 0%, darken($brand-success, 4%) 100%);
     .no-cssgradients & {
         background: $brand-success;
     }
 }
+
 .card-ribbon-info span {
-    background: linear-gradient(lighten($brand-info,4%) 0%, darken($brand-info,4%) 100%);
+    background: linear-gradient(lighten($brand-info, 4%) 0%, darken($brand-info, 4%) 100%);
     .no-cssgradients & {
         background: $brand-info;
     }
 }
+
 .card-ribbon-warning span {
-    background: linear-gradient(lighten($brand-warning,4%) 0%, darken($brand-warning,4%) 100%);
+    background: linear-gradient(lighten($brand-warning, 4%) 0%, darken($brand-warning, 4%) 100%);
     .no-cssgradients & {
         background: $brand-warning;
     }
 }
+
 .card-ribbon-danger span {
-    background: linear-gradient(lighten($brand-danger,4%) 0%, darken($brand-danger,4%) 100%);
+    background: linear-gradient(lighten($brand-danger, 4%) 0%, darken($brand-danger, 4%) 100%);
     .no-cssgradients & {
         background: $brand-danger;
     }
@@ -619,7 +698,7 @@ a.card-block {
 }
 
 .card-hover-raised:hover {
-    box-shadow: 0 10px 16px rgba(0,0,0,.25), inset 0 0 0 #fff;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, .25), inset 0 0 0 #fff;
     cursor: pointer;
     z-index: 2;
     .text-description {
@@ -629,7 +708,7 @@ a.card-block {
 
 //backfaces for hover 
 .card-backface {
-    background: rgba(#000,.25);
+    background: rgba(#000, .25);
     color: #fff;
     @include border-radius($card-border-radius);
     height: 100%;
@@ -655,7 +734,7 @@ a.card-block {
 .item-flex.card {
     .item-flex-addon {
         padding: $card-spacer-y $card-spacer-x;
-/*
+        /*
         &:first-child {
             border-radius: $border-radius-sm 0 0 $border-radius-sm;
         }

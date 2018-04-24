@@ -25,9 +25,7 @@
     <div class="bg-primary p-y p-lg-y-xl text-inverse hero bg-triangles-primary">
         <div class="container">
             <h1 class="m-b-sm text-webfont-one display-4 item-reveal-3 text-300">Clinical Guidelines</h1>
-            <p class="display-2 text-webfont-one item-reveal-4 text-300">The decision support tools you need for your practice
-                
-            </p>
+            <p class="display-2 text-webfont-one item-reveal-4 text-300">The decision support tools you need for your practice</p>
         </div>
     </div>
 

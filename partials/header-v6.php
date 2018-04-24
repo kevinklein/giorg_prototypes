@@ -6,7 +6,7 @@ body.body-fixed-top { padding-top: 170px; }
 </style>
 
 <div id="top"></div>
-<header id="header-main" class="cd-morph-dropdown raised-sm">
+<header id="header-main" class="cd-morph-dropdown bg-white raised-sm">
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
         <div class="container item-flex justify-content-flex-end">
             <nav class="text-normal hidden-sm-down p-r">
@@ -78,7 +78,7 @@ body.body-fixed-top { padding-top: 170px; }
                 <li class="has-dropdown" data-content="one"><a href="#"><span>Research</span></a></li>
                 <li class="has-dropdown" data-content="two"><a href="#"><span>Education</span></a></li>
                 <li class="has-dropdown" data-content="three"><a href="/guidelines"><span>Guidelines</span></a></li>
-                <li class="has-dropdown" data-content="four"><a href="#"><span>Publications</span></a></li>
+                <li class="has-dropdown" data-content="four"><a href="/publications"><span>Publications</span></a></li>
                 <li class="has-dropdown" data-content="four"><a href="#"><span>Practice Management</span></a></li>
                 <li class="has-dropdown" data-content="five"><a href="/trainees"><span>Trainees</span></a></li>
                 <li class="has-dropdown" data-content="six"><a href="#"><span>Patients</span></a></li>

@@ -217,7 +217,6 @@
     border: none; //for use as a button
     padding: 0; //for use as a button
     display: inline-flex;
-    display: -webkit-inline-flex;
     line-height: 1;
     width: 1.8rem;
     height: 1.8rem;
@@ -290,6 +289,13 @@ button.circle-outline-lg { line-height: 3.6rem; }
 
 button.circle-xl,
 button.circle-outline-xl { line-height: 4.75rem; }
+
+.circle-xxl,
+.circle-outline-xxl {
+    font-size: 4rem;
+    width: 6.75rem;
+    height: 6.75rem;
+}
 
 .close-circle {
     margin-right: -.5em;
