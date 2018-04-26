@@ -71,7 +71,7 @@
 			<!-- row -->
 			<div class="row">
 				<div class="col-md-4 col-xs-12 display-flex flex-column">
-					<div href="#" class="card card-border card-border-top card-border-info m-b-0 display-flex flex-column link-block flex-1">
+					<div href="#" class="card card-border card-border-top card-border-info m-b-0 display-flex flex-column link-block flex-1 item-reveal-1">
 						<div class="card-block border-bottom">
 							<h2 class="text-400">ACG Blog <a href="#"><img class="pull-right" src="/svg/acg-blog-black.svg" width="110"></a></h2>
 						</div>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="col-md-8 col-xs-12 display-flex flex-column">
 
-					<div class="card border-none card-border card-border-top card-border-primary flex-1" href="#" style="background: #fff url() 0 0 / contain no-repeat">
+					<div class="card border-none card-border card-border-top card-border-primary flex-1 item-reveal-2" href="#" style="background: #fff url() 0 0 / contain no-repeat">
 						<div class="card-block">
 							<div class="row">
 								<div class="col-md-4 col-xs-12">
@@ -149,7 +149,7 @@
 			
 					<div class="row display-flex flex-column">
 							<div class="col-md-4 col-xs-12 display-flex flex-column">
-							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0">
+							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0 item-reveal-3">
 								<div class="card-header card-header-primary" style="height:100px"></div>
 								<div class="card-block text-dark">
 									<div class="text-center p-b" style="margin-top:-100px">
@@ -163,7 +163,7 @@
 							</a>
 						</div>
 						<div class="col-md-4 col-xs-12 display-flex flex-column">
-							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0">
+							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0 item-reveal-4">
 								<div class="card-header card-header-secondary" style="height:100px"></div>
 								<div class="card-block text-dark">
 									<div class="text-center p-b" style="margin-top:-100px">
@@ -178,7 +178,7 @@
 							</a>
 						</div>
 						<div class="col-md-4 col-xs-12 display-flex flex-column">
-							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0">
+							<a href="#" class="card display-block card-hover card-hover-raised flex-1 m-b-0 item-reveal-5">
 								<div class="card-header card-header-info" style="height:100px"></div>
 								<div class="card-block text-dark">
 									<div class="text-center p-b" style="margin-top:-100px">
