@@ -20,7 +20,7 @@
 </nav>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-primary p-y p-lg-y-xl text-inverse hero" style="background-image:url(/img/bg-trainees.png)">
         <div class="container p-lg-y-lg">

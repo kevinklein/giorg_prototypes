@@ -21,7 +21,7 @@
 </nav>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-primary-dark bg-gradient-primary-secondary p-y-md text-inverse page-title">
         <div class="container">

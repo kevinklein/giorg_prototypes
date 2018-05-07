@@ -16,7 +16,7 @@
 <?php include '../partials/header-v6.php' ?>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
 	<div class="bg-white page-title">
         <div class="container p-y-md">

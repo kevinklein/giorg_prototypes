@@ -11,7 +11,7 @@
 <?php include '../partials/header-v5.php' ?>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-primary-dark bg-gradient-primary-secondary p-y-md text-inverse page-title">
         <div class="container">
@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <div class="bg-gray-lightest p-y main-content">
+    <div class="bg-gray-lightest p-y">
         <div class="container">
             <div class="row bottom-md">
                 <div class="col-md-9 col-xs-6">

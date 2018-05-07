@@ -12,7 +12,7 @@
 <?php include '../partials/header-v6.php' ?>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-white page-title">
         <div class="container p-a-md" style="border-left: 5px solid #002e6d">
@@ -31,7 +31,7 @@
         </div>
     </nav>
 
-    <div class="bg-gray-lightest p-y main-content">
+    <div class="bg-gray-lightest p-y">
         <div class="container">
             <div class="row bottom-md">
                 <div class="col-md-9 col-xs-6">

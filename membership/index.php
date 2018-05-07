@@ -50,7 +50,7 @@
 </nav>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
 	<div class="p-y p-lg-y-lg bg-white">
 		<div class="text-center">

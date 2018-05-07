@@ -17,7 +17,7 @@
 <?php include 'partials/header-v4.php' ?>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-primary p-y p-lg-y-xl text-inverse main-section">
         <!-- /Slider main container -->

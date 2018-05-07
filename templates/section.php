@@ -20,7 +20,7 @@
 </nav>
 
 <!-- main div --> 
-<div class="flex-content">
+<div class="main-content">
 
     <div class="bg-primary p-y p-lg-y-xl text-inverse hero bg-triangles-primary">
         <div class="container p-lg-y-lg">

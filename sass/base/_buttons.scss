@@ -279,3 +279,14 @@ input[type="button"] {
         outline: none !important;
     }
 }
+
+.btn-search-toggle {
+    align-self: stretch;
+    background: $brand-primary-light;
+    font-size: 1.7rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    &:hover {
+        background: darken(#ccd5e2,10%);
+    }
+}

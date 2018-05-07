@@ -3,6 +3,7 @@ body.body-fixed-top { padding-top: 170px; }
 .logo-description-v6 img { width: 230px; }
 .logo img { width: 80px; max-height: 80px; }
 .body-fixed-top .logo-description-v6 img { width: 200px; }
+.cd-morph-dropdown .morph-dropdown-wrapper { top: 55px; }
 </style>
 
 <div id="top"></div>
@@ -10,17 +11,21 @@ body.body-fixed-top { padding-top: 170px; }
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
         <div class="container item-flex justify-content-flex-end">
             <nav class="text-normal hidden-sm-down p-r">
-                <a href="#" class="nav-link text-hover-underline">About ACG</a>
-                <span class="text-pipe">|</span>
-                <a href="#" class="nav-link text-hover-underline">Join</a>
+                <a href="#" class="nav-link text-hover-underline">About</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Donate</a>
+                <span class="text-pipe">|</span>
+                <a href="#" class="nav-link text-hover-underline">ACG Store</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Online Store</a>
                 <span class="text-pipe">|</span>
                 <a href="#" class="nav-link text-hover-underline">Find a GI</a>
                 <span class="text-pipe">|</span>
                 <a href="/membership/" class="nav-link text-hover-underline">Membership</a>
+                <span class="text-pipe">|</span>
+                <a href="/membership/" class="nav-link text-hover-underline">Find Your ACG Governor</a>
+                <span class="text-pipe">|</span>
+                <a href="/membership/" class="nav-link text-hover-underline">Join</a>
             </nav>
             <div class="item-flex-addon">
                 <a href="#" class="btn btn-primary btn-sm br-a-0"><svg class="icon icon-users"><use xlink:href="#icon-users"></use></svg> My ACG/Log In</a>
@@ -34,23 +39,18 @@ body.body-fixed-top { padding-top: 170px; }
                     <div class="logo"> 
                         <a href="/" rel="home"><img src="/svg/logo.svg" class="img-circle"></a>
                     </div>
-                    <div class="m-l-sm text-primary logo-description logo-description-v3 logo-description-v6">
-                        <a href="/" rel="home"><img src="/svg/logo-type-acg.svg"></a>
+                    <div class="m-l-sm text-primary logo-description logo-description-v3 logo-description-v4">
+                        <a href="/" rel="home"><img src="/svg/logo-type-gotham.svg"></a>
                     </div>
                 </div>
-                <!-- <div class="item-flex-addon">
-                    <div class="item-flex position-relative">
-                        <span class="item-flex-addon text-lg p-r-sm">
-                            <svg class="icon icon-search" id="search-toggle"><use xlink:href="#icon-search"></use></svg>
-                        </span>
-                        <div class="input-group" style="max-width:300px">
-                            <input type="text" class="form-control form-control-sm" id="search" placeholder="Search Gi.org">
-                            <span class="input-group-btn">
-                                <button class="btn btn-sm btn-secondary br-a-0" type="button">Go</button>
-                            </span>
-                        </div>
-                    </div>
-                </div> -->
+                <div class="item-flex-addon">
+                    <nav class="item-flex position-relative text-lg">
+                        <a href="/guidelines" class="m-x text-hover-underline">Guidelines</a>
+                        <a href="/guidelines" class="m-x text-hover-underline">ACG Blog</a>
+                        <a href="/guidelines" class="m-x text-hover-underline">Patients</a>
+                        <a href="http://acgmeetings.gi.org" class="m-l-md" target="_blank"><img src="/img/acg2018-philly-logo-header.svg" width="110"></a>
+                    </nav>
+                </div>
             </div>
         </div>
 
@@ -71,18 +71,18 @@ body.body-fixed-top { padding-top: 170px; }
 
             <button class="btn-link display-2 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
 
-            <ul class="nav-primary-v6 hidden-sm-down item-flex-main main-nav">
+            <ul class="nav-primary-v7 hidden-sm-down item-flex-main main-nav">
                 <!-- <li><button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button></li> -->
-                <li class="has-dropdown" data-content="one"><a href="#"><span>Research</span></a></li>
                 <li class="has-dropdown" data-content="two"><a href="#"><span>Education</span></a></li>
-                <li class="has-dropdown" data-content="three"><a href="/guidelines"><span>Guidelines</span></a></li>
-                <li class="has-dropdown" data-content="four"><a href="#"><span>Publications</span></a></li>
-                <li class="has-dropdown" data-content="four"><a href="#"><span>Practice Management</span></a></li>
+                <li class="has-dropdown" data-content="four"><a href="#"><span>Journal<br>& Publications</span></a></li>
+                <li class="has-dropdown" data-content="one"><a href="#"><span>Research</span></a></li>
+                <li class="has-dropdown" data-content="institute"><a href="#"><span>ACG Institute</span></a></li>
+                <li class="has-dropdown" data-content="four"><a href="#"><span>Practice<br>Management</span></a></li>
+                <li class="has-dropdown" data-content="public"><a href="#"><span>Public Policy</span></a></li>
                 <li class="has-dropdown" data-content="five"><a href="/trainees"><span>Trainees</span></a></li>
-                <li class="has-dropdown" data-content="six"><a href="#"><span>Patients</span></a></li>
             </ul>
 
-            <button class="btn-link display-2 m-l p-a-0 toggle-is-toggled"><svg class="icon icon-search" id="search-toggle"><use xlink:href="#icon-search"></use></svg></button>
+            <button class="btn-link m-l toggle-is-toggled btn-search-toggle"><span><svg class="icon icon-search" id="search-toggle"><use xlink:href="#icon-search"></use></svg></span></button>
 
         </nav>
 
@@ -196,28 +196,6 @@ body.body-fixed-top { padding-top: 170px; }
 
 </header>
 
-<!-- <div class="bg-gray-lightest">
-    <nav class="container text-right">
-        <ul class="nav-secondary-v3" id="subnav-trainees" style="display:none;">
-            <li><a href="#">Membership</a></li>
-            <li><a href="#">Professional Development Resources</a></li>
-            <li><a href="#">Grants & Publishing</a></li>
-            <li><a href="#">For Program Directors</a></li>
-            <li><a href="#">For Residents</a></li>
-            <li><a href="#">Program Directors</a></li>
-        </ul>
-        <ul class="nav-secondary-v3" id="subnav-guidelines" style="display:none;">
-            <li class="active"><a href="#">Browse All Guidelines</a></li>
-            <li><a href="#">Guideline Development Policies</a></li>
-            <li><a href="#">ACG Guidelines App</a></li>
-            <li><a href="#">Another Link</a></li>
-            <li><a href="#">To Show</a></li>
-            <li><a href="#">A Subnav With</a></li>
-            <li><a href="#">Many Items</a></li>
-        </ul>
-    </div>
-</div> -->
-    
 <!-- menu modal -->
 <div class="modal modal-menu" tabindex="-1">
     <div class="modal-dialog modal-dialog-lg modal-lg">
