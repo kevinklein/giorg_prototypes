@@ -59,58 +59,37 @@ body.body-fixed-top { padding-top: 170px; }
     <div class="position-relative">
         <nav class="container item-flex">
 
-            <!-- <button class="btn-link display-1 p-a-0 toggle-is-toggled item-flex-addon" id="menu-toggle" data-toggle="modal" data-target=".modal-menu">
-                <svg class="icon" viewBox="0 0 1408 1024" width="100%" height="100%">
-                    <path class="path1" d="M0 192h896v128h-896v-128z"></path>
-                    <path class="path2" d="M0 448h896v128h-896v-128z"></path>
-                    <path class="path3" d="M0 704h896v128h-896v-128z"></path>
-                    <path class="path4" d="M992 576l192 192 192-192h-384z"></path>
-                    <path class="path5" d="M1376 448l-192-192-192 192h384z"></path>
-                </svg>
-            </button> -->
-
             <button class="btn-link display-2 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
 
             <ul class="nav-primary-v7 hidden-sm-down item-flex-main main-nav">
                 <!-- <li><button class="btn-link display-1 m-r p-a-0 toggle-is-toggled" id="menu-toggle" data-toggle="modal" data-target=".modal-menu"><svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg></button></li> -->
-                <li class="has-dropdown" data-content="two"><a href="#"><span>Education</span></a></li>
-                <li class="has-dropdown" data-content="four"><a href="#"><span>Journal<br>& Publications</span></a></li>
-                <li class="has-dropdown" data-content="one"><a href="#"><span>Research</span></a></li>
+                <li class="has-dropdown" data-content="education"><a href="#"><span>Education</span></a></li>
+                <li class="has-dropdown" data-content="journal"><a href="#"><span>Journal<br>& Publications</span></a></li>
+                <li class="has-dropdown" data-content="research"><a href="#"><span>Research</span></a></li>
                 <li class="has-dropdown" data-content="institute"><a href="#"><span>ACG Institute</span></a></li>
-                <li class="has-dropdown" data-content="four"><a href="#"><span>Practice<br>Management</span></a></li>
+                <li class="has-dropdown" data-content="practice"><a href="#"><span>Practice<br>Management</span></a></li>
                 <li class="has-dropdown" data-content="public"><a href="#"><span>Public Policy</span></a></li>
-                <li class="has-dropdown" data-content="five"><a href="/trainees"><span>Trainees</span></a></li>
+                <li class="has-dropdown" data-content="trainees"><a href="/trainees"><span>Trainees</span></a></li>
             </ul>
 
-            <button class="btn-link m-l toggle-is-toggled btn-search-toggle"><span><svg class="icon icon-search" id="search-toggle"><use xlink:href="#icon-search"></use></svg></span></button>
+            <button class="btn-link m-l toggle-is-toggled btn-search-toggle" id="search-toggler"><span><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></span></button>
 
         </nav>
 
         <div class="morph-dropdown-wrapper">
 			<div class="dropdown-list">
 				<ul>
-					<li id="one" class="dropdown">
+					<li id="education" class="dropdown">
 						<div class="content">	
                             <ul class="list-unstyled m-lg-b-0">
-                                <li><a href="#" class="">Join</a></li>
-                                <li><a href="#" class="">MY ACG</a></li>
-                                <li><a href="#" class="">Renew/Pay Dues</a></li>
-                                <li><a href="#" class="">Benefits & Resources</a></li>
-                                <li><a href="#" class="">Connect with Colleagues</a></li>
-                                <li><a href="#" class="">Get Involved</a></li>
-                            </ul>
-						</div>
-					</li>
-					<li id="two" class="dropdown">
-						<div class="content">
-							<ul class="list-unstyled m-b-sm">
-                                <li><a href="#" class="">Meetings & Events Calendar</a></li>
-                                <li><a href="#" class="">Claim CME & MOC</a></li>
-                                <li><a href="#" class="">Board Prep</a></li>
-                                <li><a href="#" class="">Education Universe</a></li>
-                                <li><a href="#" class="">Journal CME & MOC</a></li>
-                                <li><a href="#" class="">Training Program Resources</a></li>
-                                <li><a href="#" class="">Exhibitors & Sponsors</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">ACG 2018</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Meetings & Events Calendar</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Claim CME & MOC</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Education Universe</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Board Prep</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Journal CME & MOC</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Training Program Resources</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Exhibitors & Sponsors</a></li>
                             </ul>
                             <a class="bg-gray-lighter p-a item-flex" href="#">
                                 <img src="/svg/acg2018-logo-type.svg" class="" width="70">
@@ -121,61 +100,18 @@ body.body-fixed-top { padding-top: 170px; }
                             </a>
 						</div>
 					</li>
-					<li id="three" class="dropdown">
-						<div class="content">	
+					<li id="journal" class="dropdown">
+						<div class="content">
 							<ul class="list-unstyled m-b-sm">
-                                <li><a href="#" class="">Browse All Guidelines</a></li>
-                                <li><a href="#" class="">Get the App</a></li>
-                                <li><a href="#" class="">Guideline Development Policies</a></li>
-                            </ul>
-                            <a class="bg-gray-lighter p-a item-flex" href="#">
-                                <span class="circle circle-md bg-secondary text-inverse"><svg class="icon icon-mobile"><use xlink:href="#icon-mobile"></use></svg></span>
-                                <div class="p-l item-flex-main">
-                                    <span class="text-xs display-block text-muted">On a phone or tablet?</span>
-                                    <span class="text-dark text-normal text-500">Download the ACG Guidelines App</span>
-                                </div>
-                            </a>
-						</div>
-					</li>
-                    <li id="four" class="dropdown">
-						<div class="content">	
-							<ul class="list-unstyled m-b-sm">
-                                <li><a href="#" class="">AJG</a></li>
-                                <li><a href="#" class="">CTG</a></li>
-                                <li><a href="#" class="">ACG Case Reports Journal</a></li>
-                                <li><a href="#" class="">ACG Magazine</a></li>
-                                <li><a href="#" class="">ACG Blog</a></li>
-                                <li><a href="#" class="">Podcasts</a></li>
-                                <li><a href="#" class="">Newsletters</a></li>
-                            </ul>
-                            <a class="bg-gray-lighter p-a item-flex" href="#">
-                                <img src="/svg/acg-blog-black.svg" width="74">
-                                <div class="p-l item-flex-main">
-                                    <span class="text-xs display-block text-muted">Stay Informed</span>
-                                    <span class="text-dark text-normal text-500">ACG Blog: the latest GI news & topics</span>
-                                </div>
-                            </a>
-						</div>
-					</li>
-                    <li id="five" class="dropdown">
-						<div class="content">	
-							<ul class="list-unstyled m-lg-b-0">
-                                <li><a href="#" class="">Membership</a></li>
-                                <li><a href="#" class="">Professional Development Resources</a></li>
-                                <li><a href="#" class="">Grants & Publishing</a></li>
-                                <li><a href="#" class="">For Program Directors</a></li>
-                                <li><a href="#" class="">For Residents</a></li>
-                            </ul>
-						</div>
-					</li>
-                    <li id="six" class="dropdown">
-						<div class="content">	
-							<ul class="list-unstyled m-b-sm">
-                                <li><a href="#" class="">GI Health and Disease Resources </a></li>
-                                <li><a href="#" class="">Podcasts</a></li>
-                                <li><a href="#" class="">Gastro Girl</a></li>
-                                <li><a href="#" class="">Brochures</a></li>
-                                <li><a href="#" class="">About ACG</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">AJG</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">CTG</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">ACG Case Reports Journal</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">ACG Magazine</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">ACG Blog</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Podcasts</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">This Week in Washington DC</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">SmartBrief</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Digestive Health Insights</a></li>
                             </ul>
                             <a class="bg-gray-lighter p-a item-flex" href="#">
                                 <span class="circle circle-md bg-secondary text-inverse"><img src="/img/gastro-girl.png" width="74"></span>
@@ -184,6 +120,94 @@ body.body-fixed-top { padding-top: 170px; }
                                     <span class="text-dark text-normal text-500">Digestive Health Insights with Gastro Girl</span>
                                 </div>
                             </a>
+						</div>
+					</li>
+					<li id="research" class="dropdown">
+						<div class="content">	
+							<ul class="list-unstyled m-b-sm">
+                                 <li><a href="#" class="text-muted text-hover-underline">Junior Faculty Grants</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Clinical Research Awards</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Grants & Publishing</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Pilot Projects</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Smaller Programs Awards</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Past Recipients</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">ACG Scholars</a></li>
+                            </ul>
+                            <!-- <a class="bg-gray-lighter p-a item-flex" href="#">
+                                <span class="circle circle-md bg-secondary text-inverse"><svg class="icon icon-mobile"><use xlink:href="#icon-mobile"></use></svg></span>
+                                <div class="p-l item-flex-main">
+                                    <span class="text-xs display-block text-muted">On a phone or tablet?</span>
+                                    <span class="text-dark text-normal text-500">Download the ACG Guidelines App</span>
+                                </div>
+                            </a> -->
+						</div>
+					</li>
+                    <li id="institute" class="dropdown">
+						<div class="content">	
+							<ul class="list-unstyled m-b-sm">
+                                <li><a href="#" class="text-muted text-hover-underline">About</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Ways to Give</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Edgar Achkar Visiting Professorships</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Research Awards</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Initiatives and Programs</a></li>
+                            </ul>
+                            <!-- <a class="bg-gray-lighter p-a item-flex" href="#">
+                                <img src="/svg/acg-blog-black.svg" width="74">
+                                <div class="p-l item-flex-main">
+                                    <span class="text-xs display-block text-muted">Stay Informed</span>
+                                    <span class="text-dark text-normal text-500">ACG Blog: the latest GI news & topics</span>
+                                </div>
+                            </a> -->
+						</div>
+					</li>
+                    <li id="practice" class="dropdown">
+						<div class="content">	
+							<ul class="list-unstyled m-lg-b-0">
+                                <li><a href="#" class="text-muted text-hover-underline">Toolbox</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Coding & Reimbursement</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">GIQuIC Registry</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">This Week in Washington DC</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Contact Your ACG Governor</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">CMS</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">FDA</a></li>
+                            </ul>
+						</div>
+					</li>
+                    <li id="public" class="dropdown">
+						<div class="content">	
+							<ul class="list-unstyled m-b-sm">
+                                <li><a href="#" class="text-muted text-hover-underline">This Week in Washington DC</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Legislative Action Center</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">GIQuIC Registry</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Contact Your ACG Governor</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Legislative & Public Policy Council</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">State GI Societies</a></li>
+                            </ul>
+                            <!-- <a class="bg-gray-lighter p-a item-flex" href="#">
+                                <span class="circle circle-md bg-secondary text-inverse"><img src="/img/gastro-girl.png" width="74"></span>
+                                <div class="p-l item-flex-main">
+                                    <span class="text-xs display-block text-muted">Support for GI Patients</span>
+                                    <span class="text-dark text-normal text-500">Digestive Health Insights with Gastro Girl</span>
+                                </div>
+                            </a> -->
+						</div>
+					</li>
+                    <li id="trainees" class="dropdown">
+						<div class="content">	
+							<ul class="list-unstyled m-b-sm">
+                                <li><a href="#" class="text-muted text-hover-underline">Membership</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Professional Development Resources</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">Grants & Publishing</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">For Program Directors</a></li>
+                                <li><a href="#" class="text-muted text-hover-underline">For Residents</a></li>
+                            </ul>
+                            <!-- <a class="bg-gray-lighter p-a item-flex" href="#">
+                                <span class="circle circle-md bg-secondary text-inverse"><img src="/img/gastro-girl.png" width="74"></span>
+                                <div class="p-l item-flex-main">
+                                    <span class="text-xs display-block text-muted">Support for GI Patients</span>
+                                    <span class="text-dark text-normal text-500">Digestive Health Insights with Gastro Girl</span>
+                                </div>
+                            </a> -->
 						</div>
 					</li>
 				</ul>
@@ -205,9 +229,20 @@ body.body-fixed-top { padding-top: 170px; }
                     <button type="button" class="circle bg-white text-primary text-xl" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="p-x p-b">
-                    <?php include 'nav.php' ?>
+                    <?php include 'nav-v2.php' ?>
                 </div>
             </div>
 		</div>
+    </div>
+</div>
+
+<div class="p-y border-bottom" style="display:none;" id="search-container">
+    <div class="container">
+        <div class="input-group">
+            <input type="text" class="form-control form-control-lg" style="padding-top:.5rem;padding-bottom:.5rem;" id="search" placeholder="Search Gi.org">
+            <span class="input-group-btn">
+                <button class="btn btn-secondary btn-lg br-a-0" type="button">Search</button>
+            </span>
+        </div>
     </div>
 </div>

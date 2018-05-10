@@ -99,6 +99,17 @@
                 $('#search').focus();
             }
         });
+
+        $('#search-toggler').click(function() {
+    		if ($('#search-container').hasClass('is-toggled')) {
+                $('#search-container').removeClass('is-toggled');
+                $('#search-container').hide();
+            } else {
+                $('#search-container').addClass('is-toggled');
+                $('#search-container').show();
+                $('#search').focus();
+            }
+        });
         
         $('#menu-toggle').click(function() {
             $(this).addClass('btn-no-focus');

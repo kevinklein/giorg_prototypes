@@ -86,7 +86,7 @@
 </div>
 <!-- /main div -->    
 
-<?php include '../partials/footer-v2.php' ?> 
+<?php include '../partials/footer-v3.php' ?> 
 <?php include '../partials/foot.php' ?> 
 
 <script>
