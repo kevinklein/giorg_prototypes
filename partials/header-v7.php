@@ -7,7 +7,7 @@ body.body-fixed-top { padding-top: 170px; }
 </style>
 
 <div id="top"></div>
-<header id="header-main" class="cd-morph-dropdown raised-sm">
+<header id="header-main" class="cd-morph-dropdown raised-sm position-relative">
     <div class="text-sm bg-gray-lightest" role="directory" id="header-hud">
         <div class="container item-flex justify-content-flex-end">
             <nav class="text-normal hidden-sm-down p-r">
@@ -72,7 +72,12 @@ body.body-fixed-top { padding-top: 170px; }
                 <li class="has-dropdown" data-content="trainees"><a href="/trainees"><span>Trainees</span></a></li>
             </ul>
 
-            <button class="btn-link m-l toggle-is-toggled btn-search-toggle" id="search-toggler"><span><svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg></span></button>
+            <button class="btn-link m-l toggle-is-toggled btn-search-toggle" id="search-toggler">
+                <span>
+                    <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
+                    <svg class="icon icon-close"><use xlink:href="#icon-close"></use></svg>
+                </span>
+            </button>
 
         </nav>
 
@@ -218,6 +223,17 @@ body.body-fixed-top { padding-top: 170px; }
 
     </div>
 
+    <div class="p-y border-bottom position-absolute bg-white raised" style="display:none;z-index:1599;right:0;left:0; top:100%" id="search-container">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control form-control-lg" style="padding-top:.5rem;padding-bottom:.5rem;" id="search" placeholder="Search Gi.org">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary btn-lg br-a-0" type="button">Search</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
 </header>
 
 <!-- menu modal -->
@@ -236,13 +252,3 @@ body.body-fixed-top { padding-top: 170px; }
     </div>
 </div>
 
-<div class="p-y border-bottom" style="display:none;" id="search-container">
-    <div class="container">
-        <div class="input-group">
-            <input type="text" class="form-control form-control-lg" style="padding-top:.5rem;padding-bottom:.5rem;" id="search" placeholder="Search Gi.org">
-            <span class="input-group-btn">
-                <button class="btn btn-secondary btn-lg br-a-0" type="button">Search</button>
-            </span>
-        </div>
-    </div>
-</div>

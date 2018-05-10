@@ -6467,6 +6467,18 @@ input[type="button"].btn-block {
   /* line 289, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
   .btn-search-toggle:hover {
     background: #abbad0; }
+  /* line 292, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-search-toggle .icon-search {
+    display: inline-block; }
+  /* line 295, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-search-toggle .icon-close {
+    display: none; }
+  /* line 299, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-search-toggle.is-toggled .icon-close {
+    display: inline-block; }
+  /* line 302, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_buttons.scss */
+  .btn-search-toggle.is-toggled .icon-search {
+    display: none; }
 
 /* line 4, Users/kevinklein/Dropbox/files/acg/v2/sass/base/_cards.scss */
 .card {
@@ -14037,8 +14049,8 @@ body {
   z-index: 100;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
-  -webkit-animation: slideInDown .35s .15s ease forwards;
-          animation: slideInDown .35s .15s ease forwards; }
+  -webkit-animation: slideInDown .15s ease forwards;
+          animation: slideInDown .15s ease forwards; }
 
 /* line 52, Users/kevinklein/Dropbox/files/acg/v2/sass/layout/_header.scss */
 .logo {

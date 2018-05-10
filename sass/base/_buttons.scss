@@ -289,4 +289,18 @@ input[type="button"] {
     &:hover {
         background: darken(#ccd5e2,10%);
     }
+    .icon-search {
+        display: inline-block;
+    }
+    .icon-close {
+        display: none;
+    }
+    &.is-toggled {
+        .icon-close {
+            display: inline-block;
+        }
+        .icon-search {
+            display: none;
+        }
+    }
 }
